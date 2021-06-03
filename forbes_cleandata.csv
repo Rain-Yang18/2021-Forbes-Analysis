@@ -1,0 +1,984 @@
+id,name,networth,country,source,rank,age,citizenship,status,children,self_made,degree,university,longitude,latitude
+0,Jeff Bezos,177.0,United States,Amazon,1,57.0,United States,In Relationship,4.0,True,Bachelor of Arts/Science, Princeton University,-122.3300624,47.6038321
+1,Elon Musk,151.0,United States,"Tesla, SpaceX",2,49.0,United States,In Relationship,7.0,True,Bachelor of Arts/Science, University of Pennsylvania,-97.74369950000001,30.2711286
+2,Bernard Arnault & family,150.0,France,LVMH,3,72.0,France,Married,5.0,False,Bachelor of Arts/Science, Ecole Polytechnique de Paris,2.3514616,48.8566969
+3,Bill Gates,124.0,United States,Microsoft,4,65.0,United States,Divorced,3.0,True,Drop Out, Harvard University,-122.2264453,47.620548
+4,Mark Zuckerberg,97.0,United States,Facebook,5,36.0,United States,Married,2.0,True,Drop Out, Harvard University,-122.1598465,37.4443293
+5,Warren Buffett,96.0,United States,Berkshire Hathaway,6,90.0,United States,"Widowed, Remarried",3.0,True,Master of Science," Columbia University; Bachelor of Arts/Science, University of Nebraska Lincoln",-95.9383758,41.2587459
+6,Larry Ellison,93.0,United States,software,7,76.0,United States,In Relationship,4.0,True,Drop Out," University of Chicago; Drop Out, University of Illinois, Urbana-Champaign",-156.9029493,20.8305441
+7,Larry Page,91.5,United States,Google,8,48.0,United States,Married,1.0,True,Master of Science," Stanford University; Bachelor of Arts/Science, University of Michigan",-122.1598465,37.4443293
+8,Sergey Brin,89.0,United States,Google,9,47.0,United States,Married,3.0,True,Master of Science," Stanford University; Bachelor of Arts/Science, University of Maryland, College Park",-122.116578,37.3790629
+9,Mukesh Ambani,84.5,India,diversified,10,64.0,India,Married,3.0,False,Drop Out," Stanford University; Bachelor of Science in Engineering, University of Mumbai",72.8773928,19.0759899
+13,Steve Ballmer,68.7,United States,Microsoft,14,65.0,United States,Married,3.0,True,Bachelor of Arts/Science," Harvard University; Drop Out, Stanford University",-122.230124,47.6434321
+15,Carlos Slim Helu & family,62.8,Mexico,telecom,16,81.0,Mexico,Widowed,6.0,True,Bachelor of Arts/Science, Universidad Nacional Autonoma de Mexico,-99.1331785,19.4326296
+17,Jim Walton,60.2,United States,Walmart,18,72.0,United States,Married,4.0,False,Bachelor of Arts/Science, University of Arkansas,-94.2088172,36.3728538
+18,Rob Walton,59.5,United States,Walmart,19,76.0,United States,Married,3.0,False,Doctor of Jurisprudence," Columbia University; Bachelor of Arts/Science, University of Arkansas",-94.2088172,36.3728538
+19,Michael Bloomberg,59.0,United States,Bloomberg LP,20,79.0,United States,In Relationship,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Johns Hopkins University",-74.00601519999999,40.7127281
+21,MacKenzie Scott,53.0,United States,Amazon,22,51.0,United States,Married,4.0,False,Bachelor of Arts/Science, Princeton University,-122.3300624,47.6038321
+22,Daniel Gilbert,51.9,United States,Quicken Loans,23,59.0,United States,Married,5.0,True,Bachelor of Arts/Science," Michigan State University; LLB, Wayne State University",-83.3060432,42.5222567
+24,Phil Knight & family,49.9,United States,Nike,25,83.0,United States,Married,3.0,True,Master of Business Administration," Stanford Graduate School of Business; Bachelor of Arts/Science, University of Oregon",-122.989827,45.5228939
+26,Charles Koch,46.4,United States,Koch Industries,27,85.0,United States,Married,2.0,False,Bachelor of Arts/Science," Massachusetts Institute of Technology; Master of Science, Massachusetts Institute of Technology",-97.3375448,37.6922361
+28,Masayoshi Son,45.4,Japan,"internet, telecom",29,63.0,Japan,Married,2.0,True,Bachelor of Arts/Science," University of California, Berkeley",139.7594549,35.6828387
+29,Michael Dell,45.1,United States,Dell computers,30,56.0,United States,Married,4.0,True,Drop Out, The University of Texas at Austin,-97.74369950000001,30.2711286
+30,Tadashi Yanai & family,44.1,Japan,fashion retail,31,72.0,Japan,Married,2.0,True,Bachelor of Arts/Science, Waseda University,139.7594549,35.6828387
+31,François Pinault & family,42.3,France,luxury goods,32,84.0,France,Married,3.0,True,Drop Out, High School,2.3514616,48.8566969
+32,David Thomson & family,41.8,Canada,media,33,63.0,Canada,Divorced,4.0,False,Master of Arts, University of Cambridge,-79.3839347,43.6534817
+35,Miriam Adelson,38.2,United States,casinos,36,75.0,United States,Widowed,5.0,False,Bachelor of Science, Hebrew University Jerusalem,-115.148516,36.1672559
+42,Li Ka-shing,33.7,Hong Kong,diversified,43,92.0,Hong Kong,Widowed,2.0,True,Drop Out, High School,114.1628131,22.2793278
+47,Jacqueline Mars,31.3,United States,"candy, pet food",48,81.0,United States,Divorced,3.0,False,Bachelor of Arts/Science, Bryn Mawr College,-77.774073,38.8624506
+48,John Mars,31.3,United States,"candy, pet food",48,85.0,United States,Married,3.0,False,Diploma," The Hotchkiss School; Bachelor of Arts/Science, Yale University",-110.761815,43.479965
+50,Alexey Mordashov & family,29.1,Russia,"steel, investments",51,55.0,Russia,Married,7.0,True,Bachelor of Arts/Science," Leningrad Institute of Economics; Master of Business Administration, University of Northumbria",37.6174943,55.7504461
+52,Hui Ka Yan,27.7,China,real estate,53,62.0,China,Married,2.0,True,Bachelor of Arts/Science, Wuhan U of  Science & Tec,114.0543297,22.555454
+53,Susanne Klatten,27.7,Germany,"BMW, pharmaceuticals",53,59.0,Germany,Married,3.0,False,Master of Business Administration, International Institute for Management and Development,8.6287451,50.2227094
+54,Vladimir Potanin,27.0,Russia,metals,55,60.0,Russia,Married,7.0,True,Bachelor of Arts/Science, Moscow Institute of International Relations,37.6174943,55.7504461
+55,Dietrich Mateschitz,26.9,Austria,Red Bull,56,76.0,Austria,Single,1.0,True,Master of Business Administration, University of Vienna,13.3027787,47.7963895
+58,Vladimir Lisin,26.2,Russia,"steel, transport",59,65.0,Russia,Married,3.0,True,Doctorate," Russian Academy of Economics; Bachelor of Arts/Science, Siberian Metallurgical Institute",37.6174943,55.7504461
+63,Leonard Lauder,25.5,United States,Estee Lauder,64,88.0,United States,"Widowed, Remarried",2.0,False,Bachelor of Arts/Science, University of Pennsylvania,-74.00601519999999,40.7127281
+64,Thomas Peterffy,25.0,United States,discount brokerage,65,76.0,United States,Divorced,3.0,True,Drop Out, New York University,-80.4494174,26.6279798
+65,Vagit Alekperov,24.9,Russia,oil,66,70.0,Russia,Married,1.0,True,Bachelor of Science in Engineering, Azerbaijan Institute of Oil and Chemistry,37.6174943,55.7504461
+66,Leonid Mikhelson,24.9,Russia,"gas, chemicals",66,65.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Kuybyshev Engineering and Construction Institute,37.6174943,55.7504461
+67,Jim Simons,24.6,United States,hedge funds,68,83.0,United States,Married,3.0,True,Bachelor of Arts/Science," Massachusetts Institute of Technology; Doctorate, University of California, Berkeley",-73.10585589999999,40.9418427
+68,Jiang Rensheng & family,24.4,China,vaccines,69,67.0,China,Married,1.0,True,Associate in Arts/Science, Guilin Medical University,106.5478767,29.5647398
+70,Rupert Murdoch & family,23.5,United States,"newspapers, TV network",71,90.0,United States,Married,6.0,False,Bachelor of Arts/Science," Oxford University; Master of Arts, Oxford University",-74.00601519999999,40.7127281
+71,Shiv Nadar,23.5,India,software services,71,75.0,India,Married,1.0,True,Bachelor of Arts/Science, PSG College of Technology,77.2219388,28.6517178
+74,Lei Jun,23.0,China,smartphones,75,51.0,China,Married,2.0,True,Bachelor of Science in Engineering, Wuhan University,116.3912757,39.906217
+77,Gennady Timchenko,22.0,Russia,"oil, gas",78,68.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Leningrad Mechanical Institute,37.6174943,55.7504461
+78,Stephen Schwarzman,21.9,United States,investments,79,74.0,United States,Married,3.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Yale University",-74.00601519999999,40.7127281
+80,Stefan Quandt,21.6,Germany,BMW,81,54.0,Germany,Married,1.0,False,Associate in Arts/Science, Technical University of Karlsruhe,8.682091700000001,50.1106444
+82,Pierre Omidyar,21.4,United States,"eBay, PayPal",83,53.0,United States,Married,3.0,True,Bachelor of Arts/Science, Tufts University,-157.8556764,21.304547
+83,Stefan Persson,21.3,Sweden,H&M,84,73.0,Sweden,Married,3.0,False,Associate in Arts/Science, University of Stockholm,18.0710935,59.3251172
+84,Abigail Johnson,20.9,United States,money management,85,59.0,United States,Married,2.0,False,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Hobart and William Smith",-71.065573,42.2501425
+86,Andrew Forrest,20.4,Australia,mining,87,59.0,Australia,Married,3.0,True,Bachelor of Arts/Science, University of Western Australia,115.8854007,-31.9938566
+87,Ray Dalio,20.3,United States,hedge funds,88,71.0,United States,Married,4.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Long Island University",-73.6284598,41.0264862
+94,Laurene Powell Jobs & family,19.0,United States,"Apple, Disney",95,57.0,United States,Widowed,3.0,False,Master of Business Administration," Stanford Graduate School of Business; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",-122.1598465,37.4443293
+95,Eric Schmidt,18.9,United States,Google,96,66.0,United States,Married,2.0,True,Bachelor of Arts/Science," Princeton University; Doctorate, University of California, Berkeley; Master of Science, University of California, Berkeley",-122.2058272,37.453773
+96,Sun Piaoyang,18.9,China,pharmaceuticals,96,62.0,China,Married,1.0,True,Bachelor of Arts/Science," China Pharmaceutical University; Doctorate, Nanjing University",119.215813,34.5978596
+103,Peter Woo,18.0,Hong Kong,real estate,104,74.0,Hong Kong,Married,3.0,False,Master of Business Administration, Columbia Business School,114.1628131,22.2793278
+105,Andrey Melnichenko,17.9,Russia,"coal, fertilizers",105,49.0,Russia,Married,2.0,True,Master of Science, Plekhanov Russian University of Economics,37.6174943,55.7504461
+108,Donald Newhouse,17.6,United States,media,109,91.0,United States,Widowed,3.0,False,Drop Out, Syracuse University,-74.00601519999999,40.7127281
+111,Pavel Durov,17.2,Russia,messaging app,112,36.0,Russia,Single,2.0,True,Master of Science, Saint Petersburg State University,55.1885387,25.0742823
+113,Jorge Paulo Lemann & family,16.9,Brazil,beer,114,81.0,Brazil,Married,5.0,True,Bachelor of Arts/Science, Harvard University,8.5410422,47.3744489
+115,Charlene de Carvalho-Heineken & family,16.7,Netherlands,Heineken,116,66.0,Netherlands,Married,5.0,False,Bachelor of Arts/Science," Rijnlands Lyceum Wassenaar; Doctor of Jurisprudence, University of Leiden",-0.1276474,51.5073219
+118,Steve Cohen,16.0,United States,hedge funds,119,64.0,United States,Married,7.0,True,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-73.6284598,41.0264862
+119,Ken Griffin,16.0,United States,hedge funds,119,52.0,United States,Divorced,3.0,True,Bachelor of Arts/Science, Harvard University,-87.6244212,41.8755616
+122,Uday Kotak,15.9,India,banking,121,62.0,India,Married,2.0,True,Bachelor of Arts/Science," Bombay University; Master of Business Administration, University of Bombay",72.8773928,19.0759899
+123,Carl Icahn,15.8,United States,investments,124,85.0,United States,Married,2.0,True,Drop Out," New York University; Bachelor of Arts/Science, Princeton University",-80.1372166,25.8771392
+124,Suleiman Kerimov & family,15.8,Russia,investments,124,55.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Dagestan State University,37.6174943,55.7504461
+125,"Thomas Frist, Jr. & family",15.7,United States,hospitals,126,82.0,United States,Married,3.0,True,Bachelor of Arts/Science," Vanderbilt University; Medical Doctor, Washington University",-86.7743531,36.1622296
+127,Mikhail Fridman,15.5,Russia,"oil, banking, telecom",128,57.0,Russia,Divorced,5.0,True,Bachelor of Arts/Science, Moscow Institute of Steel and Alloys,-0.1276474,51.5073219
+131,Donald Bren,15.3,United States,real estate,132,88.0,United States,Married,7.0,True,Bachelor of Arts/Science, University of Washington,-117.9294401,33.6170092
+133,Lakshmi Mittal,14.9,India,steel,133,70.0,India,Married,2.0,False,Bachelor of Arts/Science, St Xavier's College Calcutta,-0.1276474,51.5073219
+135,Eric Yuan & family,14.9,United States,video conferencing,133,51.0,United States,Married,3.0,True,Master of Engineering Management," China University of Mining and Technology; Bachelor of Engineering, Shandong Institute of Business and Technology",-121.6846349,37.2333253
+138,Robin Li,14.7,China,internet search,138,52.0,China,Married,4.0,True,Bachelor of Arts/Science," Peking University; Master of Arts, University at Buffalo",116.3912757,39.906217
+140,Eduardo Saverin,14.6,Brazil,Facebook,140,39.0,Brazil,Married,1.0,True,Bachelor of Arts/Science, Harvard University,103.8194992,1.357107
+141,Roman Abramovich,14.5,Russia,"steel, investments",142,54.0,Russia,Married,7.0,True,Bachelor of Arts/Science, Moscow State Law Academy,37.6174943,55.7504461
+142,David Tepper,14.5,United States,hedge funds,142,63.0,United States,Married,3.0,True,Master of Business Administration," David A. Tepper School of Business; Bachelor of Arts/Science, University of Pittsburgh",-74.4041622,40.0757384
+143,Gong Hongjia & family,14.4,Hong Kong,video surveillance,144,56.0,Hong Kong,Married,2.0,True,Bachelor of Arts/Science, Huazhong University of Science and Technology,114.1628131,22.2793278
+144,Mike Cannon-Brookes,14.2,Australia,software,145,41.0,Australia,Married,2.0,True,Bachelor of Arts/Science, University of New South Wales,151.0979607,-33.8641922
+145,"John Menard, Jr.",14.2,United States,home improvement stores,145,81.0,United States,Married,6.0,True,Bachelor of Arts/Science," University of Wisconsin, Eau Claire",-91.4984941,44.811349
+146,Seo Jung-jin,14.2,South Korea,biotech,145,63.0,South Korea,Married,2.0,True,Bachelor of Arts/Science," Konkuk University; Master of Science, Konkuk University",126.9782914,37.5666791
+148,Liang Wengen,14.1,China,construction equipment,148,64.0,China,Married,1.0,True,Bachelor of Arts/Science, Central South University,112.9335861,28.2302056
+149,Scott Farquhar,14.0,Australia,software,150,41.0,Australia,Married,2.0,True,Bachelor of Arts/Science, University of New South Wales,151.0979607,-33.8641922
+155,David Duffield,13.5,United States,business software,156,80.0,United States,Married,10.0,True,Bachelor of Engineering," Cornell University; Master of Business Administration, Samuel Curtis Johnson Graduate School of Management",-119.9519094,39.2501246
+157,Kim Jung-ju,13.3,South Korea,online games,158,53.0,South Korea,Married,2.0,True,Doctorate," Korea Advanced Institute of Science and Technology; Master of Science, Korea Advanced Institute of Science and Technology; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+163,Tatyana Bakalchuk,13.0,Russia,ecommerce,164,45.0,Russia,Married,4.0,True,Bachelor of Science, State University of Management,40.3072897,43.6713223
+166,Ricardo Salinas Pliego & family,12.9,Mexico,"retail, media",166,65.0,Mexico,Married,6.0,False,Master of Business Administration," A. B. Freeman School of Business; Bachelor of Arts/Science, Tecnológico de Monterrey",-99.1331785,19.4326296
+167,Kumar Birla,12.8,India,commodities,168,53.0,India,Married,3.0,False,Master of Business Administration," London Business School; Bachelor of Arts/Science, University of Bombay",72.8773928,19.0759899
+169,Cyrus Poonawalla,12.7,India,vaccines,169,79.0,India,Widowed,1.0,False,Bachelor of Arts/Science," Pune University; Doctorate, Pune University",73.8544541,18.521428
+170,Robert Kuok,12.6,Malaysia,"palm oil, shipping, property",171,97.0,Malaysia,Married,8.0,True,Bachelor of Arts/Science, Raffles College,114.1628131,22.2793278
+176,Nathan Blecharczyk,12.4,United States,Airbnb,177,37.0,United States,Married,2.0,True,Bachelor of Arts/Science, Harvard University,-122.419906,37.7790262
+177,John Doerr,12.4,United States,venture capital,177,69.0,United States,Married,2.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Rice University; Master of Science, Rice University",-122.2538557,37.4299388
+182,Gordon Moore,12.1,United States,Intel,182,92.0,United States,Married,2.0,True,Doctorate," California Institute of Technology; Bachelor of Arts/Science, University of California, Berkeley",-122.2538557,37.4299388
+183,Jeff Yass,12.0,United States,"trading, investments",184,62.0,United States,Married,4.0,True,Bachelor of Arts/Economics, SUNY Binghamton,-75.2943516,40.0131672
+189,Joseph Tsai,11.6,Canada,e-commerce,189,57.0,Canada,Married,3.0,True,Bachelor of Arts/Science," Yale University; Doctor of Jurisprudence, Yale University",114.1628131,22.2793278
+190,Aliko Dangote,11.5,Nigeria,"cement, sugar",191,64.0,Nigeria,Divorced,3.0,True,Bachelor of Arts/Science, Al-Azhar University,3.3941795,6.4550575
+191,Marcel Herrmann Telles,11.5,Brazil,beer,191,71.0,Brazil,Married,2.0,True,Bachelor of Arts/Science, Universidade Federal do Rio de Janeiro,-46.6333824,-23.5506507
+193,Jorge Moll Filho & family,11.3,Brazil,hospitals,194,76.0,Brazil,Married,5.0,True,Masters of Public Health, Universidade Federal do Rio de Janeiro,-43.2093727,-22.9110137
+194,Viktor Rashnikov,11.2,Russia,steel,195,72.0,Russia,Married,2.0,True,Bachelor of Science in Engineering, Magnitogorsk Mining and Metallurgical Institute,58.983136,53.4242184
+195,Harry Triguboff,11.2,Australia,real estate,195,88.0,Australia,Married,2.0,True,Bachelor of Arts/Science, University of Leeds,151.0979607,-33.8641922
+196,Leonid Fedun & family,11.1,Russia,oil,197,65.0,Russia,Married,2.0,True,Master of Science, Military Academy F.E.Dzerzhinsky,37.6174943,55.7504461
+198,Evan Spiegel,11.1,United States,Snapchat,197,30.0,United States,Married,2.0,True,Bachelor of Science, Stanford University,-118.242766,34.0536909
+199,Luis Carlos Sarmiento,11.0,Colombia,banking,200,88.0,Colombia,Married,5.0,True,Bachelor of Arts/Science, National University of Colombia,-74.083652,4.6533326
+200,Andreas Struengmann & family,11.0,Germany,pharmaceuticals,200,71.0,Germany,Married,2.0,True,Medical Doctor, University at Buffalo,11.7543337,47.7099191
+201,Thomas Struengmann & family,11.0,Germany,pharmaceuticals,200,71.0,Germany,Married,4.0,True,Master of Business Administration," University of Augsburg; Master of Business Administration, University of Augsburg",11.7543337,47.7099191
+203,Dilip Shanghvi,10.9,India,pharmaceuticals,203,65.0,India,Married,2.0,True,Bachelor of Arts/Science, Calcutta University,72.8773928,19.0759899
+211,Charles Schwab,10.6,United States,discount brokerage,210,83.0,United States,Married,5.0,True,Master of Business Administration," Stanford Graduate School of Business; Bachelor of Arts/Science, Stanford University",-122.2538557,37.4299388
+213,Sunil Mittal & family,10.5,India,telecom,213,63.0,India,Married,3.0,True,Bachelor of Arts/Science, Punjab University,77.2219388,28.6517178
+214,Melker Schorling & family,10.5,Sweden,investments,213,73.0,Sweden,Married,2.0,True,Master of Business Administration, Gothenburg University,18.0710935,59.3251172
+215,Cai Kui,10.4,China,real estate,216,58.0,China,Divorced,1.0,True,Bachelor of Arts/Science, Nanjing University of Aeronautics & Astronautics,104.0633717,30.6598628
+219,Hui Wing Mau,10.3,Hong Kong,real estate,219,70.0,Hong Kong,Married,2.0,True,Master of Business Administration, University of South Australia,114.1628131,22.2793278
+220,"Edward Johnson, III.",10.3,United States,money management,219,90.0,United States,Married,3.0,False,Bachelor of Arts/Science, Harvard University,-71.0582912,42.3602534
+223,Philip Anschutz,10.1,United States,investments,224,81.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Kansas,-104.9848623,39.7392364
+224,Dietmar Hopp & family,10.1,Germany,software,224,81.0,Germany,Married,2.0,True,Master of Science, University of Karlsruhe,8.6433518,49.3038134
+225,German Khan,10.1,Russia,"oil, banking, telecom",224,59.0,Russia,Married,4.0,True,Bachelor of Arts/Science, Moscow Institute of Steel and Alloys,-0.1276474,51.5073219
+231,"Herbert Kohler, Jr. & family",9.8,United States,plumbing fixtures,232,82.0,United States,Married,3.0,False,Bachelor of Arts/Science, Yale University,-87.7817541,43.7391616
+234,Mat Ishbia,9.7,United States,★,234,41.0,United States,Divorced,3.0,False,Bachelor of Business Administration, Michigan State University,-83.24548830000001,42.583645
+237,Iskander Makhmudov,9.7,Russia,"mining, metals, machinery",234,57.0,Russia,Married,1.0,True,Bachelor of Arts/Science, Tashkent State University,37.6174943,55.7504461
+238,Stefano Pessina,9.7,Italy,drugstores,234,79.0,Italy,Divorced,2.0,False,Bachelor of Engineering, Politecnico di Milano,7.426559,43.7402961
+239,Quek Leng Chan,9.7,Malaysia,"banking, property",234,79.0,Malaysia,Married,3.0,False,LLB, Middle Temple,101.6942371,3.1516964
+240,Israel Englander,9.6,United States,hedge funds,241,72.0,United States,Married,3.0,True,Bachelor of Arts/Science, New York University,-74.00601519999999,40.7127281
+241,Charles Ergen,9.6,United States,satellite TV,241,68.0,United States,Married,5.0,True,Bachelor of Arts/Science," University of Tennessee Knoxville; Master of Business Administration, Wake Forest University School of Business",-104.9848623,39.7392364
+246,Ding Shizhong & family,9.4,China,sports apparel,247,50.0,China,Married,2.0,True,EMBA, Xiamen University,118.6723605,24.8755492
+247,Harold Hamm & family,9.4,United States,oil & gas,247,75.0,United States,Divorced,5.0,True,Diploma, High School,-97.5170536,35.4729886
+248,Jim Kennedy,9.4,United States,"media, automotive",247,73.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Denver,-84.39026440000001,33.7489924
+249,Blair Parry-Okeden,9.4,United States,"media, automotive",247,70.0,United States,Divorced,2.0,False,Diploma," High School; Bachelor of Arts/Science, University of Denver",149.1364342,-35.3137517
+251,Kim Beom-su,9.3,South Korea,online services,251,55.0,South Korea,Married,2.0,True,Bachelor of Science in Engineering," Seoul National University; Master of Science, Seoul National University",126.9782914,37.5666791
+259,David Sun,9.1,United States,computer hardware,256,69.0,United States,Married,2.0,True,Bachelor of Engineering, Tatung University,-117.8259819,33.6856969
+260,John Tu,9.1,United States,computer hardware,256,79.0,United States,Married,2.0,True,Bachelor of Arts/Science, Technische Universität Darmstadt,-118.3496623,33.7668041
+262,Viktor Vekselberg,9.0,Russia,"metals, energy",262,64.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Moscow State University of Railway Engineering,37.6174943,55.7504461
+263,Jerry Jones,8.9,United States,Dallas Cowboys,264,78.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of Arkansas; Master of Arts, University of Arkansas",-96.7968559,32.7762719
+264,Michael Otto,8.9,Germany,"retail, real estate",264,78.0,Germany,Married,2.0,False,Doctorate," University of Hamburg; Doctorate, University of Munich",10.000654,53.550341
+265,Steven Rales,8.9,United States,manufacturing,264,70.0,United States,Married,3.0,True,Law Degree," American University; Bachelor of Arts/Science, DePauw University",-119.7026673,34.4221319
+269,David Cheriton,8.8,Canada,Google,269,70.0,Canada,Divorced,4.0,True,Bachelor of Arts/Science," University of British Columbia; Doctorate, University of Waterloo; Master of Science, University of Waterloo",-122.1598465,37.4443293
+273,Benu Gopal Bangur,8.7,India,cement,274,89.0,India,Widowed,2.0,False,Bachelor of Arts/Science, Calcutta University,88.36388150000001,22.5726723
+277,Kjeld Kirk Kristiansen,8.7,Denmark,Lego,274,73.0,Denmark,Married,3.0,False,Bachelor of Arts/Science," Aarhus Business School; Master of Business Administration, International Institute for Management and Development",9.1159357,55.7309428
+283,Carlos Alberto Sicupira & family,8.7,Brazil,beer,274,73.0,Brazil,Married,3.0,True,Bachelor of Arts/Science, Universidade Federal do Rio de Janeiro,9.376587799999999,47.4250593
+287,Ernesto Bertarelli,8.6,Switzerland,"biotech, investments",288,55.0,Switzerland,Married,3.0,False,Bachelor of Arts/Science," Babson College; Master of Business Administration, Harvard University",7.2873587,46.4761004
+288,Leon Black,8.6,United States,private equity,288,69.0,United States,Married,4.0,True,Bachelor of Arts/Science," Dartmouth College; Master of Business Administration, Harvard University",-74.00601519999999,40.7127281
+289,Azim Premji,8.6,India,software services,288,75.0,India,Married,2.0,False,Bachelor of Arts/Science, Stanford University,77.59129969999999,12.9791198
+291,George Soros,8.6,United States,hedge funds,288,90.0,United States,Married,5.0,True,Bachelor of Arts/Science, London School of Economics,-73.6853852,41.25877
+293,Marc Benioff,8.4,United States,business software,294,56.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Southern California,-122.419906,37.7790262
+295,Ann Walton Kroenke,8.4,United States,Walmart,294,72.0,United States,Married,2.0,False,Registered Nurse, Lincoln University,-98.9163686,34.0320855
+296,Bubba Cathy,8.3,United States,Chick-fil-A,297,67.0,United States,Married,6.0,False,Bachelor of Arts/Science, Samford University,-84.39026440000001,33.7489924
+297,Dan Cathy,8.3,United States,Chick-fil-A,297,68.0,United States,Married,2.0,False,Bachelor of Arts/Science, Georgia Southern University,-84.39026440000001,33.7489924
+298,Jay Y. Lee,8.3,South Korea,Samsung,297,52.0,South Korea,Divorced,2.0,False,Master of Business Administration," Keio University; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+300,Hasso Plattner & family,8.3,Germany,software,297,77.0,Germany,Married,2.0,True,Master of Science, University of Karlsruhe,8.694724000000001,49.4093582
+301,Nassef Sawiris,8.3,Egypt,"construction, investments",297,60.0,Egypt,Married,4.0,False,Bachelor of Arts/Science, University of Chicago,31.2357257,30.0443879
+302,Kushal Pal Singh,8.3,India,real estate,297,89.0,India,Widowed,3.0,False,Bachelor of Arts/Science, Delhi University,77.2219388,28.6517178
+303,Stanley Kroenke,8.2,United States,"sports, real estate",304,73.0,United States,Married,2.0,True,Master of Business Administration," Robert J. Trulaske, Sr. College of Business; Bachelor of Arts/Science, University of Missouri",-98.9163686,34.0320855
+307,Diane Hendricks,8.0,United States,roofing,308,74.0,United States,Widowed,7.0,True,Diploma, High School,-89.0712225,42.6039009
+308,Shahid Khan,8.0,United States,auto parts,308,70.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of Illinois, Urbana-Champaign",-81.7954666,26.1452817
+309,Nicky Oppenheimer & family,8.0,South Africa,diamonds,308,75.0,South Africa,Married,1.0,False,Bachelor of Arts/Science," Oxford U Christ Church; Master of Arts, Oxford U Christ Church",28.049722,-26.205
+310,Anthony Bamford & family,7.9,United Kingdom,construction equipment,311,75.0,United Kingdom,Married,3.0,False,Bachelor of Arts/Science, Grenoble University,-2.1666674,51.8333313
+311,Andrew Beal,7.9,United States,"banks, real estate",311,68.0,United States,Divorced,6.0,True,Drop Out, Baylor University,-96.7968559,32.7762719
+312,Dmitry Bukhman,7.9,Russia,online games,311,35.0,Russia,Married,3.0,True,Master of Science, Vologda State Pedagogical University,-0.1276474,51.5073219
+313,Igor Bukhman,7.9,Russia,online games,311,39.0,Russia,Married,3.0,True,Master of Science, Vologda State Pedagogical University,-0.1276474,51.5073219
+316,Alexei Kuzmichev,7.8,Russia,"oil, banking, telecom",316,58.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Moscow Institute of Steel and Alloys,-0.1276474,51.5073219
+317,John Malone,7.8,United States,cable television,316,80.0,United States,Married,2.0,True,Doctorate," Johns Hopkins University; Master of Science, Johns Hopkins University; Bachelor of Arts/Science, Yale University",-104.59687,39.3602863
+319,Pamela Mars,7.8,United States,"candy, pet food",316,60.0,United States,Married,3.0,False,Bachelor of Arts/Science, Vassar College,-77.0470229,38.8051095
+320,Valerie Mars,7.8,United States,"candy, pet food",316,62.0,United States,Married,2.0,False,Master of Business Administration," Columbia University; Bachelor of Arts/Science, Yale University",-74.00601519999999,40.7127281
+321,Victoria Mars,7.8,United States,"candy, pet food",316,64.0,United States,Married,4.0,False,Master of Business Administration," University of Pennsylvania, The Wharton School; Bachelor of Arts/Science, Yale University",-75.16352620000001,39.9527237
+325,Simon Reuben,7.7,United Kingdom,"real estate, investments",323,80.0,United Kingdom,Married,1.0,True,Drop Out," Sir John Cass College, London",7.4276832,43.7323492
+326,Alexander Abramov,7.6,Russia,"steel, mining",327,62.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Moscow Institute of Physics and Technology,37.6174943,55.7504461
+327,Rinat Akhmetov,7.6,Ukraine,"steel, coal",327,54.0,Ukraine,Married,2.0,True,Bachelor of Arts/Science, Donetsk National University,37.8013407,48.0158753
+328,Silvio Berlusconi & family,7.6,Italy,media,327,84.0,Italy,Divorced,5.0,True,Doctor of Jurisprudence, University of Milan,9.1905,45.4668
+329,John Grayken,7.6,Ireland,private equity,327,64.0,Ireland,Married,4.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, University of Pennsylvania",-0.1276474,51.5073219
+330,David Green & family,7.6,United States,retail,327,79.0,United States,Married,3.0,True,Diploma, High School,-97.5170536,35.4729886
+331,George Roberts,7.6,United States,private equity,327,77.0,United States,"Widowed, Remarried",3.0,True,Bachelor of Arts/Science," Claremont McKenna College; Doctor of Jurisprudence, UC Hastings",-122.2058272,37.453773
+333,Nancy Walton Laurie,7.5,United States,Walmart,334,69.0,United States,Married,1.0,False,Bachelor of Arts/Science, University of Memphis,-114.9826194,36.0301134
+337,Patrick Soon-Shiong,7.5,United States,pharmaceuticals,334,68.0,United States,Married,2.0,True,Master of Science," University of British Columbia; Bachelor of Arts/Science, University of Witwatersrand; Medical Doctor, University of Witwatersrand",-118.242766,34.0536909
+338,Antonia Ax:son Johnson & family,7.4,Sweden,diversified,339,77.0,Sweden,Married,4.0,False,Master of Arts, University of Stockholm,18.0710935,59.3251172
+340,George Lucas,7.4,United States,Star Wars,339,76.0,United States,Married,4.0,True,Bachelor of Arts/Science, University of Southern California,-122.5615032,37.9744323
+342,Zhang Jindong,7.4,China,appliance retailer,339,58.0,China,Married,2.0,True,Bachelor of Arts/Science, Nanjing Normal University,118.7916458,32.0609736
+343,Laurent Dassault,7.3,France,diversified,344,67.0,France,Married,2.0,False,Associate in Arts/Science, Ecole Superieure Libre Des Sciences Commerciales Appliquees,2.3514616,48.8566969
+346,Henry Kravis,7.3,United States,private equity,344,77.0,United States,Married,2.0,True,Bachelor of Arts/Science," Claremont McKenna College; Master of Business Administration, Columbia Business School",-74.00601519999999,40.7127281
+350,David Shaw,7.3,United States,hedge funds,344,70.0,United States,Married,3.0,True,Doctorate," Stanford University; Bachelor of Arts/Science, University of California, San Diego",-74.00601519999999,40.7127281
+351,Rocco Commisso,7.2,United States,telecom,352,71.0,United States,Married,2.0,True,Bachelor of Arts/Science," Columbia University; Master of Business Administration, Columbia University",-74.10208660000001,41.0317637
+353,Bernard Marcus,7.2,United States,Home Depot,352,91.0,United States,Married,3.0,True,Bachelor of Arts/Science, Rutgers University,-84.39026440000001,33.7489924
+357,Carl Bennet,7.1,Sweden,investments,358,69.0,Sweden,Married,1.0,True,Master of Business Administration, University of Gothenburg,11.9670171,57.7072326
+360,Ralph Lauren,7.1,United States,apparel,358,81.0,United States,Married,3.0,True,Drop Out," City University of New York City College; Diploma, High School",-74.00601519999999,40.7127281
+366,Anthony Wood,7.1,United States,Roku,358,55.0,United States,Married,3.0,True,Bachelor of Science in Engineering, Texas A&M University,-122.1598465,37.4443293
+367,Gang Ye,7.1,Singapore,gaming,358,40.0,Singapore,Married,2.0,True,Bachelor of Science, Cornell University,103.8194992,1.357107
+368,Igor Altushkin,7.0,Russia,metals,369,50.0,Russia,Married,6.0,True,Bachelor of Arts/Science, Ekaterinburg Institute of Economics,60.60825,56.839104
+372,Vincent Bolloré & family,7.0,France,investments,369,69.0,France,Married,4.0,False,LLB, Universite Paris X Nanterre,2.3514616,48.8566969
+373,Gustaf Douglas,7.0,Sweden,investments,369,83.0,Sweden,Married,2.0,True,Master of Business Administration, Harvard University,18.0710935,59.3251172
+375,"Paul Tudor Jones, II.",7.0,United States,hedge funds,369,66.0,United States,Married,4.0,True,Bachelor of Arts/Science, University of Virginia,-80.4494174,26.6279798
+376,Richard Kinder,7.0,United States,pipelines,369,76.0,United States,Married,1.0,True,Bachelor of Arts/Science," University of Missouri; Doctor of Jurisprudence, University of Missouri",-95.3676974,29.7589382
+378,Stephen Ross,7.0,United States,real estate,369,80.0,United States,Married,4.0,True,Master of Laws," New York University; Bachelor of Arts/Science, University of Michigan; Doctor of Jurisprudence, Wayne State University",-74.00601519999999,40.7127281
+380,Jim Davis & family,6.9,United States,New Balance,380,77.0,United States,Married,2.0,True,Bachelor of Arts/Science, Middlebury College,-71.2092214,42.3370414
+381,Guo Guangchang,6.9,China,conglomerate,380,54.0,China,Married,3.0,True,Bachelor of Arts/Science," Fudan University; Master of Business Administration, Fudan University",121.4692071,31.2322758
+382,Robert Kraft,6.9,United States,New England Patriots,380,79.0,United States,Widowed,4.0,True,Bachelor of Arts/Science," Columbia University; Master of Business Administration, Harvard Business School",-71.12116349999999,42.3317642
+389,Aloys Wobben,6.8,Germany,wind turbines,384,69.0,Germany,Married,1.0,True,Bachelor of Arts/Science, U of Oldenburg,7.4823808,53.4695604
+390,Micky Arison,6.7,United States,Carnival Cruises,391,71.0,United States,Married,2.0,False,Drop Out, University of Miami,153.4228711,-28.0259028
+393,Kwon Hyuk-bin,6.7,South Korea,online games,391,47.0,South Korea,Married,2.0,True,Bachelor of Arts/Science, Sogang University,126.9782914,37.5666791
+395,Fredrik Lundberg,6.7,Sweden,"real estate, investments",391,69.0,Sweden,Married,2.0,False,Bachelor of Arts/Science, Stockholm School of Economics,18.0710935,59.3251172
+396,Hiroshi Mikitani,6.7,Japan,online retail,391,56.0,Japan,Married,2.0,True,Master of Business Administration, Harvard University,139.7594549,35.6828387
+397,Dmitry Rybolovlev,6.7,Russia,fertilizer,391,54.0,Russia,Divorced,2.0,True,Medical Doctor, Perm Medical Institute,7.4276832,43.7323492
+398,Reinhold Schmieding,6.7,United States,medical devices,391,66.0,United States,Married,2.0,True,Bachelor of Arts/Science, Michigan State University,-81.7954666,26.1452817
+400,Bruce Kovner,6.6,United States,hedge funds,400,76.0,United States,Married,3.0,True,Bachelor of Arts/Science, Harvard University,-74.00601519999999,40.7127281
+401,Wang Wenjing,6.6,China,business software,400,56.0,China,Married,1.0,True,Bachelor of Arts/Science, Jiangxi University of Finance & Economics,116.3912757,39.906217
+407,James Goodnight,6.5,United States,software,404,78.0,United States,Married,3.0,True,Bachelor of Arts/Science," North Carolina State University; Doctorate, North Carolina State University; Master of Science, North Carolina State University",-78.7812081,35.7882893
+410,Sri Prakash Lohia,6.5,Indonesia,petrochemicals,404,68.0,Indonesia,Married,2.0,False,Bachelor of Arts/Science, Delhi University,-0.1276474,51.5073219
+411,John Overdeck,6.5,United States,hedge funds,404,51.0,United States,Married,3.0,True,Bachelor of Arts/Science," Stanford University; Master of Science, Stanford University",-74.3069069,40.7244443
+413,Horst Julius Pudwill,6.5,Germany,manufacturing,404,76.0,Germany,Married,1.0,True,Master of Science in Engineering, Technical College in Flensburg,114.1628131,22.2793278
+414,David Siegel,6.5,United States,hedge funds,404,86.0,United States,Married,13.0,True,Drop Out, University of Miami,-81.5345547,28.4944695
+415,Ronda Stryker,6.5,United States,medical equipment,404,67.0,United States,Married,3.0,False,Bachelor of Arts/Science," University of Northern Colorado; Master of Arts, Western Michigan University",-85.5800022,42.2011538
+419,Dennis Washington,6.4,United States,"construction, mining",418,86.0,United States,Married,2.0,True,Diploma, High School,-113.995267,46.8701049
+420,Rahul Bajaj,6.3,India,diversified,421,82.0,India,Widowed,3.0,False,Master of Business Administration, Harvard University,73.8544541,18.521428
+421,Ashwin Dani & family,6.3,India,paints,421,78.0,India,Married,3.0,False,Bachelor of Arts/Science," Bombay University; Master of Science, University of Akron",72.8773928,19.0759899
+422,Andreas Halvorsen,6.3,Norway,hedge funds,421,60.0,Norway,Married,3.0,True,Master of Business Administration," Stanford Graduate School of Business; Bachelor of Arts/Science, Williams College",-73.4692873,41.0787079
+423,Andrei Kozitsyn,6.3,Russia,metals,421,60.0,Russia,Married,1.0,True,Bachelor of Science in Engineering, Ural Polytechnic Institute,60.58219,56.97047
+425,Shi Yuzhu,6.3,China,"online games, investments",421,58.0,China,Divorced,1.0,True,Master of Science," Shenzhen University; Bachelor of Arts/Science, Zhejiang University",121.4692071,31.2322758
+427,Murat Ulker,6.3,Turkey,food,421,62.0,Turkey,Married,3.0,False,Bachelor of Arts/Science, Bogazici University,28.9651646,41.0096334
+431,Arthur Blank,6.2,United States,Home Depot,432,78.0,United States,Divorced,6.0,True,Bachelor of Arts/Science, Babson College,-84.39026440000001,33.7489924
+433,Jiang Bin,6.2,China,acoustic components,432,54.0,China,Married,1.0,True,Bachelor of Arts/Science," Beijing University of Aeronautics and Astronautics; Master of Business Administration, Tsinghua University",119.1557441,36.7071591
+435,Mitchell Rales,6.2,United States,"manufacturing, investments",432,64.0,United States,Married,2.0,True,Bachelor of Arts/Science, Miami University of Ohio,-78.83891,39.5675895
+439,Mike Adenuga,6.1,Nigeria,"telecom, oil",440,68.0,Nigeria,Married,7.0,True,Master of Business Administration, Pace University,3.3941795,6.4550575
+440,Charles Dolan & family,6.1,United States,cable television,440,94.0,United States,Married,6.0,True,Drop Out, John Carroll University,-73.4934796,40.7501803
+448,Henry Samueli,6.1,United States,semiconductors,440,66.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of California, Los Angeles; Doctorate, University of California, Los Angeles; Master of Science, University of California, Los Angeles",-117.9294401,33.6170092
+449,Les Wexner & family,6.1,United States,retail,440,83.0,United States,Married,4.0,True,Bachelor of Arts/Science, Ohio State University,-82.8087864,40.0811745
+452,Robert Brockman,6.0,United States,Software,451,79.0,United States,Married,1.0,True,Bachelor of Business Administration, University of Florida,-95.3676974,29.7589382
+453,Mong-Koo Chung,6.0,South Korea,Hyundai,451,83.0,South Korea,Married,4.0,False,Bachelor of Arts/Science, Hanyang University,126.9782914,37.5666791
+454,Dulce Pugliese de Godoy Bueno,6.0,Brazil,"hospitals, health care",451,73.0,Brazil,Divorced,1.0,True,Doctorate," The University of Texas at Austin; Medical Doctor, Universidade Federal do Rio de Janeiro",-46.6333824,-23.5506507
+455,Daniel Dines,6.0,Romania,software,451,49.0,Romania,Married,1.0,True,Bachelor of Science," University of Bucharest; Master of Science, University of Bucharest",-74.00601519999999,40.7127281
+457,Judy Faulkner,6.0,United States,health IT,451,77.0,United States,Married,3.0,True,Bachelor of Arts/Science," Dickinson College; Master of Science, University of Wisconsin",-89.3837613,43.074761
+460,Frits Goldschmeding,6.0,Netherlands,temp agency,451,87.0,Netherlands,Married,3.0,True,Doctorate, Free University of Amsterdam,4.8936041,52.3727598
+461,Andrei Guriev & family,6.0,Russia,fertilizers,451,61.0,Russia,Married,2.0,True,Master," Saint Petersburg Mining University; Bachelor of Arts/Science, State Central Institute of Physical Culture",37.6174943,55.7504461
+466,Robert F. Smith,6.0,United States,private equity,451,58.0,United States,Married,7.0,True,Master of Business Administration," Columbia University; Bachelor of Arts/Science, Cornell University",-97.74369950000001,30.2711286
+467,John A. Sobrato & family,6.0,United States,real estate,451,81.0,United States,Married,3.0,True,Bachelor of Arts/Science, Santa Clara University,-122.2058272,37.453773
+468,Ronald Wanek,6.0,United States,furniture,451,79.0,United States,Married,3.0,True,High School Graduate, High School,-82.66950850000001,27.7703796
+469,Randa Duncan Williams,6.0,United States,pipelines,451,59.0,United States,Married,1.0,False,Bachelor of Arts/Science," Rice University; Doctor of Jurisprudence, University of Houston",-95.3676974,29.7589382
+470,Hansjoerg Wyss,6.0,Switzerland,medical devices,451,86.0,Switzerland,Divorced,1.0,True,Master of Business Administration," Harvard University; Master of Science, Swiss Federal Institute of Technology",-110.8752112,43.5007599
+475,Maria Asuncion Aramburuzabala & family,5.8,Mexico,"beer, investments",476,58.0,Mexico,Divorced,2.0,False,Bachelor of Arts/Science, Instituto Tecnológico Autónomo de México,-99.1331785,19.4326296
+476,Chan Laiwa & family,5.8,China,real estate,476,80.0,China,Married,3.0,True,Doctorate, Savannah College of Art and Design,116.3912757,39.906217
+477,George Kaiser,5.8,United States,"oil & gas, banking",476,78.0,United States,Married,3.0,False,Bachelor of Arts/Science," Harvard University; Master of Business Administration, Harvard University",-95.9929113,36.1556805
+478,Ananda Krishnan,5.8,Malaysia,"telecoms, media, oil-services",476,83.0,Malaysia,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Melbourne University",101.6942371,3.1516964
+479,Douglas Leone,5.8,United States,venture capital,476,63.0,United States,Married,4.0,True,Master of Science," Columbia University; Bachelor of Arts/Science, Cornell University; Master of Business Administration, MIT Sloan School of Management",-122.2058272,37.453773
+484,Meg Whitman,5.8,United States,eBay,476,64.0,United States,Married,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Princeton University",-118.242766,34.0536909
+485,Neil Bluhm,5.7,United States,real estate,486,83.0,United States,Divorced,3.0,True,Doctor of Jurisprudence," Northwestern University; Bachelor of Arts/Science, University of Illinois, Urbana-Champaign",-87.6244212,41.8755616
+487,Tom Gores,5.7,United States,private equity,486,56.0,United States,Married,3.0,True,Bachelor of Arts/Science, Michigan State University,-118.3963062,34.0696501
+489,Michael Moritz,5.7,United States,venture capital,486,66.0,United States,Married,2.0,True,Bachelor of Arts/Science," Christ Church, Oxford University; Master of Business Administration, University of Pennsylvania, The Wharton School",-122.419906,37.7790262
+492,Emanuele (Lino) Saputo & family,5.7,Canada,cheese,486,84.0,Canada,Married,3.0,False,Diploma, High School,-73.61036420000001,45.4972159
+494,Teh Hong Piow,5.7,Malaysia,banking,486,91.0,Malaysia,Married,4.0,True,Bachelor of Arts/Science, University of Malaya,101.6942371,3.1516964
+498,Tamara Gustavson,5.6,United States,self storage,496,59.0,United States,Married,2.0,False,Bachelor of Arts/Science, University of Southern California,-84.4970393,38.0464066
+503,Dagmar Dolby & family,5.5,United States,Dolby Laboratories,502,79.0,United States,Widowed,2.0,False,Bachelor of Arts/Science, Heidelberg University,-122.419906,37.7790262
+505,Ken Fisher,5.5,United States,money management,502,70.0,United States,Married,3.0,True,Bachelor of Arts/Science, Humboldt State University,-122.4122248,45.5911103
+506,Ivan Glasenberg,5.5,Switzerland,mining,502,64.0,Switzerland,Married,2.0,True,Master of Business Administration," Marshall School of Business; Bachelor of Arts/Science, University of Witwatersrand",8.554642100000001,47.307465
+509,Karel Komarek,5.5,Czechia,"oil and gas, IT, lotteries",502,52.0,Czechia,Married,4.0,True,Diploma, Hahnemann Medical College,7.2285478,46.0967949
+510,Ronald Lauder,5.5,United States,Estee Lauder,502,77.0,United States,Married,2.0,False,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+512,J. Christopher Reyes,5.5,United States,food distribution,502,67.0,United States,Married,4.0,True,Bachelor of Arts/Science, University of Maryland,-80.13991799999999,27.080492
+513,Jude Reyes,5.5,United States,food distribution,502,65.0,United States,Married,3.0,True,Bachelor of Arts/Science, Wofford College,-80.4494174,26.6279798
+515,"Edward Roski, Jr.",5.5,United States,real estate,502,82.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Southern California,-118.242766,34.0536909
+524,"Henry Nicholas, III.",5.4,United States,semiconductors,520,61.0,United States,Divorced,3.0,True,Bachelor of Arts/Science," University of California, Los Angeles; Doctorate, University of California, Los Angeles; Master of Science, University of California, Los Angeles",-117.8268219,33.5963719
+525,Terrence Pegula,5.4,United States,natural gas,520,70.0,United States,Married,5.0,True,Bachelor of Science in Engineering, Pennsylvania State University,-80.0830984,26.3586885
+528,Pyotr Aven,5.3,Russia,"oil, banking, telecom",529,66.0,Russia,Married,3.0,True,Ph.D, Moscow State University,37.6174943,55.7504461
+531,Barry Lam,5.3,Taiwan,electronics,529,72.0,Taiwan,Married,2.0,True,Bachelor of Arts/Science, National Taiwan University,121.5636796,25.0375198
+537,Sam Zell,5.3,United States,"real estate, private equity",529,79.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of Michigan; Doctor of Jurisprudence, University of Michigan",-87.6244212,41.8755616
+538,John Brown,5.2,United States,medical equipment,539,86.0,United States,Married,2.0,True,Bachelor of Science in Engineering, Auburn University,-84.39026440000001,33.7489924
+539,Giuseppe De'Longhi & family,5.2,Italy,coffee makers,539,82.0,Italy,Divorced,2.0,False,Bachelor of Arts/Economics, Università Cà Foscari di Venezia,12.2063158,45.8066913
+541,Joe Mansueto,5.2,United States,investment research,539,64.0,United States,Married,3.0,True,Bachelor of Arts/Science, University of Chicago,-87.6244212,41.8755616
+543,Gary Rollins,5.2,United States,pest control,539,76.0,United States,Divorced,4.0,False,Bachelor of Arts/Science, University of Tennessee Chattanooga,-84.39026440000001,33.7489924
+549,Robert Bass,5.1,United States,"oil, investments",550,73.0,United States,Married,4.0,False,Master of Business Administration," Stanford University; Bachelor of Arts/Science, Yale University",-97.33274590000001,32.753177
+550,Pierre Chen,5.1,Taiwan,electronics,550,64.0,Taiwan,Divorced,3.0,True,Bachelor of Arts/Science, National Cheng Kung University,121.5636796,25.0375198
+551,Mahendra Choksi & family,5.1,India,paints,550,80.0,India,Married,2.0,False,Bachelor of Engineering," Bombay University; Master of Science, Bombay University",72.8773928,19.0759899
+553,Reed Hastings,5.1,United States,Netflix,550,60.0,United States,Married,2.0,True,Bachelor of Arts/Science," Bowdoin College; Master of Science, Stanford University",-121.9905908,37.050096
+560,Bernard Broermann,5.0,Germany,hospitals,561,77.0,Germany,Married,3.0,True,Master of Business Administration, Harvard University,8.465271,50.1818833
+561,Jason Chang,5.0,Singapore,electronics,561,77.0,Singapore,Married,3.0,True,Bachelor of Arts/Science, National Taiwan University,121.5636796,25.0375198
+562,Joshua Harris,5.0,United States,private equity,561,56.0,United States,Married,5.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+564,Lin Xiucheng & family,5.0,China,electronics,561,65.0,China,Married,4.0,True,Bachelor of Arts/Science, Xiamen University,118.0853479,24.4801069
+565,Pankaj Patel,5.0,India,pharmaceuticals,561,68.0,India,Married,2.0,False,Bachelor of Arts/Science," Gujarat University; Master of Science, Gujarat University",72.5797068,23.0216238
+567,"Walter Scott, Jr. & family",5.0,United States,"utilities, telecom",561,89.0,United States,Widowed,6.0,True,Bachelor of Arts/Science, Colorado State University,-95.9383758,41.2587459
+568,Charles Simonyi,5.0,United States,Microsoft,561,72.0,United States,Married,2.0,True,Doctorate," Stanford University; Bachelor of Arts/Science, University of California, Berkeley",-122.2264453,47.620548
+570,Daniel Ziff,5.0,United States,investments,561,49.0,United States,Married,1.0,False,Bachelor of Arts/Science, Columbia University,-74.00601519999999,40.7127281
+571,Dirk Ziff,5.0,United States,investments,561,57.0,United States,Married,2.0,False,Bachelor of Arts/Science," Columbia University; Master of Business Administration, Harvard University",-80.05592660000001,26.8237944
+572,Robert Ziff,5.0,United States,investments,561,54.0,United States,Married,2.0,False,Doctor of Jurisprudence," Cornell University; Bachelor of Arts/Science, Harvard University",-74.00601519999999,40.7127281
+573,Stephen Bisciotti,4.9,United States,"staffing, Baltimore Ravens",574,61.0,United States,Married,2.0,True,Bachelor of Arts/Science, Salisbury State University,-76.6480219,39.0595542
+575,Charles B. Johnson,4.9,United States,money management,574,88.0,United States,Married,6.0,False,Bachelor of Arts/Science, Yale University,-80.4494174,26.6279798
+578,Lin Li,4.9,China,investments,574,58.0,China,Married,1.0,True,Chinese Academy of Social Sciences; Bachelor of Arts/Science, Hubei University of Technology,114.0543297,22.555454
+579,Karen Pritzker,4.9,United States,"hotels, investments",574,63.0,United States,Widowed,4.0,False,Bachelor of Arts/Science, Northwestern University,-72.8150989,41.2795414
+582,Howard Schultz,4.9,United States,Starbucks,574,67.0,United States,Married,2.0,True,Bachelor of Arts/Science, Northern Michigan University,-122.3300624,47.6038321
+583,Yasumitsu Shigeta,4.9,Japan,mobile phone retailer,574,56.0,Japan,Married,3.0,True,Drop Out, Nihon University,139.7594549,35.6828387
+584,Thomas Siebel,4.9,United States,business software,574,68.0,United States,Married,4.0,True,Bachelor of Arts/Science," University of Illinois, Urbana-Champaign; Master of Business Administration, University of Illinois, Urbana-Champaign; Master of Science, University of Illinois, Urbana-Champaign",-122.2538557,37.4299388
+586,Chip Wilson,4.9,Canada,Lululemon,574,64.0,Canada,Married,5.0,True,Bachelor of Arts/Science, University of Calgary,-123.1139529,49.2608724
+589,Richard Branson,4.8,United Kingdom,Virgin,589,70.0,United Kingdom,Married,2.0,True,Drop Out, High School,-64.3583581,18.5265982
+594,Ted Lerner & family,4.8,United States,real estate,589,95.0,United States,Married,3.0,True,Associate in Arts/Science," George Washington University; LLB, George Washington University",-77.0881873,38.9822473
+596,Yuri Milner,4.8,Israel,tech investments,589,59.0,Israel,Married,3.0,True,Bachelor of Arts/Science," Moscow State University; Drop Out, University of Pennsylvania, The Wharton School",-122.116578,37.3790629
+598,Thomas Schmidheiny,4.8,Switzerland,cement,589,75.0,Switzerland,Married,4.0,False,Doctorate," Tufts University; Bachelor of Arts/Science, Zurich Polytechnic",8.8778671,47.2692872
+599,Chairul Tanjung,4.8,Indonesia,diversified,589,58.0,Indonesia,Married,2.0,True,Medical Doctor, University of Indonesia,106.827183,-6.1753942
+601,Radovan Vitek,4.8,Czechia,real estate,589,50.0,Czechia,Married,4.0,True,Law Degree, University of West Bohemia,7.5264358,46.3304899
+610,Nathan Kirsh,4.7,Eswatini (Swaziland),"retail, real estate",608,89.0,Eswatini (Swaziland),Married,3.0,True,Bachelor of Arts/Science, University of Witwatersrand,31.178316,-26.4018193
+611,Ken Langone,4.7,United States,investments,608,85.0,United States,Married,3.0,True,Bachelor of Arts/Science," Bucknell University; Master of Business Administration, Leonard N. Stern School of Business",-73.71874200000001,40.8517669
+612,Michael Pieper,4.7,Switzerland,kitchen appliances,608,75.0,Switzerland,Married,2.0,True,Master of Business Administration, St Gallen University,8.3054682,47.0505452
+613,Richard Schulze,4.7,United States,Best Buy,608,80.0,United States,"Widowed, Remarried",10.0,True,Diploma, High School,-81.7786972,26.339806
+617,Oleg Tinkov,4.7,Russia,banking,608,53.0,Russia,Married,3.0,True,Diploma," University of California, Berkeley",37.6174943,55.7504461
+618,Mark Walter,4.7,United States,finance,608,60.0,United States,Married,1.0,True,Bachelor of Arts/Science," Creighton University; Doctor of Jurisprudence, Northwestern University",-87.6244212,41.8755616
+621,Patrizio Bertelli,4.6,Italy,luxury goods,622,75.0,Italy,Married,2.0,True,Master of Business Administration, University of Florence,9.1905,45.4668
+622,Bert Beveridge,4.6,United States,vodka,622,59.0,United States,Married,3.0,True,Bachelor of Arts/Science, University of Texas at Austin,-97.74369950000001,30.2711286
+624,Chen Lip Keong,4.6,Malaysia,"casinos, property, energy",622,73.0,Malaysia,Married,3.0,True,Medical Doctor, University of Malaya,104.9224426,11.568271
+627,Tilman Fertitta,4.6,United States,"Houston Rockets, entertainment",622,63.0,United States,Married,4.0,True,Drop Out," Texas Tech University; Drop Out, University of Houston",-95.3676974,29.7589382
+629,Peter Gassner,4.6,United States,software,622,56.0,United States,Married,2.0,True,Bachelor of Science, Oregon State University,-121.8746789,37.6624312
+632,Denis O'Brien,4.6,Ireland,telecom,622,63.0,Ireland,Married,4.0,True,Master of Business Administration, Carroll School of Management,-6.2602732,53.3497645
+633,Miuccia Prada,4.6,Italy,luxury goods,622,71.0,Italy,Married,2.0,False,Doctorate," University of Milan; Doctorate in Pedagogical Sciences, University of Milan",9.1905,45.4668
+634,"Robert Rich, Jr.",4.6,United States,frozen foods,622,80.0,United States,Married,4.0,False,Master of Business Administration," Simon School of Business; Bachelor of Arts/Science, Williams College",-80.6278404,24.9242995
+635,Abhay Vakil & family,4.6,India,paints,622,70.0,India,Married,3.0,False,Bachelor of Arts/Science," Bombay University; Bachelor of Arts/Science, Syracuse University",72.8773928,19.0759899
+637,Ron Baron,4.5,United States,money management,638,77.0,United States,Married,2.0,True,Bachelor of Arts/Science, Bucknell University,-74.00601519999999,40.7127281
+638,Andre Esteves,4.5,Brazil,banking,638,52.0,Brazil,Married,3.0,True,Bachelor of Arts/Science, Universidade Federal do Rio de Janeiro,-46.6333824,-23.5506507
+641,Viatcheslav Kantor,4.5,Russia,"fertilizer, real estate",638,67.0,Russia,Married,5.0,True,Ph.D, Moscow Aviation University,-0.1276474,51.5073219
+642,Min Kao & family,4.5,United States,navigation equipment,638,72.0,United States,Married,2.0,True,Bachelor of Arts/Science," National Taiwan University; Doctorate, University of Tennessee Knoxville; Master of Science, University of Tennessee Knoxville",-94.6169012,38.966673
+644,Richard Li,4.5,Hong Kong,telecom,638,54.0,Hong Kong,Single,3.0,False,Drop Out, Stanford University,114.1628131,22.2793278
+645,Rudolf Maag,4.5,Switzerland,medical devices,638,75.0,Switzerland,Married,2.0,True,Master of Business Administration, INSEAD,7.570077,47.53656
+648,Igor Olenicoff,4.5,United States,real estate,638,78.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of Southern California; Master of Business Administration, University of Southern California; Master of Science, University of Southern California",-80.08726540000001,26.275636
+649,Sergei Popov,4.5,Russia,banking,638,49.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Ural State Technical University,37.6174943,55.7504461
+650,Thomas Pritzker,4.5,United States,"hotels, investments",638,70.0,United States,Married,3.0,False,Bachelor of Arts/Science," Claremont McKenna College; Doctor of Jurisprudence, University of Chicago; Master of Business Administration, University of Chicago",-87.6244212,41.8755616
+651,"Julian Robertson, Jr.",4.5,United States,hedge funds,638,88.0,United States,Widowed,3.0,True,Bachelor of Arts/Science, University of North Carolina,-73.5940485,40.8791587
+654,Shari Arison,4.4,Israel,Carnival Cruises,655,63.0,Israel,Divorced,4.0,False,Drop Out, Miami Dade College,34.7818064,32.0852997
+655,Orlando Bravo,4.4,United States,private equity,655,50.0,United States,Married,3.0,True,Bachelor of Arts/Science," Brown University; Master of Business Administration, Stanford Graduate School of Business; Doctor of Jurisprudence, Stanford University",-80.13530059999999,25.7929198
+658,Mark Cuban,4.4,United States,"online media, Dallas Mavericks",655,62.0,United States,Married,3.0,True,Bachelor of Arts/Science, Indiana University,-96.7968559,32.7762719
+662,Michael Minhong Yu,4.4,China,education,655,59.0,China,Married,2.0,True,Bachelor of Arts/Science, Peking University,116.3912757,39.906217
+666,Thomas Hagen,4.3,United States,insurance,665,85.0,United States,Widowed,2.0,False,Bachelor of Arts/Science, Ohio State University,-80.0852695,42.1294712
+668,Rakesh Jhunjhunwala,4.3,India,investments,665,60.0,India,Married,3.0,True,B.Com," Bombay University; Chartered Accountant, The Institute of Chartered Accountants of India",72.8773928,19.0759899
+670,Eric Lefkofsky,4.3,United States,Groupon,665,51.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of Michigan; Doctor of Jurisprudence, University of Michigan",-87.75811880000001,42.1350268
+673,Antony Ressler,4.3,United States,finance,665,59.0,United States,Married,3.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Georgetown University",-118.242766,34.0536909
+676,Steven Udvar-Hazy,4.3,United States,aircraft leasing,665,75.0,United States,Married,4.0,True,Bachelor of Arts/Science," University of California, Los Angeles",-118.3963062,34.0696501
+677,Takao Yasuda,4.3,Japan,retail,665,72.0,Japan,Married,1.0,True,Bachelor of Arts/Science, Keio University,103.8194992,1.357107
+678,Ye Chenghai & family,4.3,Hong Kong,pharmaceuticals,665,77.0,Hong Kong,Married,2.0,True,Bachelor of Arts/Science, Renmin University of China,114.1628131,22.2793278
+680,Rick Caruso,4.2,United States,real estate,680,62.0,United States,Married,4.0,True,Doctor of Jurisprudence," Pepperdine University; Bachelor of Arts/Science, University of Southern California",-118.242766,34.0536909
+681,Scott Cook,4.2,United States,software,680,68.0,United States,Married,3.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, University of Southern California",-122.2538557,37.4299388
+685,Fu Liquan & family,4.2,China,surveillance equipment,680,53.0,China,Married,1.0,True,Bachelor of Arts/Science," Zhejiang Shuren University; EMBA, Zhejiang University",120.2052342,30.2489634
+687,Tom Golisano,4.2,United States,payroll services,680,79.0,United States,Married,2.0,True,Associate in Arts/Science, SUNY Tech Alfred,-81.7954666,26.1452817
+690,Ray Lee Hunt,4.2,United States,"oil, real estate",680,78.0,United States,Married,5.0,False,Bachelor of Arts/Science, Southern Methodist University,-96.7968559,32.7762719
+698,Leonard Stern,4.2,United States,real estate,680,83.0,United States,Married,3.0,False,Master of Business Administration," Leonard N. Stern School of Business; Bachelor of Arts/Science, New York University",-74.00601519999999,40.7127281
+704,Margot Birmingham Perot,4.1,United States,"computer services, real estate",705,87.0,United States,Widowed,5.0,False,Bachelor of Arts/Science, Goucher College,-96.7968559,32.7762719
+705,David Bonderman,4.1,United States,private equity,705,78.0,United States,Married,5.0,True,Doctor of Jurisprudence," Harvard University; Bachelor of Arts/Science, University of Washington",-97.33274590000001,32.753177
+706,Matthew Calkins,4.1,United States,software,705,48.0,United States,Divorced,2.0,True,Bachelor of Arts/Economics, Dartmouth College,-77.0709087,38.8959791
+709,Dan Friedkin,4.1,United States,Toyota dealerships,705,56.0,United States,Married,4.0,False,Bachelor of Arts/Science," Georgetown University; Master of Business Administration, Rice University",-95.3676974,29.7589382
+712,Hong Ra-hee,4.1,South Korea,Samsung,705,75.0,South Korea,Widowed,3.0,False,Bachelor of Arts/Science, Seoul National University,126.9782914,37.5666791
+715,Daniel Kretinsky,4.1,Czechia,"energy, investments",705,45.0,Czechia,In Relationship,1.0,True,Law Degree, Masaryk University,14.4212535,50.0874654
+717,Janice McNair,4.1,United States,"energy, sports",705,84.0,United States,Widowed,4.0,False,Bachelor of Arts/Science, Columbia College,-95.3676974,29.7589382
+718,John Morris,4.1,United States,sporting goods retail,705,73.0,United States,Married,4.0,True,Bachelor of Arts/Science, Drury University,-93.2920373,37.2166779
+719,Gabe Newell,4.1,United States,videogames,705,58.0,United States,Divorced,2.0,True,Drop Out, Harvard University,-122.3300624,47.6038321
+722,Jon Stryker,4.1,United States,medical equipment,705,63.0,United States,Married,2.0,False,Bachelor of Arts/Science," Kalamazoo College; Master of Architecture, University of California, Berkeley",-74.00601519999999,40.7127281
+723,Suh Kyung-bae,4.1,South Korea,cosmetics,705,58.0,South Korea,Married,2.0,False,Master of Business Administration," Samuel Curtis Johnson Graduate School of Management; Bachelor of Arts/Science, Yonsei University",126.9782914,37.5666791
+725,Samuel Yin,4.1,Taiwan,retail,705,70.0,Taiwan,Married,2.0,False,Bachelor of Arts/Science," Chinese Culture University; Ph.D, National Chengchi University; Master of Business Administration, National Taiwan University",121.5636796,25.0375198
+730,Igor Kesaev,4.0,Russia,"tobacco distribution, retail",727,54.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Moscow Institute of International Relations,37.6174943,55.7504461
+740,Ajay Piramal,4.0,India,pharmaceuticals,727,65.0,India,Married,2.0,False,Bachelor of Arts/Science," Bombay University; Master of Business Administration, Bombay University",72.8773928,19.0759899
+742,Trevor Rees-Jones,4.0,United States,oil & gas,727,69.0,United States,Married,2.0,True,Bachelor of Arts/Science," Dartmouth College; Doctor of Jurisprudence, Southern Methodist University",-96.7968559,32.7762719
+743,Ira Rennert,4.0,United States,investments,727,86.0,United States,Married,3.0,True,Bachelor of Arts/Science," Brooklyn College; Master of Business Administration, Leonard N. Stern School of Business",-74.00601519999999,40.7127281
+753,Rafael Del Pino,3.9,Spain,construction,752,62.0,Spain,Divorced,6.0,False,Master of Business Administration," MIT Sloan School of Management; Bachelor of Arts/Science, Universidad  Politecnica de Madrid",-3.7035825,40.4167047
+755,Rakesh Gangwal,3.9,United States,airline,752,67.0,United States,Married,1.0,True,Bachelor of Science in Engineering," Indian Institute of Technology; Master of Business Administration, University of Pennsylvania, The Wharton School",-80.19362,25.7741728
+757,Jeff Greene,3.9,United States,"real estate, investments",752,66.0,United States,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Johns Hopkins University",-80.4494174,26.6279798
+758,Johnelle Hunt,3.9,United States,trucking,752,89.0,United States,Widowed,2.0,True,Drop Out, University of Central Arkansas,-94.1574328,36.0625843
+761,"Stephen Mandel, Jr.",3.9,United States,hedge funds,752,65.0,United States,Married,3.0,True,Bachelor of Arts/Science," Dartmouth College; Master of Business Administration, Harvard University; Diploma, Phillips Academy Exeter",-73.6284598,41.0264862
+765,Robert Rowling,3.9,United States,"hotels, investments",752,67.0,United States,Married,2.0,False,Doctor of Jurisprudence," Southern Methodist University; Bachelor of Arts/Science, The University of Texas at Austin",-96.7968559,32.7762719
+768,Ben Silbermann,3.9,United States,Pinterest,752,38.0,United States,Married,2.0,True,Bachelor of Arts/Science, Yale University,-122.419906,37.7790262
+774,Euisun Chung,3.8,South Korea,Hyundai,775,50.0,South Korea,Married,2.0,False,Bachelor of Arts/Science," Korea University; Master of Business Administration, University of San Francisco",126.9782914,37.5666791
+775,Daniel D'Aniello,3.8,United States,private equity,775,74.0,United States,Married,2.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Syracuse University",-77.2651762,38.9013729
+776,Oleg Deripaska,3.8,Russia,"aluminum, utilities",775,53.0,Russia,Divorced,2.0,True,Bachelor of Arts/Science, Moscow State University,37.6174943,55.7504461
+778,Feng Hailiang,3.8,China,"copper, education",775,60.0,China,Married,2.0,True,Master of Business Administration, Zhejiang University,120.1805427,29.7296617
+779,John Gandel,3.8,Australia,shopping malls,775,86.0,Australia,Married,4.0,False,Doctorate, Monash University,144.960964,-37.8077694
+780,Gao Dekang & family,3.8,China,apparel,775,69.0,China,Married,3.0,True,EMBA, Phoenix International University,120.7480757,31.6572954
+781,Jaime Gilinski Bacal,3.8,Colombia,banking,775,63.0,Colombia,Married,4.0,False,Master of Business Administration, Harvard Business School,-0.1276474,51.5073219
+784,"Amos Hostetter, Jr.",3.8,United States,cable television,775,84.0,United States,Married,3.0,True,Bachelor of Arts/Science," Amherst College; Master of Business Administration, Harvard University",-71.0582912,42.3602534
+787,Aerin Lauder,3.8,United States,cosmetics,775,51.0,United States,Married,2.0,False,Bachelor of Arts/Science, University of Pennsylvania,-74.00601519999999,40.7127281
+800,Donald Sterling,3.8,United States,real estate,775,87.0,United States,Married,3.0,True,Bachelor of Arts/Science," California State Los Angeles; Doctor of Jurisprudence, Southwestern Law School",-118.3963062,34.0696501
+802,Don Vultaggio & family,3.8,United States,beverages,775,69.0,United States,Married,2.0,True,High School Graduate, High School,-73.681282,40.8254914
+807,Marian Ilitch,3.7,United States,Little Caesars,807,88.0,United States,Widowed,7.0,True,Diploma," High School; High School Graduate, High School",-83.27326429999999,42.515868
+811,Mary Alice Dorrance Malone,3.7,United States,Campbell Soup,807,71.0,United States,Divorced,2.0,False,Bachelor of Arts/Science, University of Arizona,-75.8238355,39.9831616
+812,Michael Milken,3.7,United States,investments,807,74.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of California, Berkeley; Master of Business Administration, University of Pennsylvania, The Wharton School",-118.242766,34.0536909
+813,Ronald Perelman,3.7,United States,leveraged buyouts,807,78.0,United States,Married,8.0,True,Bachelor of Arts/Science," University of Pennsylvania; Master of Business Administration, University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+815,J. Joe Ricketts & family,3.7,United States,TD Ameritrade,807,79.0,United States,Married,4.0,True,Bachelor of Arts/Science, Creighton University,-110.4436629,43.684017
+817,Jeff Rothschild,3.7,United States,Facebook,807,66.0,United States,Married,3.0,True,Bachelor of Arts/Science," Vanderbilt University; Master of Science, Vanderbilt University",-122.1598465,37.4443293
+818,David Rubenstein,3.7,United States,private equity,807,71.0,United States,Divorced,3.0,True,Bachelor of Arts/Science," Duke University; Doctor of Jurisprudence, University of Chicago",-77.0941675,38.9843774
+820,Steven Spielberg,3.7,United States,movies,807,74.0,United States,Married,7.0,True,Bachelor of Arts/Science, California State Long Beach,-118.5264706,34.0480643
+821,Barry Sternlicht,3.7,United States,private equity,807,60.0,United States,Married,3.0,True,Bachelor of Arts/Science, Brown University,-80.19362,25.7741728
+822,Mark Stevens,3.7,United States,venture capital,807,61.0,United States,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, University of Southern California; Master of Science, University of Southern California",-106.8317359,40.4848003
+824,Vincent Viola,3.7,United States,electronic trading,807,65.0,United States,Married,3.0,True,Doctor of Jurisprudence," New York Law School; Bachelor of Arts/Science, United States Military Academy",-74.00601519999999,40.7127281
+826,Wang Roger,3.7,United States,retail,807,72.0,United States,Married,2.0,True,Bachelor of Arts/Science," Chinese Culture University; Master of Business Administration, Southeastern Louisiana University",118.7916458,32.0609736
+832,Leonid Boguslavsky,3.6,Russia,venture capital,831,69.0,Russia,Married,4.0,True,Master of Science, Moscow Institute for Transport Engineering,37.6174943,55.7504461
+833,"Austen Cargill, II.",3.6,United States,Cargill,831,70.0,United States,Divorced,2.0,False,Doctorate," Oregon State University; Bachelor of Arts/Science, University of Minnesota; Master of Science, University of Minnesota",-110.52926,45.671445
+836,Steve Conine,3.6,United States,online retail,831,48.0,United States,Married,3.0,True,Bachelor of Science in Engineering, Cornell University,-71.0582912,42.3602534
+838,S. Curtis Johnson,3.6,United States,cleaning products,831,66.0,United States,Married,4.0,False,Bachelor of Arts/Science," Cornell University; Master of Business Administration, Kellogg School of Management",-87.7825242,42.7260523
+839,Helen Johnson-Leipold,3.6,United States,cleaning products,831,64.0,United States,Married,5.0,False,Bachelor of Arts/Science, Cornell University,-87.7825242,42.7260523
+840,Daryl Katz,3.6,Canada,pharmacies,831,59.0,Canada,Married,2.0,True,Bachelor of Arts/Science," University of Alberta; Doctor of Jurisprudence, University of Alberta",-113.507996,53.535411
+841,Peter Kellogg,3.6,United States,investments,831,78.0,United States,Married,3.0,False,Bachelor of Arts/Science, Babson College,-74.3254271,40.7478786
+842,Samuel Tak Lee,3.6,Hong Kong,real estate,831,82.0,Hong Kong,Married,7.0,False,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Massachusetts Institute of Technology",114.1628131,22.2793278
+844,Marianne Liebmann,3.6,United States,Cargill,831,67.0,United States,Married,2.0,False,Bachelor of Arts/Science, Montana State University,-111.044047,45.6794293
+845,Winifred J. Marquart,3.6,United States,cleaning products,831,62.0,United States,Married,4.0,False,Drop Out, Cornell University,-75.9774183,36.8529841
+846,Daniel Och,3.6,United States,hedge funds,831,60.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-80.13530059999999,25.7929198
+847,Anthony Pritzker,3.6,United States,"hotels, investments",831,60.0,United States,Married,6.0,False,Bachelor of Arts/Science, Dartmouth College,-118.242766,34.0536909
+848,Rodger Riney & family,3.6,United States,discount brokerage,831,75.0,United States,Married,3.0,True,Bachelor of Arts/Science," University of Missouri; Master of Business Administration, University of Missouri",-90.1998378,38.6264178
+849,Niraj Shah,3.6,United States,online retail,831,47.0,United States,Married,2.0,True,Bachelor of Science in Engineering, Cornell University,-71.0582912,42.3602534
+853,Richard Tsai,3.6,Taiwan,finance,831,63.0,Taiwan,Married,2.0,False,Master of Business Administration," Leonard N. Stern School of Business; Graduate, National Taiwan University",121.5636796,25.0375198
+857,Zhang Hongwei,3.6,China,"oil, banking",831,66.0,China,Married,3.0,True,Bachelor of Arts/Science," Harbin Engineering University; Master of Science, Harbin Institute of Technology",116.3912757,39.906217
+858,Andrej Babis,3.5,Czechia,agriculture,859,66.0,Czechia,Married,4.0,True,Master, University of Economics in Bratislava (UEB),14.4212535,50.0874654
+860,Hubert Burda,3.5,Germany,publishing,859,81.0,Germany,Married,2.0,False,Bachelor of Arts/Science, Ludwig Maxmilian University,11.5753822,48.1371079
+861,Chuchat Petaumpai & Daonapa Petampai,3.5,Thailand,motorcycle loans,859,67.0,Thailand,Married,2.0,True,Bachelor of Arts/Economics, Oklahoma State University,100.4930399,13.7544238
+862,Charles Cohen,3.5,United States,real estate,859,69.0,United States,Married,4.0,False,Doctor of Jurisprudence," Brooklyn Law School; Bachelor of Arts/Science, Tufts University",-74.00601519999999,40.7127281
+863,David Filo,3.5,United States,Yahoo,859,55.0,United States,Married,1.0,True,Master of Science," Stanford University; Bachelor of Arts/Science, Tulane University",-122.1598465,37.4443293
+864,Sergei Galitsky,3.5,Russia,retail,859,53.0,Russia,Married,1.0,True,Bachelor of Arts/Science, Kuban State University,38.9764814,45.0352566
+867,Martha Ingram & family,3.5,United States,"book distribution, transportation",859,85.0,United States,Widowed,4.0,False,Bachelor of Arts/Science, Vassar College,-86.7743531,36.1622296
+868,H. Fisk Johnson,3.5,United States,cleaning products,859,62.0,United States,Divorced,1.0,False,Bachelor of Arts/Science," Cornell University; Doctorate, Cornell University; Master of Science, Cornell University; Master of Business Administration, Samuel Curtis Johnson Graduate School of Management",-87.7825242,42.7260523
+870,Lim Wee Chai,3.5,Malaysia,rubber gloves,859,63.0,Malaysia,Married,2.0,True,Master of Business Administration," Sul Ross State University; Bachelor of Arts/Science, University of Malaya",101.6942371,3.1516964
+875,N.R. Narayana Murthy,3.5,India,software services,859,74.0,India,Married,2.0,True,Master of Science, Indian Institute of Technology,77.59129969999999,12.9791198
+876,John Paulson,3.5,United States,hedge funds,859,65.0,United States,Married,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, New York University",-74.00601519999999,40.7127281
+877,J.B. Pritzker,3.5,United States,"hotels, investments",859,56.0,United States,Married,2.0,False,Bachelor of Arts/Science," Duke University; Doctor of Jurisprudence, Northwestern University",-89.6439575,39.7990175
+878,Michael Rubin,3.5,United States,online retail,859,48.0,United States,Divorced,1.0,True,Drop Out, Villanova University,-75.30462989999999,40.0198335
+880,Thomas Secunda,3.5,United States,Bloomberg LP,859,66.0,United States,Married,2.0,True,Bachelor of Arts/Science, SUNY Binghamton,-73.8901688,41.2083836
+881,Vivek Chaand Sehgal,3.5,Australia,auto parts,859,64.0,Australia,Married,2.0,True,Bachelor of Arts/Science, Delhi University,77.2219388,28.6517178
+883,Leena Tewari,3.5,India,pharmaceuticals,859,63.0,India,Married,2.0,False,B.Com," Bombay University; Master of Business Administration, Boston University",72.8773928,19.0759899
+885,Romesh T. Wadhwani,3.5,United States,software,859,73.0,United States,Married,1.0,True,Doctorate," Carnegie Mellon University; Master of Science, Carnegie Mellon University; Bachelor of Arts/Science, Indian Institute of Technology, Bombay",-122.1598465,37.4443293
+893,"William Conway, Jr.",3.4,United States,private equity,891,71.0,United States,Married,1.0,True,Bachelor of Arts/Science, Dartmouth College,-77.1776327,38.9342888
+894,Jim Davis,3.4,United States,staffing & recruiting,891,77.0,United States,Married,2.0,True,Bachelor of Arts/Science, Middlebury College,-71.2092214,42.3370414
+896,Ennio Doris & family,3.4,Italy,financial services,891,80.0,Italy,Married,2.0,True,Diploma, High School,11.8304219,45.6470275
+898,Alexander Frolov,3.4,Russia,"mining, steel",891,56.0,Russia,Married,1.0,True,Doctorate, Moscow Institute of Physics and Technology,37.6174943,55.7504461
+899,Fiona Geminder,3.4,Australia,manufacturing,891,56.0,Australia,Married,4.0,False,Bachelor of Arts/Science," Monash University; LLB, Monash University",144.960964,-37.8077694
+901,Viktor Kharitonin,3.4,Russia,pharmaceuticals,891,48.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Novosibirsk State University,37.6174943,55.7504461
+903,Chris Larsen,3.4,United States,cryptocurrency,891,60.0,United States,Married,2.0,True,Bachelor of Arts/Science," San Francisco State University; Master of Business Administration, Stanford Graduate School of Business",-122.419906,37.7790262
+904,Angela Leong,3.4,Hong Kong,casinos,891,60.0,Hong Kong,Widowed,5.0,False,Diploma, High School,114.1628131,22.2793278
+906,John Middleton,3.4,United States,tobacco,891,66.0,United States,Married,2.0,False,Bachelor of Arts/Science," Amherst College; Master of Business Administration, Harvard University",-75.30462989999999,40.0198335
+908,Arturo Moreno,3.4,United States,"billboards, Anaheim Angels",891,74.0,United States,Married,3.0,True,Bachelor of Arts/Science, University of Arizona,-112.0741417,33.4484367
+909,God Nisanov,3.4,Russia,real estate,891,49.0,Russia,Married,3.0,True,Diploma, Baku Institute of Law,37.6174943,55.7504461
+913,Patrick Ryan,3.4,United States,insurance,891,83.0,United States,Married,3.0,True,Bachelor of Arts/Science, Northwestern University,-87.7365286,42.1080703
+915,Lynn Schusterman,3.4,United States,"oil & gas, investments",891,82.0,United States,Widowed,3.0,False,Drop Out, University of Miami,-95.9929113,36.1556805
+917,Daniel Tsai,3.4,Taiwan,finance,891,65.0,Taiwan,Married,4.0,False,LLM," Georgetown University; LLB, National Taiwan University",121.5636796,25.0375198
+918,Tung Chee Chen,3.4,Hong Kong,shipping,891,78.0,Hong Kong,Married,2.0,False,Master of Science," Massachusetts Institute of Technology; Bachelor of Arts/Science, University of Liverpool",114.1628131,22.2793278
+920,Frank VanderSloot,3.4,United States,"nutrition, wellness products",891,72.0,United States,Married,14.0,True,Bachelor of Arts/Science, Brigham Young University,-112.0401206,43.4935589
+921,Kelcy Warren,3.4,United States,pipelines,891,65.0,United States,Married,1.0,True,Bachelor of Arts/Science, University of Texas Arlington,-96.7968559,32.7762719
+923,Vladimir Yevtushenkov,3.4,Russia,"telecom, investments",891,72.0,Russia,Married,2.0,True,Bachelor of Arts/Science," Mendeleyev Chemical Engin; Master of Science, Moscow State University",37.6174943,55.7504461
+924,Somphote Ahunai,3.3,Thailand,renewable energy,925,53.0,Thailand,Married,3.0,True,Master of Business Administration, Joseph M. Katz Graduate School of Business,100.4930399,13.7544238
+925,John Arnold,3.3,United States,hedge funds,925,47.0,United States,Married,2.0,True,Bachelor of Arts/Science, Vanderbilt University,-95.3676974,29.7589382
+931,Senapathy Gopalakrishnan,3.3,India,software services,925,66.0,India,Married,1.0,True,Master of Science, Indian Institute of Technology,77.59129969999999,12.9791198
+932,B. Wayne Hughes,3.3,United States,self storage,925,87.0,United States,Divorced,2.0,True,Bachelor of Arts/Science, University of Southern California,-84.4970393,38.0464066
+934,Samvel Karapetyan,3.3,Russia,real estate,925,55.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Yerevan Polytechnic Institute,37.6174943,55.7504461
+936,Jim Koch,3.3,United States,beer,925,71.0,United States,Married,4.0,True,Bachelor of Arts/Science," Harvard University; Doctor of Jurisprudence, Harvard University; Master of Business Administration, Harvard University",-71.2092214,42.3370414
+937,"Andre Koo, Sr.",3.3,Taiwan,financial services,925,53.0,Taiwan,Married,2.0,False,Master of Business Administration," Leonard N. Stern School of Business; Bachelor of Arts/Science, New York University",121.5636796,25.0375198
+938,Yuri Kovalchuk,3.3,Russia,"banking, insurance, media",925,69.0,Russia,Married,1.0,True,Doctorate, St Petersburg State University,30.316229,59.938732
+939,Richard LeFrak & family,3.3,United States,real estate,925,75.0,United States,Married,2.0,False,Bachelor of Arts/Science," Amherst College; Doctor of Jurisprudence, Columbia University",-74.00601519999999,40.7127281
+942,Jean (Gigi) Pritzker,3.3,United States,"hotels, investments",925,58.0,United States,Married,3.0,False,Bachelor of Arts/Science, Stanford University,-118.242766,34.0536909
+946,"Bernard Saul, II.",3.3,United States,"banking, real estate",925,89.0,United States,Married,5.0,False,LLB," University of Virginia; Bachelor of Arts/Science, Villanova University",-77.0881873,38.9822473
+948,Tahir & family,3.3,Indonesia,diversified,925,69.0,Indonesia,Married,4.0,True,Master of Business Administration," Golden Gate University; Bachelor of Arts/Science, Nan Yang University",106.827183,-6.1753942
+949,Lucio Tan,3.3,Philippines,diversified,925,86.0,Philippines,Married,6.0,True,Bachelor of Arts/Science, Far Eastern University,120.9809674,14.5907332
+953,"William Wrigley, Jr.",3.3,United States,chewing gum,925,57.0,United States,Divorced,4.0,False,Bachelor of Arts/Science, Duke University,-80.05592660000001,26.8237944
+954,Zhang Xin & Pan Shiyi,3.3,China,real estate,925,55.0,China,Married,2.0,True,Master of Arts," Cambridge University; Bachelor of Arts/Science, University of Sussex",116.3912757,39.906217
+958,Chey Tae-won,3.2,South Korea,"oil, semiconductor",956,60.0,South Korea,Separated,4.0,False,Bachelor of Arts/Science," Korea University; Master of Science, University of Chicago",126.9782914,37.5666791
+961,Jack Cowin,3.2,Australia,fast food,956,78.0,Australia,Married,4.0,True,Bachelor of Arts/Science, University of Western Ontario,151.0979607,-33.8641922
+962,Archie Aldis Emmerson & family,3.2,United States,"timberland, lumber mills",956,92.0,United States,Married,3.0,True,Diploma, High School,-122.3916754,40.5863563
+964,Juan Carlos Escotet,3.2,Venezuela,banking,956,61.0,Venezuela,Married,4.0,True,Master, University of Miami,-8.3958768,43.3712091
+966,Don Hankey,3.2,United States,auto loans,956,77.0,United States,Married,4.0,True,Bachelor of Arts/Science, University of Southern California,-118.689423,34.035591
+971,Thai Lee,3.2,United States,IT provider,956,62.0,United States,Divorced,2.0,True,Bachelor of Arts/Science," Amherst College; Master of Business Administration, Harvard Business School",-97.74369950000001,30.2711286
+973,Ronald McAulay,3.2,Hong Kong,energy,956,85.0,Hong Kong,Married,2.0,False,Master of Arts, University of Glasgow,114.1628131,22.2793278
+976,John Sall,3.2,United States,software,956,73.0,United States,Married,4.0,True,Bachelor of Arts/Science," Beloit College; Master of Arts, Northern Illinois University",-78.7812081,35.7882893
+977,Naguib Sawiris,3.2,Egypt,telecom,956,66.0,Egypt,Married,4.0,False,Bachelor of Arts/Science," Swiss Federal Polytechnical Institute; Master of Science, Swiss Federal Polytechnical Institute",31.2357257,30.0443879
+982,Tsai Hong-tu,3.2,Taiwan,finance,956,68.0,Taiwan,Married,3.0,False,Law Degree," National Taiwan University; Ph.D, Southern Methodist University",121.5636796,25.0375198
+983,Steve Wynn,3.2,United States,"casinos, hotels",956,79.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Pennsylvania,-115.148516,36.1672559
+991,John Fisher,3.1,United States,Gap,986,59.0,United States,Married,4.0,False,Bachelor of Arts/Science," Princeton University; Master of Business Administration, Stanford Graduate School of Business",-122.419906,37.7790262
+1001,Sergey Lomakin,3.1,Russia,retail,986,47.0,Russia,Married,5.0,True,Master of Science, Moscow State Mining University,37.6174943,55.7504461
+1004,Penny Pritzker,3.1,United States,"hotels, investments",986,62.0,United States,Married,2.0,False,Bachelor of Arts/Science," Harvard University; Master of Business Administration, Stanford Graduate School of Business; Doctor of Jurisprudence, Stanford University",-87.6244212,41.8755616
+1005,Herb Simon,3.1,United States,real estate,986,86.0,United States,Married,8.0,True,Bachelor of Arts/Science, City College of New York,-86.1583502,39.7683331
+1006,Jerry Speyer,3.1,United States,real estate,986,80.0,United States,Married,4.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Columbia University",-74.00601519999999,40.7127281
+1008,Koos Bekker,3.0,South Africa,"media, investments",1008,68.0,South Africa,Married,2.0,True,Master of Business Administration," Columbia Business School; LLB, University of Witwatersrand",18.417396,-33.928992
+1009,Ben Chestnut,3.0,United States,email marketing,1008,46.0,United States,Married,2.0,True,Bachelor of Arts/Science, Georgia Institute of Technology,-84.39026440000001,33.7489924
+1016,Philippe Foriel-Destezet,3.0,France,employment agency,1008,85.0,France,Married,4.0,True,Master of Business Administration, HEC Paris,-0.1276474,51.5073219
+1020,Alec Gores,3.0,United States,private equity,1008,68.0,United States,Married,6.0,True,Bachelor of Arts/Science, Western Michigan University,-118.3963062,34.0696501
+1022,Jimmy Haslam,3.0,United States,"gas stations, retail",1008,67.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Tennessee Knoxville,-83.92102610000001,35.9603948
+1027,James Irsay,3.0,United States,Indianapolis Colts,1008,61.0,United States,Divorced,3.0,False,Bachelor of Arts/Science, Southern Methodist University,-86.11892570000001,39.9788017
+1028,Justin Ishbia,3.0,United States,★,1008,43.0,United States,Married,2.0,False,Bachelor of Arts/Science," Michigan State University; Doctor of Jurisprudence, Vanderbilt University",-87.6244212,41.8755616
+1030,George Kurtz,3.0,United States,security software,1008,50.0,United States,Married,2.0,True,Bachelor of Science, Seton Hall University,-111.9556001,33.5428006
+1032,Kwek Leng Beng,3.0,Singapore,diversified,1008,80.0,Singapore,Married,2.0,False,LLB, University of London,103.8194992,1.357107
+1039,Jeffrey Lurie,3.0,United States,Philadelphia Eagles,1008,69.0,United States,Married,2.0,False,Doctorate," Brandeis University; Bachelor of Arts/Science, Clark University",-75.27074690000001,40.0028514
+1043,Haim Saban,3.0,United States,"TV network, investments",1008,76.0,United States,Married,4.0,True,Diploma, High School,-118.3963062,34.0696501
+1044,Ferit Faik Sahenk,3.0,Turkey,diversified,1008,57.0,Turkey,Married,1.0,False,Bachelor of Arts/Science, Boston College,28.9651646,41.0096334
+1045,Eddy Kusnadi Sariaatmadja,3.0,Indonesia,"media, tech",1008,67.0,Indonesia,Married,4.0,True,Bachelor of Engineering," University of New South Wales; Master of Science in Engineering, University of New South Wales",106.827183,-6.1753942
+1050,Pat Stryker,3.0,United States,medical equipment,1008,65.0,United States,Divorced,3.0,False,Drop Out, University of Northern Colorado,-105.0668085,40.5508527
+1051,Hans Sy,3.0,Philippines,diversified,1008,65.0,Philippines,Married,4.0,False,Bachelor of Science, De La Salle University,120.9809674,14.5907332
+1053,Andrew Tan,3.0,Philippines,diversified,1008,71.0,Philippines,Married,4.0,True,Bachelor of Arts/Science, University of the East,120.9809674,14.5907332
+1061,Zhang Lei,3.0,China,investments,1008,48.0,China,Married,2.0,True,Bachelor of Arts/Economics," Renmin University of China; Master of Business Administration, The Yale School of Management; Master of Arts, Yale University",114.1628131,22.2793278
+1064,Ben Ashkenazy,2.9,United States,real estate,1064,51.0,United States,Married,3.0,True,Drop Out, Adelphi University,-74.00601519999999,40.7127281
+1065,Sid Bass,2.9,United States,"oil, investments",1064,79.0,United States,Divorced,2.0,False,Master of Business Administration," Stanford University; Bachelor of Arts/Science, Yale University",-97.33274590000001,32.753177
+1068,Riley Bechtel & family,2.9,United States,"engineering, construction",1064,69.0,United States,Married,3.0,False,Doctor of Jurisprudence," Stanford University; Master of Business Administration, Stanford University; Bachelor of Arts/Science, University of Calif Davis",-122.419906,37.7790262
+1069,Sanjeev Bikhchandani,2.9,India,Internet,1064,57.0,India,Married,2.0,True,Master of Business Administration," Indian Institute of Management, Ahmedabad; Bachelor of Arts/Economics, St Stephen's College (India)",77.2219388,28.6517178
+1072,Bennett Dorrance,2.9,United States,Campbell Soup,1064,75.0,United States,Married,2.0,False,Bachelor of Arts/Science, University of Arizona,-111.9556001,33.5428006
+1076,Bob Gaglardi,2.9,Canada,hotels,1064,80.0,Canada,Married,4.0,True,Bachelor of Engineering, Letourneau College,-123.1139529,49.2608724
+1078,Maggie Hardy Knox,2.9,United States,building materials,1064,55.0,United States,Married,1.0,False,Drop Out, West Virginia University,-79.8664356,40.1250725
+1083,Osman Kibar,2.9,United States,biotech,1064,50.0,United States,Married,4.0,True,Bachelor of Arts/Science," California Institute of Technology; Bachelor of Arts/Science, Pomona College; Master of Science, University of California, San Diego; Ph.D, University of California, San Diego",-117.2716839,32.83259
+1084,Kim Taek-jin,2.9,South Korea,online games,1064,54.0,South Korea,Married,4.0,True,Bachelor of Arts/Science," Seoul National University; Master of Science, Seoul National University",126.9782914,37.5666791
+1086,Pablo Legorreta,2.9,United States,investments,1064,57.0,United States,Married,2.0,True,Bachelor of Science in Engineering, Universidad Iberoamericana,-72.29222919999999,40.9978727
+1087,Liang Yunchao,2.9,China,nutritional supplements,1064,52.0,China,Married,2.0,True,Master of Business Administration," Sun Yat-sen University; Bachelor of Arts/Science, Zhongnan University of Economics and Law",113.2592945,23.1301964
+1090,Farhad Moshiri,2.9,United Kingdom,diversified,1064,65.0,United Kingdom,Separated,2.0,True,Bachelor of Arts/Science, University of London,7.4276832,43.7323492
+1093,Alexander Nesis,2.9,Russia,"metals, banking, fertilizers",1064,58.0,Russia,Married,5.0,True,Bachelor of Arts/Science, Leningrad Technological Institute,37.6174943,55.7504461
+1096,Sebastian Piñera & family,2.9,Chile,investments,1064,71.0,Chile,Married,4.0,True,Doctorate, Harvard University,-70.65045019999999,-33.4377756
+1097,Alexander Ponomarenko,2.9,Russia,"real estate, airport",1064,56.0,Russia,Married,3.0,True,Master of Science," Russian State Academy of Management; Bachelor of Arts/Science, Simferopol State University",37.6174943,55.7504461
+1098,Chandru Raheja,2.9,India,real estate,1064,80.0,India,Married,2.0,False,LLB, Bombay University,72.8773928,19.0759899
+1099,Chad Richison,2.9,United States,payroll processing,1064,50.0,United States,Married,4.0,True,Bachelor of Arts/Science, University of Central Oklahoma,-97.4649038,35.6571367
+1100,Arkady Rotenberg,2.9,Russia,"construction, pipes, banking",1064,69.0,Russia,Divorced,5.0,True,Bachelor of Arts/Science, Leningrad Institute of Physical Culture,37.6174943,55.7504461
+1103,Alexander Skorobogatko,2.9,Russia,"real estate, airport",1064,53.0,Russia,Divorced,3.0,True,Master of Science, Plekhanov Russian University of Economics,37.6174943,55.7504461
+1104,Jeff Sutton,2.9,United States,real estate,1064,61.0,United States,Married,5.0,True,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+1105,Glen Taylor,2.9,United States,printing,1064,80.0,United States,Married,5.0,True,Bachelor of Arts/Science, Minnesota State University,-93.99935050000001,44.1634663
+1108,Jon Yarbrough,2.9,United States,video games,1064,63.0,United States,Married,2.0,True,Bachelor of Arts/Science, Tennessee Technological University,-86.8689419,35.925206
+1110,William Ackman,2.8,United States,hedge funds,1111,54.0,United States,Married,3.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Harvard University",-74.00601519999999,40.7127281
+1114,Aneel Bhusri,2.8,United States,business software,1111,55.0,United States,Married,1.0,True,Bachelor of Arts/Science," Brown University; Master of Business Administration, Stanford Graduate School of Business",-122.419906,37.7790262
+1115,Norman Braman,2.8,United States,"art, car dealerships",1111,88.0,United States,Married,2.0,True,Bachelor of Arts/Science, Temple University,-80.19362,25.7741728
+1117,Vivek Chand Burman,2.8,India,consumer goods,1111,84.0,India,Married,2.0,False,Bachelor of Arts/Science, University of Miami,77.2219388,28.6517178
+1118,John Catsimatidis,2.8,United States,"oil, real estate",1111,72.0,United States,Married,2.0,True,Drop Out, New York University,-74.00601519999999,40.7127281
+1119,Morris Chang,2.8,Taiwan,semiconductors,1111,89.0,Taiwan,Married,1.0,True,Bachelor of Arts/Science," Massachusetts Institute of Technology; Master of Science, Massachusetts Institute of Technology; Ph.D, Stanford University",120.9686833,24.8066333
+1124,James Clark,2.8,United States,"Netscape, investments",1111,77.0,United States,Married,4.0,True,Bachelor of Arts/Science," University of New Orleans; Master of Science, University of New Orleans; Ph.D, University of Utah",-80.4494174,26.6279798
+1128,Doris Fisher,2.8,United States,Gap,1111,89.0,United States,Widowed,3.0,True,Bachelor of Arts/Science, Stanford University,-122.419906,37.7790262
+1129,Gary Friedman,2.8,United States,Furniture retail,1111,63.0,United States,In Relationship,2.0,True,Drop Out, Santa Rosa Junior College,-122.4626994,37.8663951
+1130,Valentin Gapontsev & family,2.8,United States,lasers,1111,82.0,United States,Married,1.0,True,Bachelor of Science in Engineering," Lviv Polytechnic National University; Ph.D, Moscow Institute of Physics and Technology",-71.80188769999999,42.2625621
+1131,David Gottesman,2.8,United States,investments,1111,95.0,United States,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Trinity College Connecticut",-73.68429399999999,40.9808209
+1133,Alan Howard,2.8,United Kingdom,hedge funds,1111,57.0,United Kingdom,Married,4.0,True,Master of Science, Imperial College London,6.1466014,46.2017559
+1137,Timur Kulibaev,2.8,Kazakhstan,banking,1111,54.0,Kazakhstan,Married,3.0,True,Bachelor of Arts/Science, Moscow State University,76.9457275,43.2363924
+1138,Dinara Kulibaeva,2.8,Kazakhstan,banking,1111,53.0,Kazakhstan,Married,3.0,False,Doctorate in Pedagogical Sciences," State Institute of Theatre Arts (GITIS, Moscow)",76.9457275,43.2363924
+1144,Rudy Ma,2.8,Taiwan,finance,1111,80.0,Taiwan,Married,2.0,True,EMBA, National Chengchi University; National Taiwan University,120.9820179,23.9739374
+1145,"Drayton McLane, Jr.",2.8,United States,"Walmart, logistics",1111,84.0,United States,Married,2.0,False,Bachelor of Arts/Science," Baylor University; Master of Business Administration, Broad College of Business",-97.3427847,31.098207
+1157,T. Denny Sanford,2.8,United States,"banking, credit cards",1111,85.0,United States,Divorced,2.0,True,Bachelor of Arts/Science, University of Minnesota,-96.70033239999999,43.549973
+1161,Warren Stephens,2.8,United States,investment banking,1111,64.0,United States,Married,3.0,False,Master of Business Administration," Wake Forest University School of Business; Bachelor of Arts/Science, Washington & Lee University",-92.2895948,34.7464809
+1162,Konstantin Strukov,2.8,Russia,"gold, coal mining",1111,62.0,Russia,Married,2.0,True,Master of Science, Magnitogorsk Mining and Metallurgical Institute,61.4025547,55.1598408
+1174,Timothy Boyle,2.7,United States,Columbia Sportswear,1174,71.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Oregon,-122.6741949,45.5202471
+1175,John Paul DeJoria,2.7,United States,"hair products, tequila",1174,77.0,United States,Married,6.0,True,Diploma, High School,-97.74369950000001,30.2711286
+1180,James Jannard,2.7,United States,sunglasses,1174,71.0,United States,Married,4.0,True,Drop Out, University of Southern California,-118.4630907,33.9809608
+1181,Vinod Khosla,2.7,United States,venture capital,1174,66.0,United States,Married,4.0,True,Master of Science," Carnegie Mellon University; Bachelor of Arts/Science, Indian Institute of Technology; Master of Business Administration, Stanford Graduate School of Business",-122.219047,37.3736298
+1182,Valentin Kipyatkov,2.7,Russia,computer software,1174,44.0,Russia,Married,1.0,True,Master of Science, Saint Petersburg State University,14.4212535,50.0874654
+1183,Lim Kok Thay,2.7,Malaysia,casinos,1174,69.0,Malaysia,Married,3.0,False,Harvard Business School; Bachelor of Arts/Science, University of London,101.6942371,3.1516964
+1189,Sean Parker,2.7,United States,Facebook,1174,41.0,United States,Married,2.0,True,Diploma, High School,-118.242766,34.0536909
+1190,Richard Peery,2.7,United States,real estate,1174,82.0,United States,Married,4.0,True,Bachelor of Arts/Science, Brigham Young University,-122.1598465,37.4443293
+1191,"H. Ross Perot, Jr.",2.7,United States,real estate,1174,62.0,United States,Married,4.0,False,Bachelor of Arts/Science, Vanderbilt University,-96.7968559,32.7762719
+1195,"Henry Sy, Jr.",2.7,Philippines,diversified,1174,68.0,Philippines,Married,3.0,False,Bachelor of Science, De La Salle University,120.9809674,14.5907332
+1196,Teresita Sy-Coson,2.7,Philippines,diversified,1174,70.0,Philippines,Widowed,3.0,False,Bachelor of Science, Assumption College,120.9809674,14.5907332
+1199,Tsai Ming-kai,2.7,Taiwan,semiconductors,1174,71.0,Taiwan,Married,2.0,True,Bachelor of Engineering," National Taiwan University; Master of Science in Engineering, University of Cincinnati",120.9686833,24.8066333
+1203,Mortimer Zuckerman,2.7,United States,"real estate, media",1174,83.0,United States,Divorced,2.0,True,LLM," Harvard University; Bachelor of Arts/Science, McGill University; Master of Business Administration, University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+1204,Brian Acton,2.6,United States,WhatsApp,1205,49.0,United States,Married,1.0,True,Bachelor of Arts/Science, Stanford University,-122.1598465,37.4443293
+1209,Guilherme Benchimol,2.6,Brazil,financial services,1205,44.0,Brazil,Single,2.0,True,Bachelor of Arts/Economics, Universidade Federal do Rio de Janeiro,-43.2093727,-22.9110137
+1212,Abilio dos Santos Diniz,2.6,Brazil,retail,1205,84.0,Brazil,Married,6.0,False,Bachelor of Arts/Science, Fundacao Getulio Vargas,-46.6333824,-23.5506507
+1220,Brad Kelley,2.6,United States,tobacco,1205,64.0,United States,Married,3.0,True,Diploma," High School; Drop Out, Western Kentucky University",-86.8689419,35.925206
+1225,K.C. Liu,2.6,Taiwan,manufacturing,1205,67.0,Taiwan,Married,2.0,True,Bachelor of Engineering, National Chiao Tung University,121.5636796,25.0375198
+1227,Kalanithi Maran,2.6,India,media,1205,55.0,India,Married,1.0,True,Master of Business Administration, University of Scranton,80.270186,13.0836939
+1228,C. Dean Metropoulos,2.6,United States,investments,1205,75.0,United States,Married,2.0,True,Bachelor of Arts/Science," Babson College; Master of Business Administration, Babson College",-80.4494174,26.6279798
+1230,Daniel Pritzker,2.6,United States,"hotels, investments",1205,61.0,United States,Married,5.0,False,Doctor of Jurisprudence," Northwestern University; Bachelor of Arts/Science, Tufts University",-122.6199638,38.0409144
+1232,Alexey Repik,2.6,Russia,pharmaceuticals,1205,41.0,Russia,Married,3.0,True,Master of Science, The National Research University Higher School of Economics,37.6174943,55.7504461
+1234,Yuri Shefler,2.6,Russia,alcohol,1205,53.0,Russia,Married,4.0,True,Bachelor of Arts/Science, Plekhanov Russian University of Economics,6.1466014,46.2017559
+1236,Stephen Smith,2.6,Canada,finance and investments,1205,69.0,Canada,Married,3.0,True,Bachelor of Science in Engineering, Queens University,-79.3839347,43.6534817
+1237,Dan Snyder,2.6,United States,Washington Redskins,1205,56.0,United States,Married,3.0,True,Drop Out, University of Maryland,-78.83891,39.5675895
+1238,Helmut Sohmen,2.6,Austria,shipping,1205,81.0,Austria,Married,3.0,False,Doctor of Jurisprudence," Southern Methodist University; Bachelor of Arts/Science, University of Vienna",114.1628131,22.2793278
+1239,Tung Chee Hwa,2.6,Hong Kong,shipping,1205,83.0,Hong Kong,Married,3.0,False,Bachelor of Science in Engineering, University of Liverpool,114.1628131,22.2793278
+1242,Evan Williams,2.6,United States,Twitter,1205,49.0,United States,Married,2.0,True,Drop Out, University of Nebraska Lincoln,-122.419906,37.7790262
+1243,Wu Guangming,2.6,China,medical equipment,1205,59.0,China,Married,1.0,True,EMBA, China Europe International Business School,119.6012702,32.0109736
+1248,John Arrillaga,2.5,United States,real estate,1249,84.0,United States,"Widowed, Remarried",2.0,True,Bachelor of Arts/Science, Stanford University,-122.219047,37.3736298
+1249,Carol Jenkins Barnett,2.5,United States,Publix supermarkets,1249,64.0,United States,Married,2.0,False,Bachelor of Arts/Science, Florida Southern College,-81.9498042,28.0394654
+1250,William Berkley,2.5,United States,insurance,1249,74.0,United States,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, New York University",-80.2388468,25.7398164
+1252,Andrei Bokarev,2.5,Russia,"metals, mining",1249,54.0,Russia,Married,1.0,True,Bachelor of Arts/Science, Finance Academy under the Government of the Russian Federation,37.6174943,55.7504461
+1253,Jim Breyer,2.5,United States,venture capital,1249,59.0,United States,Married,3.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Stanford University",-97.74369950000001,30.2711286
+1254,Charles Bronfman,2.5,Canada,liquor,1249,89.0,Canada,"Widowed, Remarried",2.0,False,Bachelor of Arts/Science, McGill University,-73.61036420000001,45.4972159
+1257,Leon G. Cooperman,2.5,United States,hedge funds,1249,78.0,United States,Married,2.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Hunter College",-80.0830984,26.3586885
+1259,Gerald Ford,2.5,United States,banking,1249,76.0,United States,Married,6.0,True,Bachelor of Arts/Science," Southern Methodist University; Doctor of Jurisprudence, Southern Methodist University",-96.7968559,32.7762719
+1261,Mikhail Gutseriev,2.5,Russia,"oil, real estate",1249,63.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Kazakh Technological Institute,37.6174943,55.7504461
+1264,"Jeremy Jacobs, Sr. & family",2.5,United States,food service,1249,81.0,United States,Married,6.0,False,Bachelor of Arts/Science, SUNY Buffalo,-78.6177611,42.7689141
+1267,Lee Hae-jin,2.5,South Korea,Internet,1249,53.0,South Korea,Married,2.0,True,Master of Science," Korea Advanced Institute of Science and Technology; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+1270,Mohamed Mansour,2.5,Egypt,diversified,1249,73.0,Egypt,Married,2.0,True,Master of Business Administration, Auburn University,31.2357257,30.0443879
+1271,Harsh Mariwala,2.5,India,consumer goods,1249,69.0,India,Married,2.0,False,Bachelor of Arts/Science, Bombay University,72.8773928,19.0759899
+1272,Najib Mikati,2.5,Lebanon,telecom,1249,65.0,Lebanon,Married,3.0,True,Bachelor of Arts/Science," American University of Beirut, Lebanon; Master of Business Administration, American University of Beirut, Lebanon",35.47843,33.8959203
+1273,Taha Mikati,2.5,Lebanon,telecom,1249,76.0,Lebanon,Married,3.0,True,Bachelor of Arts/Science," American University of Beirut, Lebanon",35.47843,33.8959203
+1274,Pedro Moreira Salles,2.5,Brazil,"banking, minerals",1249,61.0,Brazil,Married,2.0,False,Bachelor of Arts/Science," University of California, Los Angeles",-46.6333824,-23.5506507
+1277,Nandan Nilekani,2.5,India,software services,1249,65.0,India,Married,2.0,True,Bachelor of Arts/Science, Indian Institute of Technology,77.59129969999999,12.9791198
+1279,Victor Pinchuk,2.5,Ukraine,"steel pipes, diversified",1249,60.0,Ukraine,Married,4.0,True,Doctorate, Dniepropetrovsk Metallurgical Institute,30.5241361,50.4500336
+1281,John Pritzker,2.5,United States,"hotels, investments",1249,67.0,United States,Divorced,3.0,False,Bachelor of Arts/Science, Menlo College,-122.419906,37.7790262
+1282,Rajan Raheja & family,2.5,India,diversified,1249,66.0,India,Married,2.0,False,Bachelor of Arts/Science, Bombay University,72.8773928,19.0759899
+1287,Kavitark Ram Shriram,2.5,United States,"venture capital, Google",1249,64.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Madras,-122.1779927,37.4519671
+1314,Stephen Feinberg,2.4,United States,private equity,1299,61.0,United States,Married,3.0,True,Bachelor of Arts/Science, Princeton University,-74.00601519999999,40.7127281
+1318,Geng Jianming,2.4,China,real estate,1299,58.0,China,Married,1.0,True,Master of Business Administration," Nanyang Technology University; Bachelor of Arts/Science, North China Institute of Astronautic Engineering",116.6997446,39.5128345
+1320,Adi Godrej,2.4,India,consumer goods,1299,79.0,India,Widowed,3.0,False,Bachelor of Arts/Science," Massachusetts Institute of Technology; Master of Science, Massachusetts Institute of Technology",72.8773928,19.0759899
+1321,Jamshyd Godrej,2.4,India,consumer goods,1299,72.0,India,Married,2.0,False,Bachelor of Science in Engineering, Illinois Institute of Technology,72.8773928,19.0759899
+1322,Nadir Godrej,2.4,India,consumer goods,1299,70.0,India,Married,3.0,False,Master of Business Administration," Harvard Business School; Bachelor of Science in Engineering, Massachusetts Institute of Technology; Master of Science in Engineering, Stanford University",72.8773928,19.0759899
+1324,Lawrence Ho,2.4,Hong Kong,casinos,1299,44.0,Hong Kong,Married,1.0,False,Bachelor of Arts/Science, University of Toronto,114.1628131,22.2793278
+1325,Donald Horton,2.4,United States,homebuilding,1299,71.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Central Arkansas,-97.33274590000001,32.753177
+1326,Douglas Hsu,2.4,Taiwan,diversified,1299,78.0,Taiwan,Married,3.0,False,Bachelor of Arts/Science," Notre Dame University; Master of Arts, Notre Dame University",121.5636796,25.0375198
+1330,Gail Miller,2.4,United States,car dealerships,1299,77.0,United States,Married,5.0,True,Drop Out, University of Utah,-111.8867975,40.7596198
+1331,Robert Miller,2.4,United Kingdom,retail,1299,75.0,Canada,Divorced,2.0,True,Bachelor of Arts/Science, Rider University,-73.61036420000001,45.4972159
+1332,Vadim Moshkovich,2.4,Russia,"agriculture, land",1299,54.0,Russia,Married,3.0,True,Bachelor of Arts/Science," Moscow Institute of Radioengineering, Electronics and Automation",37.6174943,55.7504461
+1335,Madhukar Parekh,2.4,India,adhesives,1299,75.0,India,Married,2.0,False,Bachelor of Science in Engineering," Bombay University; Master of Science, University of Wisconsin",72.8773928,19.0759899
+1336,Gregorio Perez Companc & family,2.4,Argentina,oil & gas,1299,85.0,Argentina,Married,7.0,True,Drop Out, High School,-58.4370894,-34.6075682
+1337,Dmitry Pumpyansky,2.4,Russia,steel pipes,1299,57.0,Russia,Married,1.0,True,Master of Science, Ural State Technical University,60.60825,56.839104
+1339,Hussain Sajwani,2.4,United Arab Emirates,real estate,1299,68.0,United Arab Emirates,Married,4.0,True,Bachelor of Arts/Science, University of Washington,55.1885387,25.0742823
+1342,Alice Schwartz,2.4,United States,biotech,1299,94.0,United States,Widowed,2.0,True,Bachelor of Arts/Science," University of California, Berkeley",-122.301411,37.9154056
+1346,William Stone,2.4,United States,software,1299,66.0,United States,Married,3.0,True,Bachelor of Arts/Science, Marquette University,-81.7954666,26.1452817
+1350,Roman Trotsenko,2.4,Russia,"transport, engineering, real estate",1299,50.0,Russia,Married,2.0,True,Master of Laws, Moscow State University,37.6174943,55.7504461
+1351,Donald Trump,2.4,United States,real estate,1299,74.0,United States,Married,5.0,False,Fordham University; Bachelor of Arts/Science, University of Pennsylvania,-80.4494174,26.6279798
+1352,T.Y. Tsai,2.4,Taiwan,finance,1299,68.0,Taiwan,Married,1.0,False,EMBA," National Taiwan University; Bachelor of Arts/Science, Tokai University",121.5636796,25.0375198
+1353,John Tyson,2.4,United States,food processing,1299,67.0,United States,Single,2.0,False,Bachelor of Arts/Science, Southern Methodist University,-94.12881419999999,36.1867442
+1371,Anand Burman,2.3,India,consumer goods,1362,69.0,India,Married,2.0,False,Bachelor of Arts / Science, University of Kansas,77.20900570000001,28.6138954
+1375,Jim Coulter,2.3,United States,private equity,1362,61.0,United States,Married,3.0,True,Bachelor of Arts/Science," Dartmouth College; Master of Business Administration, Stanford University",-122.419906,37.7790262
+1376,"Edward DeBartolo, Jr.",2.3,United States,shopping centers,1362,74.0,United States,Married,3.0,False,Bachelor of Arts/Science, Notre Dame University,-82.458444,27.9477595
+1377,Maria Del Pino,2.3,Spain,construction,1362,65.0,Spain,Married,3.0,False,Bachelor of Arts/Science, IESE Business School,-3.7035825,40.4167047
+1384,Harsh Goenka,2.3,India,diversified,1362,63.0,India,Married,2.0,False,Bachelor of Arts/Science," Calcutta University; Master of Business Administration, International Institute for Management and Development",72.8773928,19.0759899
+1385,Noam Gottesman,2.3,United States,hedge funds,1362,59.0,United States,Married,4.0,True,Bachelor of Arts/Science, Columbia University,-74.00601519999999,40.7127281
+1388,David Hains,2.3,Australia,Investments,1362,90.0,Australia,Widowed,5.0,True,Bachelor of Science in Engineering, University of Melbourne,144.960964,-37.8077694
+1389,Michael Hintze,2.3,Australia,investment,1362,67.0,Australia,Married,4.0,True,Master of Business Administration," Harvard Business School; Master of Science, University of New South Wales; Bachelor of Arts/Science, University of Sydney",-0.1276474,51.5073219
+1396,Baba Kalyani,2.3,India,engineering,1362,72.0,India,Married,1.0,False,Master of Science, Massachusetts Institute of Technology,73.8544541,18.521428
+1398,Mustafa Rahmi Koc,2.3,Turkey,diversified,1362,90.0,Turkey,Divorced,3.0,False,Bachelor of Arts/Science, Johns Hopkins University,28.9651646,41.0096334
+1399,Eiichi Kuriwada,2.3,Japan,package delivery,1362,74.0,Japan,Married,3.0,True,High School Graduate, Arai High School,135.490357,34.6198813
+1406,Alexander Mamut,2.3,Russia,investments,1362,61.0,Russia,Widowed,5.0,True,LLB, Moscow State University,37.6174943,55.7504461
+1407,Daniel Mate,2.3,Spain,"mining, commodities",1362,57.0,Spain,Married,2.0,True,Bachelor of Arts/Science," Universidad Comercial de Deusto; Law Degree, Universidad Comercial de Deusto",8.722207300000001,47.0571976
+1408,Clayton Mathile,2.3,United States,pet food,1362,80.0,United States,Married,5.0,True,Bachelor of Arts/Science, Ohio Northern University,-84.4113366,39.8367207
+1409,Aristotelis Mistakidis,2.3,Greece,"mining, commodities",1362,59.0,Greece,Married,1.0,True,Bachelor of Arts/Science, London School of Economics,8.5539378,47.1486137
+1410,Fernando Roberto Moreira Salles,2.3,Brazil,"banking, minerals",1362,74.0,Brazil,Married,2.0,False,Bachelor of Arts/Science, Fundacao Getulio Vargas,-46.6333824,-23.5506507
+1412,Walther Moreira Salles Junior,2.3,Brazil,"banking, minerals",1362,65.0,Brazil,Married,1.0,False,Bachelor of Arts/Science, University of Southern California,-43.2093727,-22.9110137
+1417,Karl-Johan Persson,2.3,Sweden,H&M,1362,46.0,Sweden,Married,2.0,False,Bachelor of Arts/Science, London Business School,18.0710935,59.3251172
+1419,Stewart Rahr,2.3,United States,drug distribution,1362,75.0,United States,Divorced,2.0,False,Bachelor of Arts/Science, New York University,-74.00601519999999,40.7127281
+1423,Stephan Schmidheiny,2.3,Switzerland,investments,1362,73.0,Switzerland,Married,2.0,False,Doctorate, University of Zurich,8.8043485,47.2142501
+1424,Vijay Shekhar Sharma,2.3,India,financial technology,1362,42.0,India,Married,1.0,True,Bachelor of Science in Engineering, Delhi University,77.2219388,28.6517178
+1429,Ted Turner,2.3,United States,cable television,1362,82.0,United States,Divorced,5.0,False,Bachelor of Arts/Science, Brown University,-84.39026440000001,33.7489924
+1430,Jitendra Virwani,2.3,India,real estate,1362,55.0,India,Married,4.0,False,Bachelor of Commerce, Bangalore University,77.59129969999999,12.9791198
+1431,Arkady Volozh,2.3,Russia,search engine,1362,57.0,Russia,Married,3.0,True,Master of Science, Gubkin Russian State University of Oil and Gas,37.6174943,55.7504461
+1432,Lang Walker,2.3,Australia,real estate,1362,75.0,Australia,Married,3.0,True,Diploma, High School,151.0979607,-33.8641922
+1435,Elaine Wynn,2.3,United States,"casinos, hotels",1362,79.0,United States,Divorced,2.0,True,Bachelor of Arts/Science, George Washington University,-115.148516,36.1672559
+1437,Jerry Yang,2.3,United States,Yahoo,1362,52.0,United States,Married,2.0,True,Bachelor of Arts/Science," Stanford University; Master of Science, Stanford University",-122.1374637,37.3796627
+1442,Kostyantin Zhevago,2.3,Ukraine,mining,1362,47.0,Ukraine,Married,2.0,True,Bachelor of Arts/Science, Kiev State Economic University,30.5241361,50.4500336
+1445,Ramon Ang,2.2,Philippines,Diversified,1444,67.0,Philippines,Married,8.0,True,Bachelor of Engineering, Far Eastern University,120.9809674,14.5907332
+1448,Richard Barton,2.2,United States,Zillow,1444,53.0,United States,Married,3.0,True,Bachelor of Science, Stanford University,-122.3300624,47.6038321
+1449,Edward Bass,2.2,United States,"oil, investments",1444,75.0,United States,Married,1.0,False,Bachelor of Arts/Science, Yale University,-97.33274590000001,32.753177
+1450,Thor Bjorgolfsson,2.2,Iceland,investments,1444,54.0,Iceland,Married,3.0,True,Bachelor of Arts/Science, New York University,-0.1276474,51.5073219
+1452,Bruce Cheng,2.2,Taiwan,electronics,1444,85.0,Taiwan,Married,2.0,True,Bachelor of Arts/Science, National Cheng Kung University,121.5636796,25.0375198
+1453,Chin Jong Hwa,2.2,Taiwan,auto parts,1444,62.0,Taiwan,Married,2.0,True,Diploma, China University of Technology,121.3010003,24.9929995
+1456,K. Dinesh,2.2,India,software services,1444,66.0,India,Married,2.0,True,Master of Science, Bangalore University,77.59129969999999,12.9791198
+1457,"Frank Fertitta, III.",2.2,United States,"casinos, mixed martial arts",1444,59.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Southern California,-115.148516,36.1672559
+1458,Lorenzo Fertitta,2.2,United States,"casinos, mixed martial arts",1444,52.0,United States,Married,3.0,False,Master of Business Administration," Leonard N. Stern School of Business; Bachelor of Arts/Science, U of San Diego",-115.148516,36.1672559
+1460,Serge Godin,2.2,Canada,information technology,1444,71.0,Canada,Married,2.0,True,Master of Business Administration, Laval University,-73.5963951,45.4857329
+1464,Carlos Hank Rhon,2.2,Mexico,banking,1444,73.0,Mexico,Married,3.0,False,Bachelor of Science in Engineering, Universidad Nacional Autonoma de Mexico,-99.1331785,19.4326296
+1469,Randal J. Kirk,2.2,United States,pharmaceuticals,1444,67.0,United States,Married,3.0,True,Bachelor of Arts/Science," Radford; Doctor of Jurisprudence, University of Virginia",-80.0447635,26.5692364
+1470,Leo Koguan,2.2,United States,IT provider,1444,66.0,United States,Divorced,2.0,True,Master," Columbia University; Law Degree, New York Law School",-95.6349463,29.6196787
+1473,Thomas Kwok,2.2,Hong Kong,real estate,1444,69.0,Hong Kong,Married,2.0,False,Bachelor of Engineering," Imperial College London; Master of Business Administration, London Business School",114.1628131,22.2793278
+1475,Jeff Lawson,2.2,United States,software,1444,43.0,United States,Married,2.0,True,Bachelor of Arts/Science, University of Michigan,-122.419906,37.7790262
+1476,Max Levchin,2.2,United States,fintech,1444,45.0,United States,Married,2.0,True,Bachelor of Science, University of Illinois Urbana Champaign,-122.419906,37.7790262
+1480,Liang Xinjun,2.2,China,conglomerate,1444,53.0,China,Married,1.0,True,Bachelor of Arts/Science," Fudan University; Bachelor of Arts/Science, Fudan University",121.4692071,31.2322758
+1483,Scott Lin,2.2,Taiwan,optical components,1444,88.0,Taiwan,Married,2.0,True,Bachelor of Arts/Science, National Chung Hsing University,120.6478282,24.163162
+1486,Rubens Menin Teixeira de Souza,2.2,Brazil,"home building, banking",1444,65.0,Brazil,Married,3.0,True,Bachelor of Arts/Science, Universidade Federal de Minas Gerais,-43.9450948,-19.9227318
+1497,Alberto Siccardi & family,2.2,Switzerland,medical devices,1444,77.0,Switzerland,Married,3.0,True,Master of Business Administration," SDA Bocconi School of Management; Bachelor of Science, University of Turin",8.9520281,46.0050102
+1506,David Walentas,2.2,United States,real estate,1444,82.0,United States,Widowed,1.0,True,Bachelor of Arts/Science, University of Virginia,-74.00601519999999,40.7127281
+1507,Wu Lanlan & family,2.2,China,packaging,1444,47.0,China,Married,2.0,True,Master of Business Administration, Tongji University,114.0543297,22.555454
+1508,Wu Yiling,2.2,China,pharmaceuticals,1444,71.0,China,Married,2.0,True,Medical Doctor," Hebei Medical University; Medical Doctor, Nanjing University of Chinese Medicine",114.5088385,38.0429742
+1509,Xiang Wenbo,2.2,China,manufacturing,1444,58.0,China,Married,1.0,True,Master of Science, Dalian University of Technology,112.9335861,28.2302056
+1522,Ray Davis,2.1,United States,pipelines,1517,79.0,United States,Married,3.0,True,Master of Business Administration, LeTourneau University's School of Business,-96.7968559,32.7762719
+1525,William Fisher,2.1,United States,Gap,1517,64.0,United States,Married,3.0,False,Bachelor of Arts/Science," Princeton University; Master of Business Administration, Stanford University",-122.419906,37.7790262
+1529,Gordon Getty,2.1,United States,Getty Oil,1517,87.0,United States,Widowed,7.0,False,Bachelor of Arts/Science, San Francisco Conservatory of Music,-122.419906,37.7790262
+1540,Bruce Karsh,2.1,United States,private equity,1517,65.0,United States,Married,3.0,True,Bachelor of Arts/Science," Duke University; Doctor of Jurisprudence, University of Virginia",-118.242766,34.0536909
+1542,Dominika Kulczyk,2.1,Poland,diversified,1517,43.0,Poland,Divorced,2.0,False,Master, University of Poznan,21.0067249,52.2319581
+1552,Daniel Lubetzky,2.1,United States,snack bars,1517,52.0,United States,Married,4.0,True,Bachelor of Arts/Science, Trinity University of San Antonio,-74.00601519999999,40.7127281
+1554,Igor Makarov,2.1,Russia,investments,1517,59.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Turkmen State University,-80.19362,25.7741728
+1555,Kishore Mariwala,2.1,India,consumer goods,1517,86.0,India,Married,2.0,False,Bachelor of Science in Engineering," Bombay University; Master of Science in Engineering, Massachusetts Institute of Technology",72.8773928,19.0759899
+1556,Howard Marks,2.1,United States,private equity,1517,75.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-74.00601519999999,40.7127281
+1558,Vincent McMahon,2.1,United States,entertainment,1517,75.0,United States,Married,2.0,True,Bachelor of Arts/Science, East Carolina University,-73.6284598,41.0264862
+1559,David Murdock,2.1,United States,"Dole, real estate",1517,98.0,United States,Widowed,3.0,True,Drop Out, High School,-119.0779359,34.4458248
+1560,Vikas Oberoi,2.1,India,real estate,1517,50.0,India,Married,2.0,False,Bachelor of Arts/Science, Bombay University,72.8773928,19.0759899
+1562,Roger Penske,2.1,United States,cars,1517,84.0,United States,Married,5.0,True,Drop Out, Lehigh University,-83.21131920000001,42.5467012
+1564,Phil Ruffin,2.1,United States,"casinos, real estate",1517,86.0,United States,Married,5.0,True,Drop Out, Wichita State University,-115.148516,36.1672559
+1570,Timur Turlov,2.1,Russia,stock brokerage,1517,33.0,Russia,Married,6.0,True,Bachelor of Science, Moscow State Technical University,76.9457275,43.2363924
+1572,Wang Chou-hsiong,2.1,Taiwan,footwear,1517,80.0,Taiwan,Married,2.0,True,Master of Arts/Science," National Central University; Bachelor of Business Administration, National Taiwan University",120.5245511,23.6990775
+1579,S. Daniel Abraham,2.0,United States,Slim-Fast,1580,96.0,United States,Married,6.0,True,Diploma, High School,-80.4494174,26.6279798
+1581,Roberto Angelini Rossi,2.0,Chile,"forestry, mining",1580,72.0,Chile,Married,4.0,False,Bachelor of Arts/Science, Pontificia Universidad de Chile,-70.65045019999999,-33.4377756
+1583,George Argyros & family,2.0,United States,"real estate, investments",1580,84.0,United States,Married,3.0,True,Bachelor of Arts/Science, Chapman University,-117.9294401,33.6170092
+1593,Glenn Dubin,2.0,United States,hedge funds,1580,64.0,United States,Married,3.0,True,Bachelor of Arts/Science, SUNY Stony Brook,-74.00601519999999,40.7127281
+1598,Kenneth Feld & family,2.0,United States,live entertainment,1580,72.0,United States,Separated,3.0,False,Bachelor of Arts/Science, Boston University,-82.5306527,27.3364347
+1605,Jeffery Hildebrand,2.0,United States,oil,1580,62.0,United States,Married,3.0,True,Bachelor of Arts/Science," The University of Texas at Austin; Master of Science, The University of Texas at Austin",-95.3676974,29.7589382
+1606,J. Tomilson Hill,2.0,United States,investments,1580,72.0,United States,Married,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Harvard University",-74.00601519999999,40.7127281
+1607,Orion Hindawi,2.0,United States,software,1580,41.0,United States,Married,2.0,True,Drop Out," University of California, Berkeley",-122.3300624,47.6038321
+1611,George Joseph,2.0,United States,insurance,1580,99.0,United States,Married,5.0,True,Bachelor of Arts/Science, Harvard University,-118.242766,34.0536909
+1613,Sergei Kolesnikov,2.0,Russia,building materials,1580,49.0,Russia,Married,4.0,True,Master of Science, Moscow Institute of Physics and Technology,37.6174943,55.7504461
+1614,Thomas Lee,2.0,United States,private equity,1580,77.0,United States,Married,5.0,True,Bachelor of Arts/Science, Harvard University,-74.00601519999999,40.7127281
+1623,Craig McCaw,2.0,United States,telecom,1580,71.0,United States,Married,3.0,False,Bachelor of Arts/Science, Stanford University,-122.230124,47.6434321
+1625,Robert Miller,2.0,Canada,electronics components,1580,75.0,Canada,Divorced,2.0,True,Bachelor of Arts/Science, Rider University,-73.61036420000001,45.4972159
+1626,Charles Munger,2.0,United States,Berkshire Hathaway,1580,97.0,United States,Widowed,8.0,True,Doctor of Jurisprudence," Harvard University; Drop Out, University of Michigan",-118.242766,34.0536909
+1628,Jonathan Nelson,2.0,United States,private equity,1580,64.0,United States,"Widowed, Remarried",3.0,True,Bachelor of Arts/Science," Brown University; Master of Business Administration, Harvard University",-71.4128343,41.8239891
+1630,Kevin Plank,2.0,United States,Under Armour,1580,48.0,United States,Married,2.0,True,Master of Business Administration," Robert H. Smith School of Business; Bachelor of Arts/Science, University of Maryland",-76.6271397,39.4289472
+1634,Jennifer Pritzker,2.0,United States,"hotels, investments",1580,70.0,United States,Divorced,3.0,False,Bachelor of Arts/Science, Loyola University Illinois,-87.6244212,41.8755616
+1637,Igor Rybakov,2.0,Russia,building materials,1580,48.0,Russia,Married,4.0,True,Master of Science, Moscow Institute of Physics and Technology,37.6174943,55.7504461
+1641,Thaksin Shinawatra,2.0,Thailand,investments,1580,71.0,Thailand,Divorced,3.0,True,Master of Science, Eastern Kentucky University,55.1885387,25.0742823
+1644,Alexander Svetakov,2.0,Russia,real estate,1580,53.0,Russia,Divorced,4.0,True,Bachelor of Science in Engineering, Moscow Institute of Electronic Technology,37.6174943,55.7504461
+1646,Tang Xiuguo,2.0,China,manufacturing,1580,57.0,China,Married,1.0,True,Bachelor of Arts/Science, Central South University,112.9335861,28.2302056
+1661,William Young,2.0,United States,plastics,1580,80.0,United States,Married,4.0,True,Bachelor of Science in Engineering, University of Detroit Mercy,-83.613055,42.2410562
+1664,Aziz Akhannouch & family,1.9,Morocco,"petroleum, diversified",1664,60.0,Morocco,Married,3.0,False,Master of Business Administration, Universite de Sherbrooke,-7.6187768,33.5950627
+1665,Joao Alves de Queiroz Filho,1.9,Brazil,pharmaceuticals,1664,68.0,Brazil,Divorced,3.0,True,Bachelor of Arts/Science, Faculdade Dom Pedro II,-46.6333824,-23.5506507
+1674,Chen Tei-fu,1.9,Taiwan,herbal products,1664,73.0,Taiwan,Married,5.0,True,Drop Out," Brigham Young University; Bachelor of Arts/Science, Kaohsiung Medical University",-118.242766,34.0536909
+1675,Chung Yong-jin,1.9,South Korea,retail,1664,52.0,South Korea,Married,4.0,False,Bachelor of Arts/Science, Brown University,126.9782914,37.5666791
+1676,Thierry Cruanes,1.9,United States,software,1664,53.0,United States,Married,2.0,True,Master of Science," Université de Caen Normandie; Ph.D, University Paris VI - Pierre et Marie Curie",-122.3330573,37.496904
+1677,Benoit Dageville,1.9,United States,software,1664,54.0,United States,Married,2.0,True,Bachelor of Science," Université de Paris VI; Master of Science, Université de Paris VI; Ph.D, Université de Paris VI",-122.2618236,37.504936
+1679,James Dinan,1.9,United States,hedge funds,1664,61.0,United States,Married,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",-73.5712374,41.3348169
+1681,Bulent Eczacibasi,1.9,Turkey,"pharmaceuticals, diversified",1664,71.0,Turkey,Married,2.0,False,Bachelor of Arts/Science," Imperial College London; Master of Science, Massachusetts Institute of Technology",28.9651646,41.0096334
+1684,Robert Fisher,1.9,United States,Gap,1664,67.0,United States,Married,3.0,False,Bachelor of Arts/Science," Princeton University; Master of Business Administration, Stanford University",-122.419906,37.7790262
+1688,Sanjiv Goenka,1.9,India,diversified,1664,60.0,India,Married,2.0,False,Bachelor of Arts/Science, Calcutta University,88.36388150000001,22.5726723
+1692,Bill Haslam,1.9,United States,gas stations,1664,62.0,United States,Married,3.0,False,Bachelor of Arts/Science, Emory University,-83.92102610000001,35.9603948
+1693,Roberto Hernandez Ramirez,1.9,Mexico,banking,1664,79.0,Mexico,Married,3.0,True,Bachelor of Arts/Science, Ibero-American University,-99.1331785,19.4326296
+1695,Stanley Hubbard,1.9,United States,DirecTV,1664,87.0,United States,Married,5.0,False,Bachelor of Arts/Science, University of Minnesota,-93.1015026,44.9504037
+1697,Hamilton James,1.9,United States,investments,1664,69.0,United States,Married,3.0,True,Bachelor of Arts/Science," Harvard University; Master of Business Administration, Harvard University",-74.00601519999999,40.7127281
+1701,Michael Kim,1.9,United States,private equity,1664,57.0,United States,Married,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Haverford College",126.9782914,37.5666791
+1704,Christopher Kwok,1.9,Hong Kong,real estate,1664,35.0,Hong Kong,Married,1.0,False,Bachelor of Arts/Science," Harvard University; Master of Business Administration, Stanford Graduate School of Business",114.1628131,22.2793278
+1714,Anand Mahindra,1.9,India,diversified,1664,66.0,India,Married,2.0,False,Bachelor of Arts/Science," Harvard University; Master of Business Administration, Harvard University",72.8773928,19.0759899
+1716,Lachhman Das Mittal,1.9,India,tractors,1664,90.0,India,Married,5.0,False,Bachelor of Arts/Science," Punjab University; Master of Arts, Punjab University",77.2219388,28.6517178
+1717,Ermirio Pereira de Moraes,1.9,Brazil,diversified,1664,88.0,Brazil,Married,7.0,False,Bachelor of Science in Engineering, University of Tulsa,-46.6333824,-23.5506507
+1718,Maria Helena Moraes Scripilliti,1.9,Brazil,diversified,1664,90.0,Brazil,Widowed,4.0,False,High School Graduate, High School,-46.6333824,-23.5506507
+1722,Larry Robbins,1.9,United States,hedge funds,1664,51.0,United States,Married,4.0,True,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-73.9281139,40.94855
+1723,Brian Roberts,1.9,United States,Comcast,1664,61.0,United States,Married,3.0,False,Bachelor of Arts/Science," University of Pennsylvania, The Wharton School",-75.16352620000001,39.9527237
+1727,Frank Slootman,1.9,United States,software,1664,62.0,United States,Married,2.0,True,Bachelor of Science," Erasmus University Rotterdam, The Netherlands; Master of Science, Erasmus University Rotterdam, The Netherlands",-121.8746789,37.6624312
+1728,Sergio Stevanato,1.9,Italy,medical packaging,1664,78.0,Italy,Married,2.0,True,Law Degree, University of Ferrara,12.3345898,45.4371908
+1729,Kevin Systrom,1.9,United States,Instagram,1664,37.0,United States,Married,1.0,True,Bachelor of Arts/Science, Stanford University,-122.419906,37.7790262
+1733,Todd Wagner,1.9,United States,online media,1664,60.0,United States,Married,1.0,True,Bachelor of Arts/Science," Indiana University; Doctor of Jurisprudence, University of Virginia",-96.7968559,32.7762719
+1741,Gordon Wu,1.9,Hong Kong,real estate,1664,85.0,Hong Kong,Married,4.0,True,Bachelor of Arts/Science," Princeton University; Master, Princeton University",114.1628131,22.2793278
+1746,Zhu Xingliang,1.9,China,construction,1664,62.0,China,Married,1.0,True,Bachelor of Arts/Science, Suzhou University of Science and Technology,120.5810725,31.3016935
+1748,Anita Zucker,1.9,United States,chemicals,1664,69.0,United States,Widowed,3.0,False,Bachelor of Arts/Science," University of Florida; Master of Arts, University of North Florida",-79.9402728,32.7876012
+1750,Leslie Alexander,1.8,United States,sports team,1750,77.0,United States,Divorced,1.0,True,Bachelor of Arts/Science," New York University; Doctor of Jurisprudence, Western State University College of Law",-95.3676974,29.7589382
+1752,Roman Avdeev,1.8,Russia,"banking, development",1750,53.0,Russia,Married,23.0,True,Bachelor of Science in Engineering, Moscow International University of Business and Information Technologies,37.6174943,55.7504461
+1753,Arun Bharat Ram,1.8,India,chemicals,1750,80.0,India,Widowed,3.0,False,Bachelor of Science in Engineering, University of Michigan,77.2219388,28.6517178
+1756,Vladimir Bogdanov,1.8,Russia,oil,1750,69.0,Russia,Married,1.0,True,Bachelor of Arts/Science, Tyumen Industrial Institute,73.3964,61.254032
+1763,Jamie Dimon,1.8,United States,banking,1750,65.0,United States,Married,3.0,True,Master of Business Administration, Harvard Business School,-74.00601519999999,40.7127281
+1764,Robert Duggan,1.8,United States,pharmaceuticals,1750,77.0,United States,Married,8.0,True,Drop Out," University of California, Los Angeles; Drop Out, University of California, Santa Barbara",-82.8001026,27.9658533
+1769,James France,1.8,United States,"Nascar, racing",1750,76.0,United States,Married,3.0,False,Bachelor of Arts/Science, Florida Southern College,-81.0228331,29.2108147
+1770,Mario Gabelli,1.8,United States,money management,1750,79.0,United States,Married,4.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Fordham University",-73.6284598,41.0264862
+1772,Rolf Gerling,1.8,Germany,insurance,1750,66.0,Germany,Married,3.0,False,Bachelor of Arts/Science, University of Zurich,8.5410422,47.3744489
+1780,Thomas James,1.8,United States,finance,1750,78.0,United States,Married,2.0,False,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Harvard University; Doctor of Jurisprudence, Stetson University",-82.66950850000001,27.7703796
+1781,Stephen Jarislowsky,1.8,Canada,money management,1750,95.0,Canada,Married,3.0,True,Bachelor of Arts/Science," Cornell University; Master of Business Administration, Harvard University; Master of Arts, The University of Chicago",-73.61036420000001,45.4972159
+1785,Ihor Kolomoyskyy,1.8,Ukraine,"banking, investments",1750,58.0,Ukraine,Married,2.0,True,Master of Science, Dniepropetrovsk Metallurgical Institute,30.5241361,50.4500336
+1786,Marc Lasry,1.8,United States,hedge funds,1750,60.0,United States,Married,5.0,True,Bachelor of Arts/Science," Clark University; Doctor of Jurisprudence, New York Law School",-74.00601519999999,40.7127281
+1787,Lee Boo-jin,1.8,South Korea,Samsung,1750,50.0,South Korea,Divorced,1.0,False,Bachelor of Arts/Science, Yonsei University,126.9782914,37.5666791
+1788,Lei Jufang,1.8,China,pharmaceuticals,1750,68.0,China,Married,1.0,True,Bachelor of Arts/Science, Xi'an Jiaotong University,103.8318566,36.0620781
+1791,Vincent Lo,1.8,Hong Kong,real estate,1750,72.0,Hong Kong,Married,2.0,False,Bachelor of Arts/Economics, University of New South Wales,114.1628131,22.2793278
+1803,Husnu Ozyegin,1.8,Turkey,"finance, diversified",1750,76.0,Turkey,Married,2.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, Oregon State University",28.9651646,41.0096334
+1811,Leonard Schleifer,1.8,United States,pharmaceuticals,1750,68.0,United States,Married,3.0,True,Bachelor of Arts/Science," Cornell University; Medical Doctor, University of Virginia; Ph.D, University of Virginia",-73.86732929999999,41.065586
+1816,Sun Guangxin,1.8,China,diversified,1750,58.0,China,Married,2.0,True,Master of Arts," Chinese Academy of Social Sciences; EMBA, Tianjin University",87.319461,43.419754
+1817,Henry Swieca,1.8,United States,hedge funds,1750,63.0,United States,Married,4.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, SUNY Stony Brook",-74.00601519999999,40.7127281
+1820,Martin Viessmann,1.8,Germany,heating and cooling equipment,1750,67.0,Germany,Married,2.0,False,Diploma, University of Erlangen,7.9982619,50.2679502
+1823,Kanye West,1.8,United States,"music, sneakers",1750,43.0,United States,Divorced,4.0,True,Drop Out, Chicago State University,-118.242766,34.0536909
+1832,Chirayu Amin,1.7,India,pharmaceuticals,1833,74.0,India,Married,3.0,False,Bachelor of Arts/Science," Baroda University; Master of Business Administration, Seton Hall University",73.1942567,22.2973142
+1833,Marc Andreessen,1.7,United States,venture capital investing,1833,49.0,United States,Married,1.0,True,Bachelor of Arts/Science," University of Illinois, Urbana-Champaign",-122.2058272,37.453773
+1834,Vasily Anisimov,1.7,Russia,real estate,1833,69.0,Russia,Divorced,4.0,True,Bachelor of Arts/Science, Alma-Ata Institute of National Economy,37.6174943,55.7504461
+1840,Peter Buck,1.7,United States,Subway sandwich shops,1833,90.0,United States,Widowed,1.0,True,Bachelor of Arts/Science," Bowdoin College; Doctorate, Columbia University; Master of Arts, Columbia University",-73.47529059999999,41.39508
+1857,Henry Engelhardt,1.7,United States,insurance,1833,63.0,United States,Married,4.0,True,Master of Business Administration," INSEAD; Bachelor of Arts/Science, University of Michigan",-3.1791934,51.4816546
+1860,Paul Foster,1.7,United States,oil refining,1833,63.0,United States,Married,2.0,True,Bachelor of Arts/Science, Baylor University,-106.464634,31.7754152
+1862,Robert Friedland,1.7,United States,mining,1833,70.0,United States,Married,3.0,True,Bachelor of Arts/Science, Reed College,103.8194992,1.357107
+1864,G. Gnanalingam,1.7,Malaysia,ports,1833,76.0,Malaysia,Married,3.0,True,Master," Harvard Business School; Bachelor of Arts/Science, University of Malaya",101.6942371,3.1516964
+1865,Christopher Goldsbury,1.7,United States,salsa,1833,78.0,United States,Married,1.0,False,Bachelor of Arts/Science, Trinity University,-98.49514050000001,29.4246002
+1866,Said Gutseriev,1.7,Russia,"oil, retail",1833,33.0,Russia,Married,1.0,True,Bachelor of Science," University of Oxford; Master, University of Plymouth (UK)",37.6174943,55.7504461
+1868,John Hancock,1.7,Australia,mining,1833,45.0,Australia,Married,3.0,False,Master of Business Administration, University of Notre Dame,-122.9543022,50.1171903
+1871,Anurang Jain,1.7,India,auto parts,1833,59.0,India,Married,2.0,True,Master of Business Administration, University of Pittsburgh,75.3390241,19.877263
+1872,Devendra Jain,1.7,India,chemicals,1833,92.0,India,Married,4.0,False,Bachelor of Arts/Science, Delhi University,77.2219388,28.6517178
+1876,Sergei Katsiev,1.7,Russia,"retail, wholesale",1833,63.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Moscow Institute of International Relations,37.6174943,55.7504461
+1877,Kim Sang-yeol,1.7,South Korea,construction,1833,60.0,South Korea,Married,2.0,True,Bachelor of Arts/Science, Chosun University,126.9782914,37.5666791
+1878,Kagemasa Kozuki,1.7,Japan,video games,1833,80.0,Japan,Married,2.0,True,Bachelor of Arts/Science, Kansai University,139.7594549,35.6828387
+1879,Edward Lampert,1.7,United States,Sears,1833,58.0,United States,Married,3.0,True,Bachelor of Arts/Science, Yale University,-80.13530059999999,25.7929198
+1880,Lee Joon-ho,1.7,South Korea,online games,1833,56.0,South Korea,Married,2.0,True,Doctorate," Korea Advanced Institute of Science and Technology; Master of Science, Korea Advanced Institute of Science and Technology; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+1881,Lee Seo-hyun,1.7,South Korea,Samsung,1833,47.0,South Korea,Married,4.0,False,Bachelor of Arts/Science, Parsons School of Design,126.9782914,37.5666791
+1882,Jimmy John Liautaud,1.7,United States,sandwich chain,1833,57.0,United States,Married,3.0,True,High School Graduate, High School,-80.4677741,25.091338
+1889,Todd McKinnon,1.7,United States,software,1833,49.0,United States,Married,2.0,True,Bachelor of Science," Brigham Young University; Master of Science, California Polytechnic State University",-122.419906,37.7790262
+1890,Shalom Meckenzie,1.7,Israel,★,1833,44.0,Israel,Married,4.0,True,Diploma, High School,34.7505283,32.0154565
+1891,Gary Michelson,1.7,United States,medical patents,1833,72.0,United States,Married,1.0,True,Medical Doctor," Hahnemann Medical College; Bachelor of Arts/Science, Temple University",-118.242766,34.0536909
+1893,Jorge Perez,1.7,United States,real estate,1833,71.0,United States,Married,4.0,True,Bachelor of Arts/Science," CW Post College; Master of Science, University of Michigan",-80.19362,25.7741728
+1895,Nicholas Pritzker,1.7,United States,"hotels, investments",1833,77.0,United States,Married,4.0,False,Bachelor of Arts/Science," Lake Forest College; Doctor of Jurisprudence, University of Chicago",-122.6985975,38.0615885
+1896,Theodore Rachmat,1.7,Indonesia,diversified,1833,77.0,Indonesia,Married,3.0,False,Bachelor of Arts/Science, Bandung Institute of Technology,106.827183,-6.1753942
+1897,Megdet Rahimkulov & family,1.7,Russia,investments,1833,75.0,Russia,Married,3.0,True,Bachelor of Arts/Science, State University of Management,37.6174943,55.7504461
+1898,Jerry Reinsdorf,1.7,United States,sports teams,1833,85.0,United States,Married,4.0,True,Bachelor of Arts/Science," George Washington University; Law Degree, Northwestern University",-87.6244212,41.8755616
+1903,Sheryl Sandberg,1.7,United States,Facebook,1833,51.0,United States,Engaged,2.0,True,Master of Business Administration," Harvard Business School; Bachelor of Arts/Science, Harvard University",-122.1779927,37.4519671
+1904,Andres Santo Domingo,1.7,United States,beer,1833,42.0,United States,Married,2.0,False,Bachelor of Arts/Science, Brown University,-74.00601519999999,40.7127281
+1905,Ivan Savvidis,1.7,Russia,agribusiness,1833,62.0,Russia,Married,2.0,True,Master of Science, Rostov Institute of National Economy,39.7114196,47.2213858
+1906,Shao Genhuo,1.7,China,agribusiness,1833,55.0,China,Married,2.0,True,Doctorate," China Agricultural University; Bachelor of Arts/Science, Zhejiang University",116.3912757,39.906217
+1908,Rajju Shroff,1.7,India,agrochemicals,1833,87.0,India,Married,3.0,True,Bachelor of Arts/Science, Bombay University,72.8773928,19.0759899
+1916,Pavel Tykac,1.7,Czechia,coal mines,1833,56.0,Czechia,Married,4.0,True,Master," Czech Technical University, Prague",14.4212535,50.0874654
+1917,Rufino Vigil Gonzalez,1.7,Mexico,steel,1833,72.0,Mexico,Married,4.0,True,Bachelor of Arts/Science, Universidad Iberoamericana,-99.1331785,19.4326296
+1920,Charlotte Colket Weber,1.7,United States,Campbell Soup,1833,78.0,United States,Divorced,4.0,False,Bachelor of Arts/Science, University of Paris,-80.13991799999999,27.080492
+1929,Zhang Guiping & family,1.7,China,real estate,1833,69.0,China,Married,1.0,True,Bachelor of Arts/Science, South East University,118.7916458,32.0609736
+1937,Amit Burman,1.6,India,consumer goods,1931,51.0,India,Married,2.0,False,Master of Science," Columbia University; Master of Business Administration, Judge Business School; Bachelor of Arts/Science, Lehigh University",77.2219388,28.6517178
+1942,Chen Yung-tai,1.6,Taiwan,real estate,1931,85.0,Taiwan,Married,6.0,True,Bachelor of Arts/Science, National Chung Hsing University,121.5636796,25.0375198
+1963,Niranjan Hiranandani,1.6,India,real estate,1931,71.0,India,Married,2.0,True,Bachelor of Arts/Science, University of Bombay,72.8773928,19.0759899
+1964,Ho Hung Anh,1.6,Vietnam,"consumer products, banking",1931,50.0,Vietnam,Married,3.0,True,Bachelor of Engineering, Kiev Polytechnic Institute,105.8544441,21.0294498
+1968,Michael Jordan,1.6,United States,"Charlotte Hornets, endorsements",1931,58.0,United States,Married,5.0,True,Bachelor of Arts/Science," University of North Carolina, Chapel Hill",-80.0942087,26.9342246
+1970,Alexander Klyachin,1.6,Russia,real estate,1931,53.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Moscow State University,37.6174943,55.7504461
+1971,William Koch,1.6,United States,"oil, investments",1931,81.0,United States,Married,6.0,False,Bachelor of Arts/Science," Massachusetts Institute of Technology; Doctorate, Massachusetts Institute of Technology",-80.4494174,26.6279798
+1973,Robert Langer,1.6,United States,biotech,1931,72.0,United States,Married,3.0,True,Bachelor of Engineering," Cornell University; Doctorate, Massachusetts Institute of Technology",-71.0582912,42.3602534
+1975,Michael Lee-Chin,1.6,Canada,mutual funds,1931,70.0,Canada,Divorced,5.0,True,Bachelor of Arts/Science, McMaster University,-79.7966835,43.3248924
+1982,Gary Magness,1.6,United States,"cable TV, investments",1931,67.0,United States,Married,3.0,False,Drop Out, Western State College of Colorado,-104.9848623,39.7392364
+1984,David Mindus,1.6,Sweden,real estate,1931,49.0,Sweden,Married,1.0,True,Master of Laws, Stockholm University,18.0710935,59.3251172
+1994,Nelson Peltz,1.6,United States,investments,1931,78.0,United States,Married,10.0,True,Drop Out," University of Pennsylvania, The Wharton School",-73.6424876,41.1945405
+1995,Petro Poroshenko,1.6,Ukraine,confectionery,1931,55.0,Ukraine,Married,4.0,True,Bachelor of Arts/Science, Kiev State University,30.5241361,50.4500336
+2000,Subhash Runwal,1.6,India,real estate,1931,77.0,India,Married,3.0,True,Chartered Accountant," Institute of Chartered Accountants of India; B.Com, Pune University",72.8773928,19.0759899
+2002,Bhadresh Shah,1.6,India,engineering,1931,69.0,India,Married,2.0,True,Bachelor of Science in Engineering, Indian Institute of Technology,72.5797068,23.0216238
+2005,Leonid Simanovsky,1.6,Russia,investments,1931,71.0,Russia,Married,1.0,True,Bachelor of Arts/Science, Kuibyshev Planning Institute,37.6174943,55.7504461
+2006,Peter Sperling,1.6,United States,education,1931,61.0,United States,Married,2.0,False,Bachelor of Arts/Science," University of California, Santa Barbara; Master of Business Administration, University of Phoenix",-112.0741417,33.4484367
+2007,Sun Weijie,1.6,China,oilfield equipment,1931,57.0,China,Married,1.0,True,Bachelor of Arts/Science, Shandong Institute of Business and Technology,121.4425255,37.461928
+2014,Shigefumi Wada,1.6,Japan,software,1931,68.0,Japan,Married,2.0,True,Bachelor of Arts/Science, Rikkyo University,139.664468,35.718123
+2028,David Zalik,1.6,United States,financial technology,1931,47.0,United States,Married,3.0,True,Drop Out, Auburn University,-84.39026440000001,33.7489924
+2036,"Herbert Allen, Jr. & family",1.5,United States,investment banking,2035,81.0,United States,Divorced,4.0,False,Bachelor of Arts/Science, Williams College,-74.00601519999999,40.7127281
+2042,Ron Burkle,1.5,United States,"supermarkets, investments",2035,68.0,United States,Divorced,3.0,True,Diploma, High School,-0.1276474,51.5073219
+2044,Steve Case,1.5,United States,AOL,2035,62.0,United States,Married,5.0,True,Bachelor of Arts/Science, Williams College,-77.1776327,38.9342888
+2045,Safra Catz,1.5,United States,software,2035,59.0,United States,Married,2.0,True,Doctor of Jurisprudence," University of Pennsylvania; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",-122.232523,37.4863239
+2052,Alberto Cortina,1.5,Spain,investments,2035,75.0,Spain,Married,4.0,True,Doctor of Jurisprudence, Universidad Complutense de Madrid,-3.7035825,40.4167047
+2053,Bharat Desai,1.5,United States,IT consulting,2035,68.0,United States,Married,2.0,True,Bachelor of Arts/Science," Indian Institute of Technology, Bombay; Master of Business Administration, University of Michigan, Stephen M. Ross School of Business",-80.14003649999999,25.7598373
+2055,John Farber,1.5,United States,chemicals,2035,95.0,United States,Married,1.0,True,Ph.D, Polytechnic Institute,-74.00601519999999,40.7127281
+2056,Gary Fegel,1.5,Switzerland,"commodities, investments",2035,47.0,Switzerland,Married,3.0,True,Master of Business Administration, University of St. Gallen,8.5410422,47.3744489
+2057,John Foley,1.5,United States,Peloton,2035,50.0,United States,Married,2.0,True,Bachelor of Science in Engineering," Georgia Tech; Master of Business Administration, Harvard Business School",-74.00601519999999,40.7127281
+2059,Alan Gerry,1.5,United States,cable television,2035,92.0,United States,Married,3.0,True,Drop Out, High School,-74.7465527,41.8012002
+2061,Bill Gross,1.5,United States,investments,2035,77.0,United States,Divorced,3.0,True,Master of Business Administration," Anderson School of Management; Bachelor of Arts/Science, Duke University",-117.785366,33.5426975
+2062,Sue Gross,1.5,United States,investments,2035,71.0,United States,Divorced,1.0,False,Associate in Arts/Science, Saddleback College,-117.785366,33.5426975
+2069,Kim Jun-ki,1.5,South Korea,diversified,2035,76.0,South Korea,Married,3.0,True,Bachelor of Arts/Economics, Korea University,126.9782914,37.5666791
+2071,Pyotr Kondrashev,1.5,Russia,investments,2035,71.0,Russia,Married,2.0,True,Bachelor of Science in Engineering, Magnitogorsk Mining and Metallurgical Institute,16.3725042,48.2083537
+2072,Raymond Kwok,1.5,Hong Kong,real estate,2035,68.0,Hong Kong,Married,3.0,False,Master of Arts," Cambridge University; Master of Business Administration, Harvard Business School",114.1628131,22.2793278
+2077,Gary Lauder,1.5,United States,Estée Lauder,2035,59.0,United States,Married,2.0,False,Master of Business Administration," Stanford Business School; Bachelor of Arts/Science, University of Pennsylvania",-122.2058272,37.453773
+2078,James Leininger,1.5,United States,medical products,2035,76.0,United States,Married,4.0,True,Bachelor of Arts/Science," Indiana University; Medical Doctor, Indiana University",-98.49514050000001,29.4246002
+2081,Vladimir Litvinenko,1.5,Russia,chemical industry,2035,65.0,Russia,Married,1.0,True,Master of Science, Saint Petersburg Mining University,30.316229,59.938732
+2085,Youssef Mansour,1.5,Egypt,diversified,2035,75.0,Egypt,Married,5.0,True,Master of Business Administration," Auburn University; Bachelor of Science in Engineering, North Carolina State University",31.2357257,30.0443879
+2087,Strive Masiyiwa,1.5,Zimbabwe,telecom,2035,60.0,Zimbabwe,Married,6.0,True,Bachelor of Engineering, University of Wales,-0.1276474,51.5073219
+2088,Billy Joe (Red) McCombs,1.5,United States,"real estate, oil, cars, sports",2035,93.0,United States,Married,3.0,True,Drop Out, The University of Texas at Austin,-98.49514050000001,29.4246002
+2097,Mark Pincus,1.5,United States,online games,2035,55.0,United States,Divorced,3.0,True,Master of Business Administration," Harvard University; Bachelor of Arts/Science, University of Pennsylvania",-122.419906,37.7790262
+2098,Michael Polsky,1.5,United States,Electric power,2035,72.0,United States,Married,4.0,True,Master of Business Administration, University of Chicago Booth School of Business,-87.6244212,41.8755616
+2101,Satish Reddy,1.5,India,pharmaceuticals,2035,53.0,India,Married,2.0,False,Bachelor of Science in Engineering," Osmania University; Master of Science, Purdue University",78.4740613,17.360589
+2103,Helena Revoredo,1.5,Spain,security services,2035,74.0,Spain,Widowed,4.0,False,Bachelor of Arts/Science," Catholic University of Buenos Aires; Master of Business Administration, IESE Business School",-3.7035825,40.4167047
+2105,Vinod Saraf,1.5,India,chemicals,2035,68.0,India,Married,2.0,True,Master of Business Administration, Birla Institute of Technology and Science (BITS) - Pilani,72.8773928,19.0759899
+2106,Fayez Sarofim,1.5,United States,money management,2035,92.0,United States,Married,5.0,False,Master of Business Administration," Harvard University; Bachelor of Arts/Science, University of California, Berkeley",-95.3676974,29.7589382
+2108,Basudeo Singh,1.5,India,pharmaceuticals,2035,80.0,India,Married,3.0,True,Master of Arts, Patna University,72.8773928,19.0759899
+2109,Ryan Smith,1.5,United States,cloud computing,2035,42.0,United States,Married,5.0,True,Bachelor of Science, Brigham Young University,-111.6585337,40.2338438
+2116,Kenny Troutt,1.5,United States,telecom,2035,73.0,United States,Married,3.0,True,Bachelor of Arts/Science, Southern Illinois University,-96.7968559,32.7762719
+2117,John Van Lieshout,1.5,Australia,real estate,2035,75.0,Australia,Married,3.0,True,Diploma, High School,153.1113098,-27.5909632
+2118,Radha Vembu,1.5,India,business software,2035,48.0,India,Married,1.0,False,Bachelor of Arts/Economics, Indian Institute of Technology Madras (IIT Madras),80.270186,13.0836939
+2125,Thomas Wu,1.5,Taiwan,finance,2035,71.0,Taiwan,Married,2.0,False,Bachelor of Arts/Science," Fu Jen Catholic University; Master of Business Administration, University of California, Los Angeles",121.5636796,25.0375198
+2134,Yuan Zhimin & family,1.5,China,plastics,2035,60.0,China,Married,2.0,True,Master of Science, Bejing Insitute of Technology,113.2592945,23.1301964
+2140,Anu Aga,1.4,India,engineering,2141,78.0,India,Widowed,1.0,False,Bachelor of Arts/Science, Bombay University,73.8544541,18.521428
+2142,Alberto Alcocer,1.4,Spain,investments,2141,78.0,Spain,Married,5.0,True,Doctor of Jurisprudence, Universidad Complutense de Madrid,-3.7035825,40.4167047
+2145,Mori Arkin,1.4,Israel,pharmaceuticals,2141,68.0,Israel,Married,3.0,True,Bachelor of Arts/Science, Tel Aviv University,34.8081804,32.1739444
+2146,Clifford Asness,1.4,United States,money management,2141,54.0,United States,Married,4.0,True,Doctorate," University of Chicago; Master of Business Administration, University of Chicago; Bachelor of Arts/Science, University of Pennsylvania; Bachelor of Arts/Science, University of Pennsylvania, The Wharton School",-73.6284598,41.0264862
+2149,Louis Bacon,1.4,United States,hedge funds,2141,64.0,United States,Married,7.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Middlebury College",-73.4934796,40.7501803
+2153,Zadik Bino & family,1.4,Israel,"banking, oil",2141,77.0,Israel,Married,3.0,True,Diploma, High School,34.7818064,32.0852997
+2162,Fernando Chico Pardo,1.4,Mexico,airport management,2141,69.0,Mexico,Married,3.0,True,Master of Business Administration," Kellogg School of Management; Bachelor of Business Administration, Universidad Iberoamericana",-99.1331785,19.4326296
+2164,Jim Crane,1.4,United States,"logistics, baseball",2141,67.0,United States,Married,3.0,True,Bachelor of Arts/Science, Central Missouri State University,-95.3676974,29.7589382
+2166,Darwin Deason,1.4,United States,software,2141,80.0,United States,Divorced,3.0,True,Diploma, High School,-96.7968559,32.7762719
+2169,Thomas Duff,1.4,United States,"tires, diversified",2141,64.0,United States,Divorced,2.0,True,Bachelor of Arts/Science, University of Southern Mississippi,-89.29033920000001,31.3271189
+2170,Keith Dunleavy & family,1.4,United States,health IT,2141,51.0,United States,Married,4.0,True,Bachelor of Arts/Science," Dartmouth College; Medical Doctor, Harvard University",-76.492786,38.9786401
+2172,Lloyd Frink,1.4,United States,Zillow,2141,56.0,United States,Married,2.0,True,Bachelor of Arts/Science, Stanford University,-122.3300624,47.6038321
+2174,Jayme Garfinkel,1.4,Brazil,insurance,2141,75.0,Brazil,Divorced,2.0,False,Master of Business Administration," Fundacao Getulio Vargas; Bachelor of Arts/Science, Universidade de Sao Paulo",-46.6333824,-23.5506507
+2188,Huang Hongyun & family,1.4,China,real estate,2141,54.0,China,Married,2.0,True,EMBA, Chongqing Universtiy,106.5478767,29.5647398
+2199,Andrei Kosogov,1.4,Russia,Banking,2141,60.0,Russia,Married,3.0,True,Bachelor of Science in Engineering, Moscow Power Engineering Institute,37.6174943,55.7504461
+2200,Guilherme Peirao Leal,1.4,Brazil,cosmetics,2141,71.0,Brazil,Divorced,5.0,True,Bachelor of Arts/Science, Universidade de Sao Paulo,-46.6333824,-23.5506507
+2207,Anatoly Lomakin,1.4,Russia,investments,2141,68.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Moscow Institute of International Relations,37.6174943,55.7504461
+2212,Terence (Terry) Matthews,1.4,Canada,telecom,2141,78.0,Canada,Married,4.0,True,Doctorate," Carleton College; Bachelor of Arts/Science, University of Wales",-75.690308,45.421106
+2217,Kerr Neilson,1.4,Australia,Investments,2141,71.0,Australia,Divorced,2.0,True,Bachelor of Arts/Science, University of Cape Town,151.0979607,-33.8641922
+2218,Vadim Novinsky,1.4,Ukraine,steel,2141,57.0,Ukraine,Married,3.0,True,Bachelor of Arts/Science, Academy of Civil Aviation (Leningrad),30.5241361,50.4500336
+2219,John Ocampo,1.4,United States,semiconductors,2141,62.0,United States,Married,3.0,True,Bachelor of Engineering, Santa Clara University,-122.116578,37.3790629
+2226,Oliver Samwer,1.4,Germany,tech investments,2141,47.0,Germany,Married,3.0,True,Bachelor of Arts/Science, WHU - Otto Beisheim School of Management,11.5753822,48.1371079
+2227,Martin Selig,1.4,United States,real estate,2141,83.0,United States,Married,3.0,True,Bachelor of Arts/Science, University of Washington,-122.3300624,47.6038321
+2231,Michael Spencer,1.4,United Kingdom,stock exchange,2141,65.0,United Kingdom,Married,3.0,True,Bachelor of Arts/Science, Oxford University,0.9960257,52.1627718
+2233,Thomas Steyer,1.4,United States,hedge funds,2141,63.0,United States,Separated,4.0,True,Master of Business Administration," Stanford University; Bachelor of Arts/Science, Yale University",-122.419906,37.7790262
+2238,Jim Thompson,1.4,United States,logistics,2141,81.0,United States,Married,2.0,True,Bachelor of Arts/Science, San Jose State University,114.1628131,22.2793278
+2240,Wilma Tisch,1.4,United States,diversified,2141,93.0,United States,Widowed,4.0,False,Bachelor of Arts/Science, Skidmore College,-74.00601519999999,40.7127281
+2242,Jayshree Ullal,1.4,United States,computer networking,2141,60.0,United States,Married,2.0,True,Bachelor of Arts/Science," San Francisco State University; Master of Science, Santa Clara University",-122.0230146,37.2638324
+2251,"Alfred West, Jr.",1.4,United States,money management,2141,78.0,United States,Married,3.0,True,Bachelor of Arts/Science," Georgia Institute of Technology; Master of Business Administration, University of Pennsylvania, The Wharton School",-75.4838685,40.0417847
+2256,"Richard Yuengling, Jr.",1.4,United States,beer,2141,78.0,United States,Divorced,4.0,False,Drop Out, Lycoming College,-76.19537010000001,40.6851324
+2262,Sanjay Agarwal,1.3,India,banking,2263,50.0,India,Married,2.0,True,Chartered Accountant, Institute of Chartered Accountants of India,75.81898169999999,26.9154576
+2268,Achal Bakeri,1.3,India,air coolers,2263,61.0,India,Married,2.0,True,Master of Business Administration, Marshall School of Business,72.5797068,23.0216238
+2269,Elena Baturina,1.3,Russia,"investments, real estate",2263,58.0,Russia,Widowed,2.0,True,Bachelor of Arts/Science, State University of Management,-0.1276474,51.5073219
+2270,Othman Benjelloun & family,1.3,Morocco,"banking, insurance",2263,88.0,Morocco,Married,2.0,False,Diploma, Ecole Polytechnique de Lausanne,-7.6187768,33.5950627
+2276,Chuck Bundrant,1.3,United States,fishing,2263,79.0,United States,Married,3.0,True,Drop Out, Middle Tennessee State University,-122.3300624,47.6038321
+2277,Pradip Burman,1.3,India,consumer goods,2263,78.0,India,Married,2.0,False,Bachelor of Engineering, Massachusetts Institute of Technology,77.2219388,28.6517178
+2279,Chang Pyung-soon,1.3,South Korea,educational services,2263,70.0,South Korea,Married,2.0,True,Bachelor of Arts/Science, Yonsei University,126.9782914,37.5666791
+2280,Jeffrey Cheah,1.3,Malaysia,property,2263,76.0,Malaysia,Married,3.0,True,Bachelor of Arts/Science, Victoria University,101.6942371,3.1516964
+2283,Cho Jung-ho,1.3,South Korea,finance,2263,62.0,South Korea,Married,3.0,False,Master of Business Administration," IMD; Bachelor of Arts/Science, University of Southern California",126.9782914,37.5666791
+2287,Turgay Ciner,1.3,Turkey,diversified,2263,65.0,Turkey,Married,1.0,True,Bachelor of Arts/Science, Istanbul Academy,28.9651646,41.0096334
+2291,Egon Durban,1.3,United States,private equity,2263,47.0,United States,Married,3.0,True,Bachelor of Science, Georgetown University,-122.2058272,37.453773
+2298,Ayman Hariri,1.3,Lebanon,"construction, investments",2263,42.0,Lebanon,Married,3.0,False,Bachelor of Arts/Science, Georgetown University,2.3514616,48.8566969
+2300,Eduardo Hochschild,1.3,Peru,mining,2263,57.0,Peru,Married,4.0,False,Bachelor of Arts/Science, Tufts University,-77.0365256,-12.0621065
+2309,Kim Nam-jung,1.3,South Korea,food,2263,48.0,South Korea,Married,2.0,False,Bachelor of Arts/Science," Korea University; Master of Business Administration, University of Michigan, Stephen M. Ross School of Business",126.9782914,37.5666791
+2310,Hemendra Kothari,1.3,India,Financial Services,2263,74.0,India,Widowed,2.0,False,Bachelor of Arts/Economics, Bombay University,72.8773928,19.0759899
+2311,Michael Krasny,1.3,United States,retail,2263,67.0,United States,Married,1.0,True,Bachelor of Arts/Science," University of Illinois, Urbana-Champaign",-87.80034379999999,42.1816919
+2312,Igor Kudryashkin,1.3,Russia,metallurgy,2263,59.0,Russia,Married,1.0,True,Ph.D, Moscow Institute of Steel and Alloys,37.6174943,55.7504461
+2323,Deepak Mehta,1.3,India,chemicals,2263,64.0,India,Married,2.0,False,Bachelor of Science, Bombay University,73.1942567,22.2973142
+2330,Bob Muglia,1.3,United States,software,2263,61.0,United States,Married,1.0,True,Bachelor of Science, University of Michigan,-122.2201423,47.5602073
+2331,George Alexander Muthoot,1.3,India,financial services,2263,65.0,India,Married,2.0,False,Chartered Accountant," Institute of Chartered Accountants of India; Bachelor of Commerce, University of Kerala",76.4848521,10.1295438
+2332,George Jacob Muthoot,1.3,India,financial services,2263,68.0,India,Married,2.0,False,Bachelor of Science in Engineering, Manipal University,76.9360573,8.524112199999999
+2340,Thomas Sandell,1.3,Sweden,hedge funds,2263,60.0,Sweden,Married,1.0,True,Master of Business Administration," Columbia Business School; Bachelor of Arts/Science, Uppsala University",-0.1276474,51.5073219
+2342,Ilya Scherbovich,1.3,Russia,investments,2263,46.0,Russia,Married,2.0,True,Master of Science, Plekhanov Russian University of Economics,37.6174943,55.7504461
+2343,Gerald Schwartz,1.3,Canada,finance,2263,79.0,Canada,Married,4.0,True,Master of Business Administration, Harvard University,-79.3839347,43.6534817
+2344,Anatoly Sedykh,1.3,Russia,steel pipes,2263,56.0,Russia,Married,2.0,True,Bachelor of Science in Engineering, Moscow Institute of Steel and Alloys,37.6174943,55.7504461
+2345,Radik Shaimiev,1.3,Russia,"refinery, chemicals",2263,56.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Kazan Institute of Civil Engineering,49.1242266,55.7823547
+2348,Shin Chang-jae,1.3,South Korea,insurance,2263,67.0,South Korea,Married,2.0,False,Doctorate, Seoul National University,126.9782914,37.5666791
+2360,Farris Wilks,1.3,United States,natural gas,2263,69.0,United States,Married,11.0,True,Diploma, High School,-98.97971649999999,32.3828077
+2361,Whitney Wolfe Herd,1.3,United States,dating app,2263,31.0,United States,Married,1.0,True,Bachelor of Arts/Science, Southern Methodist University,-97.74369950000001,30.2711286
+2367,Luis Enrique Yarur Rey,1.3,Chile,banking,2263,70.0,Chile,Married,8.0,False,Master of Business Administration, IESE Business School,-70.65045019999999,-33.4377756
+2372,Patrick Zalupski,1.3,United States,homebuilding,2263,40.0,United States,Married,2.0,True,Bachelor of Science, Stetson University,-81.65565100000001,30.3321838
+2374,Zhou Chengjian,1.3,China,fashion retail,2263,56.0,China,Married,1.0,True,EMBA, Zhejiang University,121.4692071,31.2322758
+2377,Aras Agalarov,1.2,Russia,real estate,2378,65.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Baku Polytechnical Instit,37.6174943,55.7504461
+2378,Syed Mokhtar AlBukhary,1.2,Malaysia,"engineering, energy, construction",2378,69.0,Malaysia,Married,5.0,True,Drop Out, High School,101.6942371,3.1516964
+2380,Thomas Bailey,1.2,United States,money management,2378,84.0,United States,Divorced,2.0,True,Bachelor of Arts/Science," Michigan State University; Master of Business Administration, University of Western Ontario",-106.8235606,39.1911128
+2382,Sachin Bansal,1.2,India,flipkart,2378,39.0,India,Married,1.0,True,Bachelor of Science in Engineering, Indian Institute of Technology,77.59129969999999,12.9791198
+2387,Chen Tianqiao,1.2,China,online games,2378,47.0,China,Married,2.0,True,Bachelor of Arts/Science, Fudan University,-122.2058272,37.453773
+2388,Henry Cheng,1.2,Hong Kong,diversified,2378,74.0,Hong Kong,Married,4.0,False,Bachelor of Arts/Science," The University of Western Ontario - Richard Ivey School of Business; Master of Business Administration, The University of Western Ontario - Richard Ivey School of Business",114.1628131,22.2793278
+2392,Ronald Clarke,1.2,United States,payments technology,2378,65.0,United States,Married,2.0,True,Bachelor of Arts/Science," Colby College; Master of Business Administration, Cornell University",-84.14410460000001,34.0028569
+2400,Wesley Edens,1.2,United States,investments,2378,59.0,United States,Married,4.0,True,Bachelor of Arts/Science, Oregon State University,-74.00601519999999,40.7127281
+2405,Gleb Fetisov,1.2,Russia,investments,2378,54.0,Russia,Married,3.0,True,Doctorate, Moscow State University,37.6174943,55.7504461
+2407,J. Christopher Flowers,1.2,United States,investments,2378,63.0,United States,Married,2.0,True,Bachelor of Arts/Science, Harvard University,-74.00601519999999,40.7127281
+2408,Dan Gertler,1.2,Israel,mining,2378,47.0,Israel,Married,11.0,False,Diploma, High School,34.8324376,32.0873899
+2409,Premchand Godha,1.2,India,pharmaceuticals,2378,74.0,India,Married,2.0,True,Chartered Accountant," Institute of Chartered Accountants of India; Bachelor of Commerce, University of Rajasthan",72.8773928,19.0759899
+2412,Ryan Graves,1.2,United States,uber,2378,37.0,United States,Married,4.0,True,Bachelor of Arts/Science, Miami University of Ohio,-159.5587678,22.0504666
+2417,Hong Seok-joh,1.2,South Korea,convenience stores,2378,68.0,South Korea,Married,1.0,False,Master of Laws," Harvard University; Law Degree, Seoul National University",126.9782914,37.5666791
+2424,Eugene Kaspersky,1.2,Russia,software,2378,55.0,Russia,Divorced,4.0,True,Bachelor of Arts/Science," Institute of Cryptography, Telecommunications and Computer Science (FSB Academy)",37.6174943,55.7504461
+2426,Kim Jung-woong,1.2,South Korea,cosmetics,2378,46.0,South Korea,Married,1.0,True,Associate in Arts/Science, Daelim University,126.9782914,37.5666791
+2431,Andrei Komarov,1.2,Russia,manufacturing,2378,54.0,Russia,Married,6.0,True,Bachelor of Arts/Science, Moscow Institute of Chemical Engineering,37.6174943,55.7504461
+2432,Koo Bon-joon,1.2,South Korea,"electronics, household products",2378,69.0,South Korea,Married,2.0,False,Bachelor of Arts/Science," Seoul National University; Master of Business Administration, University of Chicago",126.9782914,37.5666791
+2433,Koo Bon-neung,1.2,South Korea,electronics,2378,72.0,South Korea,Married,2.0,False,Bachelor of Arts/Science, Korea University,126.9782914,37.5666791
+2434,Koo Bon-sik,1.2,South Korea,LG,2378,62.0,South Korea,Married,3.0,False,Master, University of Michigan,126.9782914,37.5666791
+2436,Joe Lacob,1.2,United States,Golden State Warriors,2378,65.0,United States,Married,4.0,True,Master of Business Administration," Stanford University; Masters of Public Health, UCLA; Bachelor of Arts/Science, University of California, Irvine",-122.2058272,37.453773
+2438,Lee Jay-hyun,1.2,South Korea,"food products, entertainment",2378,61.0,South Korea,Married,2.0,False,Bachelor of Arts/Science, Korea University,126.9782914,37.5666791
+2442,Liu Gexin & family,1.2,China,pharmaceuticals,2378,69.0,China,Married,1.0,True,Medical Doctor, Chongqing Universtiy,104.0633717,30.6598628
+2446,Frederic Luddy,1.2,United States,software,2378,66.0,United States,Single,1.0,True,Drop Out, Indiana University,-117.1627728,32.7174202
+2449,Bill Malhotra,1.2,Canada,real estate,2378,71.0,Canada,Married,2.0,True,Bachelor of Engineering, Birla Institute of Technology and Science (BITS) - Pilani,-75.690308,45.421106
+2450,Jorge Mas,1.2,United States,Construction,2378,58.0,United States,Married,3.0,False,Master of Business Administration, University of Miami,-80.19362,25.7741728
+2451,Muneaki Masuda,1.2,Japan,retail,2378,70.0,Japan,Married,2.0,True,Bachelor of Arts/Science, Doshisha University,135.490357,34.6198813
+2452,Andrei Molchanov,1.2,Russia,construction materials,2378,49.0,Russia,Married,6.0,True,Masters of Public Administration," Russian State Academy of Management; Bachelor of Arts/Science, St Petersburg State University",37.6174943,55.7504461
+2460,Roberto Ongpin,1.2,Philippines,diversified,2378,84.0,Philippines,Married,4.0,True,Master of Business Administration, Harvard University,120.9809674,14.5907332
+2461,Eren Ozmen,1.2,United States,aerospace,2378,62.0,United States,Married,2.0,True,Master of Business Administration, University of Nevada at Reno,-119.8126581,39.5261206
+2463,Chamath Palihapitiya,1.2,United States,★,2378,44.0,United States,In Relationship,3.0,True,Bachelor of Engineering, University of Waterloo,-122.2058272,37.453773
+2465,G.V. Prasad,1.2,India,pharmaceuticals,2378,60.0,India,Married,3.0,False,Bachelor of Science in Engineering," Illinois Institute of Technology; Master, Purdue University",78.4740613,17.360589
+2466,Michael Price,1.2,United States,investments,2378,68.0,United States,Married,4.0,False,Bachelor of Arts/Science, University of Oklahoma,-74.6357148,40.684268
+2470,Andrei Rappoport,1.2,Russia,investments,2378,57.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Donetsk National University,37.6174943,55.7504461
+2474,Boris Rotenberg,1.2,Russia,"construction, pipes, chemicals",2378,64.0,Russia,Married,5.0,True,Bachelor of Arts/Science, Leningrad Institute of Physical Culture,37.6174943,55.7504461
+2475,Chris Sacca,1.2,United States,venture capital investing,2378,45.0,United States,Married,2.0,True,Bachelor of Arts/Science," Georgetown University; Doctor of Jurisprudence, Georgetown University",-120.1832533,39.327962
+2476,Alexander Samwer,1.2,Germany,tech investments,2378,46.0,Germany,Married,1.0,True,Master of Business Administration," Harvard Business School; Master of Arts, Oxford University",11.5753822,48.1371079
+2477,Marc Samwer,1.2,Germany,tech investments,2378,50.0,Germany,Married,2.0,True,LLM, University of Cologne,11.5753822,48.1371079
+2479,James Scapa,1.2,United States,software,2378,64.0,United States,Married,4.0,True,Bachelor of Arts/Science," Columbia University; Master of Business Administration, University of Michigan",-122.2058272,37.453773
+2480,Albert Shigaboutdinov,1.2,Russia,"refinery, chemicals",2378,68.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Kazan State Technical University,49.1242266,55.7823547
+2485,Nik Storonsky,1.2,United Kingdom,fintech,2378,36.0,United Kingdom,Married,2.0,True,Master of Science, Moscow Institute of Physics and Technology,-0.1276474,51.5073219
+2486,Sergei Sudarikov,1.2,Russia,"finance, development",2378,49.0,Russia,Married,3.0,True,Master of Science, Moscow State University,37.6174943,55.7504461
+2488,Rustem Sulteev,1.2,Russia,"refinery, chemicals",2378,67.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Kazan Institute of Civil Engineering,49.1242266,55.7823547
+2490,Nutchamai Thanombooncharoen,1.2,Thailand,energy drinks,2378,59.0,Thailand,Married,2.0,True,Bachelor of Arts/Economics," Silpakorn University; Master of Arts, Thammasat University",100.4930399,13.7544238
+2493,Robert Toll,1.2,United States,home building,2378,80.0,United States,Married,5.0,True,Bachelor of Arts/Science," Cornell University; LLB, University of Pennsylvania",-80.13530059999999,25.7929198
+2503,Allan Wong,1.2,Hong Kong,electronics,2378,71.0,Hong Kong,Widowed,2.0,True,Bachelor of Science in Engineering," University of Hong Kong; Master of Science, University of Wisconsin",114.1628131,22.2793278
+2523,Radhe Shyam Agarwal,1.1,India,consumer goods,2524,76.0,India,Married,3.0,True,LLB," Calcutta University; M.Com, Calcutta University; Chartered Accountant, Institute of Chartered Accountants of India; Company Secretary, Institute of Company Secretaries of India",88.36388150000001,22.5726723
+2528,Binny Bansal,1.1,India,flipkart,2524,38.0,India,Married,2.0,True,Bachelor of Science in Engineering, Indian Institute of Technology,103.8194992,1.357107
+2529,Eduardo Belmont Anderson,1.1,Peru,cosmetics,2524,75.0,Peru,Married,3.0,True,Bachelor of Arts/Science," University of North Carolina, Chapel Hill",-77.0365256,-12.0621065
+2530,John Bicket,1.1,United States,sensor systems,2524,41.0,United States,Married,2.0,True,Bachelor of Science," Cornell University; Master of Science, Massachusetts Institute of Technology",-122.419906,37.7790262
+2531,Sanjit Biswas,1.1,United States,sensor systems,2524,39.0,United States,Married,3.0,True,Master of Science," Massachusetts Institute of Technology; Bachelor of Science, Stanford University",-122.419906,37.7790262
+2532,Lloyd Blankfein,1.1,United States,banking,2524,66.0,United States,Married,3.0,True,Bachelor of Arts/Science," Harvard University; Doctor of Jurisprudence, Harvard University",-74.00601519999999,40.7127281
+2542,Weili Dai,1.1,United States,semiconductors,2524,59.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of California, Berkeley",-115.148516,36.1672559
+2549,Soichiro Fukutake,1.1,Japan,education,2524,75.0,Japan,Married,1.0,False,Bachelor of Arts/Science, Waseda University,174.7631803,-36.852095
+2555,Anne Gittinger,1.1,United States,Nordstrom department stores,2524,85.0,United States,Married,2.0,False,Bachelor of Arts/Science, University of Washington,-122.3300624,47.6038321
+2557,Radhe Shyam Goenka,1.1,India,consumer goods,2524,75.0,India,Married,3.0,True,LLB," Calcutta University; M.Com, Calcutta University",88.36388150000001,22.5726723
+2563,Ming Hsieh,1.1,United States,Fulgent Genetics,2524,65.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of Southern California; Master of Science, University of Southern California",-118.242766,34.0536909
+2566,Mohammed Ibrahim,1.1,United Kingdom,communications,2524,75.0,United Kingdom,Married,2.0,True,Bachelor of Arts/Science," University of Alexandria; Ph.D, University of Birmingham; Master, University of Bradford",-0.1276474,51.5073219
+2573,Richard Kayne,1.1,United States,investments,2524,75.0,United States,Married,3.0,True,Bachelor of Arts/Science," Stanford University; Master of Business Administration, University of California, Los Angeles",-118.4912273,34.0194704
+2578,Gennady Kozovoy,1.1,Russia,coal,2524,69.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Irkutsk Polytechnic Institute,88.0703443,53.6863763
+2584,Lee Ho-jin,1.1,South Korea,diversified,2524,58.0,South Korea,Married,2.0,False,Master of Business Administration," Samuel Curtis Johnson Graduate School of Management; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+2585,Lee Joong-keun,1.1,South Korea,"construction, real estate",2524,80.0,South Korea,Married,4.0,True,Doctorate, Korea University,126.9782914,37.5666791
+2586,Manfredi Lefebvre d'Ovidio,1.1,Italy,cruises,2524,68.0,Italy,Divorced,1.0,False,Drop Out, La Sapienza University of Rome,7.426559,43.7402961
+2587,Nancy Lerner,1.1,United States,"banking, credit cards",2524,60.0,United States,Married,5.0,False,Doctor of Jurisprudence," Cleveland State University; Bachelor of Arts/Science, University of Cincinnati",-81.69344460000001,41.5051613
+2589,Randolph Lerner,1.1,United States,"banking, credit cards",2524,59.0,United States,Married,4.0,False,Bachelor of Arts/Science," Columbia University; LLB, Columbia University",-81.69344460000001,41.5051613
+2602,Yasseen Mansour,1.1,Egypt,diversified,2524,59.0,Egypt,Married,4.0,True,Bachelor of Arts/Science, George Washington University,31.2357257,30.0443879
+2608,Bruce Nordstrom,1.1,United States,Nordstrom department stores,2524,87.0,United States,Married,3.0,False,Bachelor of Arts/Science, University of Washington,-122.3300624,47.6038321
+2619,M.Satyanarayana Reddy,1.1,India,pharmaceuticals,2524,63.0,India,Married,2.0,True,Ph.D, Osmania University,78.4740613,17.360589
+2623,Jack Schuler,1.1,United States,pharmaceuticals,2524,80.0,United States,Married,3.0,True,Master of Business Administration," Stanford Graduate School of Business; Bachelor of Science, Tufts University",-87.83423620000001,42.2789117
+2624,Neerja Sethi,1.1,United States,"IT consulting, outsourcing",2524,66.0,United States,Married,2.0,True,Bachelor of Arts/Science," Delhi University; Master of Business Administration, Delhi University; Master of Science, Oakland University",-80.14003649999999,25.7598373
+2627,Michael S. Smith,1.1,United States,liquefied natural gas,2524,65.0,United States,Married,2.0,True,Drop Out, University of Colorado,-80.13530059999999,25.7929198
+2630,Sehat Sutardja,1.1,United States,semiconductors,2524,59.0,United States,Married,2.0,True,Bachelor of Arts/Science," University of California, Berkeley",-115.148516,36.1672559
+2636,Mehmet Sinan Tara,1.1,Turkey,construction,2524,62.0,Turkey,Married,3.0,False,Master of Business Administration, Stanford University,28.9651646,41.0096334
+2638,Carl Thoma,1.1,United States,investments,2524,72.0,United States,Married,2.0,True,Bachelor of Science," Oklahoma State University; Master of Business Administration, Stanford Business School",-87.6244212,41.8755616
+2647,Wen Yibo & family,1.1,China,wastewater treatment,2524,55.0,China,Married,1.0,True,Bachelor of Arts/Science," Lanzhou Railway College; Master of Science, Tsinghua University",116.3912757,39.906217
+2649,Dan Wilks,1.1,United States,natural gas,2524,64.0,United States,Married,6.0,True,Diploma, High School,-98.97971649999999,32.3828077
+2657,George Yancopoulos,1.1,United States,pharmaceuticals,2524,61.0,United States,Divorced,2.0,True,Medical Doctor," Columbia University; Ph.D, Columbia University",-73.7752704,41.2695965
+2661,Igor Yusufov,1.1,Russia,oil & gas,2524,64.0,Russia,Married,2.0,True,Bachelor of Engineering," Novocherkassk Polytechnic Institute; Bachelor of Arts/Economics, Russian Foreign Trade Academy",37.6174943,55.7504461
+2671,Boris Zingarevich,1.1,Russia,"pulp and paper, diversified",2524,61.0,Russia,Married,2.0,True,Master of Science, Leningrad Technological Institute of Pulp and Paper Industry,30.316229,59.938732
+2672,Ahmet Nazif Zorlu,1.1,Turkey,diversified,2524,76.0,Turkey,Married,3.0,True,Drop Out, High School,28.9651646,41.0096334
+2674,Albert Avdolyan,1.0,Russia,"oil, mining",2674,50.0,Russia,Married,4.0,True,Master of Laws, Irkutsk State University,37.6174943,55.7504461
+2675,Baiju Bhatt,1.0,United States,stock trading app,2674,36.0,United States,Married,1.0,True,Bachelor of Science, Stanford University,-122.1598465,37.4443293
+2676,"Wilbur 'Ed' Bosarge, Jr.",1.0,United States,high speed trading,2674,81.0,United States,Engaged,2.0,True,Ph.D," Brown University; Bachelor of Arts/Science, Georgia Tech",-95.3676974,29.7589382
+2679,Chung Mong-joon,1.0,South Korea,"shipbuilding, industrial machines",2674,69.0,South Korea,Married,4.0,False,Ph.D," Johns Hopkins University; Master of Business Administration, Massachusetts Institute of Technology; Bachelor of Arts/Science, Seoul National University",126.9782914,37.5666791
+2685,Larry Fink,1.0,United States,money management,2674,68.0,United States,Married,3.0,True,Master of Business Administration," Anderson School of Management; Bachelor of Arts/Science, University of California, Los Angeles",-74.00601519999999,40.7127281
+2695,Hur Young-in,1.0,South Korea,"bakeries, fast food",2674,71.0,South Korea,Married,2.0,False,Bachelor of Arts/Economics, Kyung Hee University,126.9782914,37.5666791
+2698,Ashok Kajaria,1.0,India,tiles,2674,73.0,India,Married,2.0,True,Bachelor of Science in Engineering, UCLA,77.2219388,28.6517178
+2702,Bom Kim,1.0,United States,online retailing,2674,42.0,United States,Married,1.0,True,Bachelor of Arts/Science, Harvard University,126.9782914,37.5666791
+2703,Masatoshi Kumagai,1.0,Japan,internet services,2674,57.0,Japan,Married,1.0,True,Drop Out, Osgoode Hall Law School,139.7594549,35.6828387
+2704,Lev Kvetnoi,1.0,Russia,cement,2674,55.0,Russia,Married,2.0,True,Bachelor of Arts/Science, Leningrad Institute of Physical Culture,37.6174943,55.7504461
+2705,Vladimir Leschikov,1.0,Russia,real estate,2674,64.0,Russia,Married,7.0,True,Bachelor of Science, Dagestan State University,37.6174943,55.7504461
+2708,Jose Llado Fernandez-Urrutia,1.0,Spain,construction,2674,87.0,Spain,Married,5.0,True,Ph.D," Universidad Complutense de Madrid; Doctorate, University of Madras",-3.7035825,40.4167047
+2711,Sergei Makhlai,1.0,Russia,fertilizers,2674,52.0,Russia,Married,1.0,False,Master of Science, Perm Polytechnical Institute,-79.05578,35.9131542
+2716,Vitaly Orlov,1.0,Russia,fisheries,2674,56.0,Russia,Married,4.0,True,Bachelor of Engineering, Murmansk Higher Marine Engineering School,33.07497,68.970665
+2725,Shin Dong-joo,1.0,South Korea,retail,2674,67.0,South Korea,Married,1.0,False,Bachelor of Arts/Economics," Aoyama Gakuin University; Master of Business Administration, Columbia Business School",139.7594549,35.6828387
+2727,Zakhar Smushkin,1.0,Russia,"pulp and paper, diversified",2674,59.0,Russia,Married,1.0,True,Master of Science, Leningrad Technological Institute of Pulp and Paper Industry,30.316229,59.938732
+2731,Manny Stul,1.0,Australia,toys,2674,71.0,Australia,Married,2.0,True,High School Graduate, High School,144.960964,-37.8077694
+2732,Vlad Tenev,1.0,United States,stock trading,2674,34.0,United States,Married,1.0,True,Bachelor of Arts/Science, Stanford University,-122.1598465,37.4443293
+2733,Rit Thirakomen,1.0,Thailand,restaurants,2674,69.0,Thailand,Married,3.0,False,Bachelor of Science in Engineering, Chulalongkorn University,100.4930399,13.7544238
+2737,Ruben Vardanyan,1.0,Russia,investment banking,2674,52.0,Russia,Married,4.0,True,Master of Science, Moscow State University,37.6174943,55.7504461
+2742,J. Wayne Weaver,1.0,United States,Shoes,2674,85.0,United States,Married,2.0,True,Bachelor of Science, University of Florida,-81.65565100000001,30.3321838
+2743,Sandy Weill,1.0,United States,Citigroup,2674,88.0,United States,Married,2.0,True,Bachelor of Arts/Science, Cornell University,-122.8473388,38.5110803
+2746,Vadim Yakunin,1.0,Russia,pharmacy,2674,58.0,Russia,Married,3.0,True,Bachelor of Arts/Science, Moscow Institute of Physics and Technology,37.6174943,55.7504461
