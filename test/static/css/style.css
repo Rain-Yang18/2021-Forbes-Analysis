@@ -4,6 +4,7 @@
 
 #header .jumbotron  {
   background-color: #111;
+  width: 100%;
 }
 
 #header {
@@ -17,33 +18,133 @@
   margin: 30px 0px;
   font-weight: bold;
   color: #c7493a;
+  letter-spacing: 3px;
+
+}
+
+#header h3 {
+  color: #bdbaad;
 }
 
 #header p {
-  font-size: 18px;
-  color: white;
+  font-size: 16px;
+  color: #bdbaad;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
-#container .panel.panel-primary, #container .well {
-  border-bottom-color: #689775;
-  border-left-color: #689775;
-  border-right-color: #689775;
-  border-top-color: #689775;
+#line {
+  width: 85%;
+  margin: auto;
+  height: 4px;
+  border-top: solid 1px;
+  border-top-color: #c7493a;
+}
+
+#container {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+#container .row {
+  margin-bottom: 30px;
+
+}
+
+#container #info {
+  padding-top: 50%;
+}
+
+.row.equal-cols {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -50px;
+}
+
+.row.equal-cols:before,
+.row.equal-cols:after {
+  display: block;
+}
+
+.row.equal-cols > [class*='col-'] {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.row.equal-cols > [class*='col-'] > * {
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto; 
+}
+
+#container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#container .panel.panel-primary, #container .well, #container .panel-heading {
+  border-bottom-color: rgba(140, 165, 147, 0.9);
+  border-left-color: rgba(140, 165, 147, 0.9);
+  border-right-color: rgba(140, 165, 147, 0.9);
+  border-top-color: rgba(140, 165, 147, 0.9);
+}
+
+#panel {
+  padding-right: 65px;
+}
+
+#container .panel.panel-primary {
+  margin-top: 95px;
 }
 
 #container .panel-heading, #container .well {
-  background-color: #689775;
+  background-color: rgba(140, 165, 147, 0.8);
 }
 
 #container .well h5 {
   color: white;
 }
 
-body {
+#scatter_row .col-md-3, #status_row .col-md-3 {
+  background-color: #a33327;
+  opacity: 0.8;
+  color: white;
+}
+/* 
+#info h3 {
+  color: white;
+} */
+
+#self_made_row .col-md-3 {
+  /* background-color: #669872; */
+  background-image: url("background2.jpg");
+}
+
+/* body {
   background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
- }
+ } */
+
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
 
 .shimmer {
   display: inline-block;
