@@ -1,7 +1,7 @@
 // Creating map object
 var myMap = L.map("map", {
   center: [32.75, -114.76],
-  zoom: 2
+  zoom: 1
 });
 
 // Adding tile layer to the map
@@ -34,7 +34,7 @@ d3.csv(forbes_billionares).then(function(response) {
 
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup(response[i].name));
+        .bindPopup("<h1>" + response[i].name + "</h1> <hr> <h3>Source: " + response[i].source + " </h3> <hr> <h3>Rank: " + response[i].rank + "</h3>"));
     }
 
   }
