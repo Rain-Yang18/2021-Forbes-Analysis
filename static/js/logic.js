@@ -14,7 +14,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-// Assemble API query URL
+// Creating a CSV Variable
 var forbes_billionares = "../forbes_cleandata.csv"
 
 // Grab the data with d3
@@ -27,7 +27,7 @@ d3.csv(forbes_billionares).then(function(response) {
   for (var i = 0; i < response.length; i++) {
 
     // Set the data location property to a variable
-    var location = response[i].location;
+    var location = response[i];
 
     // Check for location property
     if (location) {
