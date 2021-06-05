@@ -14,17 +14,11 @@ L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
   accessToken: API_KEY
 }).addTo(myMap);
 
-// Store API query variables
-var baseURL = "https://data.cityofnewyork.us/resource/fhrw-4uyv.json?";
-var date = "$where=created_date between'2016-01-01T00:00:00' and '2017-01-01T00:00:00'";
-var complaint = "&complaint_type=Rodent";
-var limit = "&$limit=10000";
-
 // Assemble API query URL
-var url = baseURL + date + complaint + limit;
+var forbes_billionares = "../forbes_cleandata.csv"
 
 // Grab the data with d3
-d3.json(url).then(function(response) {
+d3.csv(forbes_billionares).then(function(response) {
 
   // Create a new marker cluster group
   var markers = L.markerClusterGroup();
@@ -39,7 +33,7 @@ d3.json(url).then(function(response) {
     if (location) {
 
       // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.coordinates[1], location.coordinates[0]])
+      markers.addLayer(L.marker([location.longitude, location.latitude])
         .bindPopup(response[i].descriptor));
     }
 
