@@ -34,7 +34,7 @@ d3.csv(forbes_billionares).then(function(response) {
 
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup(response[i].country));
+        .bindPopup(response[i].name));
     }
 
   }
