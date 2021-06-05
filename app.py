@@ -56,7 +56,7 @@ def index():
     return render_template("index.html")
     
 
-@app.route("/test", methods=["GET"])
+@app.route("/forbes", methods=["GET"])
 def welcome():
     """List all available api routes."""
     
