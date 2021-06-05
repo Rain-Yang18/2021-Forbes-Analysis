@@ -34,7 +34,7 @@ d3.csv(forbes_billionares).then(function(response) {
 
       // Add a new marker to the cluster group and bind a pop-up
       markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup("<h1>" + response[i].name + "</h1> <hr> <h3>Source: " + response[i].source + " </h3> <hr> <h3>Rank: " + response[i].rank + "</h3>"));
+        .bindPopup("<h1>" + response[i].name + "</h1> <hr> <h3>Net Worth: $" + response[i].networth + "B</h3> <h3>Source: " + response[i].source + " </h3> <h3>Rank: " + response[i].rank + "</h3>"));
     }
 
   }
