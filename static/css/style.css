@@ -18,7 +18,7 @@
   margin: 30px 0px;
   font-weight: bold;
   color: #c7493a;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 
 }
 
@@ -52,8 +52,14 @@
 }
 
 #container #info {
-  padding-top: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
+
+#info h3 {
+  padding-left: 50px;
+}
+
 
 .row.equal-cols {
   display: -webkit-flex;
@@ -116,9 +122,9 @@
   color: white;
 }
 
-#scatter_row .col-md-3, #status_row .col-md-3 {
-  background-color: #a33327;
-  opacity: 0.8;
+#scatter_row .col-md-3, .status_row  {
+  background-color: #a33327; 
+  opacity: 0.6;
   color: white;
 }
 /* 
@@ -126,7 +132,7 @@
   color: white;
 } */
 
-#self_made_row .col-md-3 {
+.self_made_row {
   /* background-color: #669872; */
   background-image: url("background2.jpg");
 }

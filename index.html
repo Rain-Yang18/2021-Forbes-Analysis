@@ -32,7 +32,8 @@
         <div>
 
           <h3>Country:</h3>
-          <h4>ALL</h4>
+          <select id="selCountry" onchange="countryChanged(this.value)"></select>
+          <br>
           <br>
 
           <h3>Total Number of Billionaires:</h3>
@@ -51,52 +52,51 @@
       </div>
     </div>
 
-    <div class="row equal-cols" id="scatter_row">
-
-      <div class="col-md-8">
-        <div id="scatter">
-          <img src="static/css/animated-scatter.gif" alt="map" width="600" height="400">
-        </div>
-      </div>
-      
-      <div class="col-md-3">
-        <div id="info">
-          <h3>There is a correlation between age and number of billionaires </h3>
-        </div>
-      </div>
-
-    </div>
-
     <div class="row equal-cols" id="self_made_row">
 
-      <div class="col-md-3">
-        <div id="info">
-          <h3>71% of billionaires are self made </h3>
-        </div>
-      </div>
+      <div class="col-md-6">
 
-      <div class="col-md-8">
+        <div id="info" class="self_made_row">
+          <h3>71.1% of billionaires are self made </h3>
+        </div>
+
         <div id="self_made">
           <!-- <img src="static/css/slelf_made.jpg" alt="map" width="400" height="400"> -->
         </div>
+
       </div>
 
-    </div>
 
-    <div class="row equal-cols" id="status_row">
+      <div class="col-md-6">
 
-      <div class="col-md-8">
         <div id="status">
           <!-- <img src="static/css/status.jpg" alt="map" width="600" height="400"> -->
         </div>
+        
+        <div id="info" class="status_row">
+          <h3>62.9% of billionaires are married </h3>
+        </div>
+
       </div>
+
+
+
+    </div>
+
+
+    <div class="row equal-cols" id="bar_row">
 
       <div class="col-md-3">
         <div id="info">
-          <h3>84% of billionaires are married </h3>
+          <h3>Top 10 billionaires </h3>
         </div>
       </div>
 
+      <div class="col-md-8">
+        <div id="bar">
+        </div>
+      </div>
+      
     </div>
 
 
@@ -119,6 +119,22 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="row equal-cols" id="scatter_row">
+
+      <div class="col-md-3">
+        <div id="info">
+          <h3>There is a correlation between age and number of billionaires </h3>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+        <div id="scatter">
+          <img src="static/css/animated-scatter.gif" alt="map" width="600" height="400">
+        </div>
+      </div>
+      
     </div>
 
   </div>
