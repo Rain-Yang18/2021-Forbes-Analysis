@@ -8,3 +8,4 @@ MarkupSafe==2.0.1
 numpy==1.20.3
 SQLAlchemy==1.4.17
 Werkzeug==2.0.1
+gunicorn==19.9.0
