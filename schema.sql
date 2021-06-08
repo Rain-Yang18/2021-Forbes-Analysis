@@ -10,14 +10,17 @@ CREATE TABLE forbes_billionaires (
 	source TEXT,
 	rank INTEGER,
 	age INTEGER,
+	residence TEXT,
 	citizenship TEXT,
 	status TEXT,
 	children INTEGER,
+	education TEXT,
 	self_made TEXT,
 	degree TEXT,
 	university TEXT,
-	longitude TEXT,
-	latitude TEXT
+	longitude NUMERIC,
+	latitude NUMERIC,
+	fullname TEXT
 );
 
 SELECT * FROM forbes_billionaires;
