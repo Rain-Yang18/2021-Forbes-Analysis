@@ -8,13 +8,14 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 
+
 # from flask import Flask, jsonify
 
 # use PyMongo to establish Mongo connection
 # mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_app")
 # engine_path = (f"postgresql://{username}:{password}@localhost:5432/forbes_db")
 
-engine_path = (f"postgres://ymdgbfuxieokmr:e7dbcaac7c472421c6cbac10c2f4e12d5f482b69e4bfaf194eb460e29f024ec9@ec2-34-193-112-164.compute-1.amazonaws.com:5432/db33qasn137vis")
+engine_path = ("postgresql://ymdgbfuxieokmr:e7dbcaac7c472421c6cbac10c2f4e12d5f482b69e4bfaf194eb460e29f024ec9@ec2-34-193-112-164.compute-1.amazonaws.com:5432/db33qasn137vis")
 
 engine = create_engine(engine_path)
 
