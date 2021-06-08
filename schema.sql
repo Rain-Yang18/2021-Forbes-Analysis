@@ -20,6 +20,7 @@ CREATE TABLE forbes_billionaires (
 	university TEXT,
 	longitude NUMERIC,
 	latitude NUMERIC,
+	groupednetworth TEXT,
 	fullname TEXT
 );
 
