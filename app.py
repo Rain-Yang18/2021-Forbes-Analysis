@@ -11,9 +11,9 @@ from sqlalchemy import create_engine, func
 
 # from flask import Flask, jsonify
 
-#################################################
-# Database Setup
-#################################################
+# use PyMongo to establish Mongo connection
+# mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_app")
+# engine_path = (f"postgresql://{username}:{password}@localhost:5432/forbes_db")
 
 engine_path = ("postgresql://hqbkvuzhrlymzx:c08cc2098824445764cd8413ee9d5f79d029847ac2c6cf949ce50d490de2df3d@ec2-3-214-136-47.compute-1.amazonaws.com:5432/d3itds64i4rb7k")
 
@@ -30,10 +30,16 @@ Base.prepare(engine, reflect=True)
 forbes = engine.execute('select * from forbes_billionaires').fetchall()
 
 
+# new = []
+# for i in forbes:
+#     a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":i[6],"residence":i[7],"citizenship":i[8],"status":i[9],"children":i[10],"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14],"longitude":i[15],"latitude":i[16],"combined":i[17]}
+#     new.append(a)
+
 new = []
 for i in forbes:
     a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":i[6],"residence":i[7],"citizenship":i[8],"status":i[9],"children":i[10],"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14], "longitude":i[15], "latitude":i[16], "groupednetworth":i[17], "fullname":i[18]}
     new.append(a)
+
 
 
 # create an instance of Flask
@@ -43,7 +49,11 @@ app = Flask(__name__)
 # route to render index.html template using data from Mongo
 @app.route("/")
 def home():
-
+    # find one record of data from the mongo database
+    # mars = mongo.db.marsinfo.find_one()
+    
+    # return template and data
+    # return render_template("index.html", mars=mars)
     return render_template("index.html")
 
 
@@ -52,6 +62,14 @@ def home():
 def scrape():
 
     return (jsonify(new))
+#     # run the scrape function
+#     mars_data = scrape_mars.scrape()
+    
+#     # update the Mongo database
+#     mongo.db.marsinfo.update({}, mars_data, upsert=True)
+    
+#     # redirect back to home page
+#     return redirect("/", code=302)
 
 
 if __name__ == "__main__":
