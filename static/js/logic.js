@@ -1,6 +1,34 @@
 // Creating a CSV variable
 var forbes_billionares = "../../forbes_cleandata.csv"
 
+// Create layer group
+var markerClusterLayer = L.layerGroup();
+
+d3.csv(forbes_billionares).then(function(response) {
+
+  // Create a new marker cluster group
+  var markers = L.markerClusterGroup();
+
+  // Loop through data
+  for (var i = 0; i < response.length; i++) {
+
+    // Set the data location property to a variable
+    var location = response[i];
+
+    // Check for location property
+    if (location) {
+
+      // Add a new marker to the cluster group and bind a pop-up
+      markers.addLayer(L.marker([location.latitude, location.longitude])
+        .bindPopup("<h1>" + response[i].name + "</h1> <hr> <h3>Net Worth: $" + response[i].networth + "B</h3> <h3>Source: " + response[i].source + " </h3> <h3>Rank: " + response[i].rank + "</h3>"));
+    }
+
+  }
+
+  // Add our marker cluster layer to the map
+  markerClusterLayer.addLayer(markers);
+});
+
 // Create base layers
 // Streetmap Layer
 
@@ -32,7 +60,9 @@ var baseMaps = {
 };
 
 // Create an overlay object
-var overlayMaps = {};
+var overlayMaps = {
+  "Markers": markerClusterLayer
+};
 
 // Define a map object
 var myMap = L.map("map", {
@@ -79,33 +109,6 @@ function chooseColor(country){
   }
 }
 
-d3.csv(forbes_billionares).then(function(response) {
-
-  // Create a new marker cluster group
-  var markers = L.markerClusterGroup();
-
-  // Loop through data
-  for (var i = 0; i < response.length; i++) {
-
-    // Set the data location property to a variable
-    var location = response[i];
-
-    // Check for location property
-    if (location) {
-
-      // Add a new marker to the cluster group and bind a pop-up
-      markers.addLayer(L.marker([location.latitude, location.longitude])
-        .bindPopup("<h1>" + response[i].name + "</h1> <hr> <h3>Net Worth: $" + response[i].networth + "B</h3> <h3>Source: " + response[i].source + " </h3> <h3>Rank: " + response[i].rank + "</h3>"));
-    }
-
-  }
-
-  // Add our marker cluster layer to the map
-  myMap.addLayer(markers);
-});
-
-
-
 // Grabbing our GeoJSON data..
 d3.json(link).then(function(data) {
   // Creating a geoJSON layer with the retrieved data
@@ -141,7 +144,10 @@ d3.json(link).then(function(data) {
         // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
         click: function(event) {
           myMap.fitBounds(event.target.getBounds());
+          // myMap.addLayer(markerClusterLayer);
         },
+        // onwheel: function(event) {
+        //   myMap.removeLayer(markerClusterLayer);
       });
     }
   }).addTo(myMap);
