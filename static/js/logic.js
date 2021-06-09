@@ -81,7 +81,7 @@ L.control.layers(baseMaps, overlayMaps, {
 // HIGHLIGHTED COUNTRIES
 
 // geoJSON file
-var link = 'static/countries.geojson'
+var link = 'static/countries.geo.json'
 
 // Creating a function that will highlight the colours of the continent for which country it belongs to
 function chooseColor(country){
@@ -114,11 +114,11 @@ d3.json(link).then(function(data) {
   // Creating a geoJSON layer with the retrieved data
   L.geoJson(data, {
     // Style each feature (in this case a neighborhood)
-    style: function(feature) {
+    style: function(Feature) {
       return {
         color: "white",
-        // Call the chooseColor function to decide which color to color our neighborhood (color based on borough)
-        fillColor: chooseColor(feature.properties.country),
+        // Call the chooseColor function to decide which color to color our country (color based on country)
+        fillColor: chooseColor(Feature.properties.name),
         fillOpacity: 0.5,
         weight: 0.7
       };
