@@ -37,7 +37,7 @@ forbes = engine.execute('select * from forbes_billionaires').fetchall()
 
 new = []
 for i in forbes:
-    a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":str(i[6]),"residence":i[7],"citizenship":i[8],"status":i[9],"children":str(i[10]),"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14], "longitude":str(i[15]), "latitude":str(i[16]), "groupednetworth":i[17], "fullname":i[18]}
+    a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":i[6],"residence":i[7],"citizenship":i[8],"status":i[9],"children":i[10],"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14], "longitude":str(i[15]), "latitude":str(i[16]), "groupednetworth":i[17], "fullname":i[18]}
     new.append(a)
 
 
