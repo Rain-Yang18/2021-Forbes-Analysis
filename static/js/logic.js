@@ -50,9 +50,6 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
   accessToken: API_KEY
 });
 
-// Create two separate layer groups: one for cities and one for states
-// var markerCluster = L.layerGroup(markerCluster);
-
 // Create a baseMaps object
 var baseMaps = {
   "Street Map": streetmap,
@@ -144,10 +141,7 @@ d3.json(link).then(function(data) {
         // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
         click: function(event) {
           myMap.fitBounds(event.target.getBounds());
-          // myMap.addLayer(markerClusterLayer);
         },
-        // onwheel: function(event) {
-        //   myMap.removeLayer(markerClusterLayer);
       });
     }
   }).addTo(myMap);
