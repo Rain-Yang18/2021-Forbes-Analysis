@@ -68,7 +68,7 @@ var overlayMaps = {
 var myMap = L.map("map", {
   center: [7.067383325760818, 7.08252432997061],
   zoom: 2.5,
-  layers: [streetmap]
+  layers: [streetmap, markerClusterLayer]
 });
 
 // Pass our map layers into our layer control
