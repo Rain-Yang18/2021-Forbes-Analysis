@@ -10,6 +10,10 @@ body {
   font-weight: normal;
 }
 
+.d3-tip {
+  z-index: 12;
+}
+
 .header {
   position:fixed; 
   height: 95px; 
