@@ -17,71 +17,38 @@ function buildInfoBox(id, data) {
     keys = Object.keys(filteredMetadata[0]);
     values = Object.values(filteredMetadata[0])
 
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[8]}:`).append("tspan").attr("class", "normal").text(` ${values[8]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[10]}:`).append("tspan").attr("class", "normal").text(` ${values[10]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`net worth:`).append("tspan").attr("class", "normal").text(` ${values[9]} b$`);
-    demographicInfo.append("p").attr("class", "bold").text(`self made:`).append("tspan").attr("class", "normal").text(` ${values[11]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[13]}:`).append("tspan").attr("class", "normal").text(` ${values[13]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[2]}:`).append("tspan").attr("class", "normal").text(` ${values[2]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[11]}:`).append("tspan").attr("class", "normal").text(` ${values[11]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[6]}:`).append("tspan").attr("class", "normal").text(` ${values[6]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[14]}:`).append("tspan").attr("class", "normal").text(` ${values[14]}`);
-    demographicInfo.append("p").attr("class", "bold").text(`${keys[1]}:`).append("tspan").attr("class", "normal").text(` ${values[1]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`name:`).append("tspan").attr("class", "normal").text(` ${values[11]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`rank:`).append("tspan").attr("class", "normal").text(` ${values[13]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`net worth:`).append("tspan").attr("class", "normal").text(` ${values[12]} b$`);
+    demographicInfo.append("p").attr("class", "bold").text(`self made:`).append("tspan").attr("class", "normal").text(` ${values[15]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`source:`).append("tspan").attr("class", "normal").text(` ${values[16]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`citizenship:`).append("tspan").attr("class", "normal").text(` ${values[2]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`residence:`).append("tspan").attr("class", "normal").text(` ${values[14]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`education:`).append("tspan").attr("class", "normal").text(` ${values[5]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`status:`).append("tspan").attr("class", "normal").text(` ${values[17]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`children:`).append("tspan").attr("class", "normal").text(` ${values[1]}`);
 
 };
 
-// {
-//  0 "Name": "Jeff Bezos", 
-//  1 "NetWorth": "177.0",
-//  2 "Country": "United States",
-//  3 "Source": "Amazon",
-//  4 "Rank": "1",
-//  5 "Age": "57.0",
-//  6 "Residence": "Seattle, Washington",
-//  7 "Citizenship": "United States",
-//  8 "Status": "In Relationship",
-//  9 "Children": "4.0",
-//  10 "Education": "Bachelor of Arts/Science, Princeton University",
-//  11 "Self_made": "True",
-//  12 "geometry": "POINT (-122.3300624 47.6038321)"
-// }
-
-// {
-//  0 "age": 57, 
-//  1 "children": 4, 
-//  2 "citizenship": "United States", 
-//  3 "combined": "jeff-bezos", 
-//  4 "country": "United States", 
-//  5 "degree": "Bachelor of Arts/Science", 
-//  6 "education": "Bachelor of Arts/Science, Princeton University", 
-//  7 "id": 0, 
-//  8 "name": "Jeff Bezos", 
-//  9 "networth": "177.0", 
-//  10 "rank": 1, 
-//  11 "residence": "Seattle, Washington", 
-//  12 "self_made": "true", 
-//  13 "source": "Amazon", 
-//  14 "status": "In Relationship", 
-//  15 "university": " Princeton University"
-// }, 
-
-// 0 name
-// 1 networth	
-// 2 country
-// 3 source	
-// 4 rank	
-// 5 age	
-// 6 residence
-// 7 citizenship	
-// 8 status	
-// 9 children	
-// 10 education	
-// 11 self_made	
-// 12 degree	
-// 13 university	
-// 14 longitude	
-// 15 latitude	
-// 16 combined	
+// 0 "age": 57, 
+// 1 "children": 4, 
+// 2 "citizenship": "United States", 
+// 3 "country": "United States", 
+// 4 "degree": "Bachelor of Arts/Science", 
+// 5 "education": "Bachelor of Arts/Science, Princeton University", 
+// 6 "fullname": "jeff-bezos", 
+// 7 "groupednetworth": "Over $70 b", 
+// 8 "id": 0, 
+// 9 "latitude": "47.6038321", 
+// 10 "longitude": "-122.3300624", 
+// 11 "name": "Jeff Bezos", 
+// 12 "networth": "177.0", 
+// 13 "rank": 1, 
+// 14 "residence": "Seattle, Washington", 
+// 15 "self_made": "true", 
+// 16 "source": "Amazon", 
+// 17 "status": "In Relationship", 
+// 18 "university": " Princeton University"
 
 
 // Define function which creates Horizontal Bar Chart
@@ -118,8 +85,15 @@ function buildBarChart(country, data) {
   // Define layout parameters
   var layout = {
       yaxis: { title: `<b>Net Worth b$</b>`},
-      width: 900,
-      height: 500
+      width: 750,
+      height: 550,
+      margin: {
+        l: 50,
+        r: 50,
+        b: 105,
+        t: 10,
+        pad: 5
+      }
   };
 
   // Render the plot to the div tag with id "bar"
@@ -128,23 +102,23 @@ function buildBarChart(country, data) {
 };
 
 
-
 function buildStatusPieChart(country, data) {
 
   var plotData = [];
+  var total = 0;
 
   if (country === "All") {
 
     plotData = data;
+    total = Object.keys(data).length;
 
   } else {
 
     // Fitler data for the selected ID
     plotData = data.filter(sample => sample.country == country);
+    total = Object.keys(plotData).length;
 
   }
-
-  // console.log(plotData);
 
   // Create set of unique values from dataset for each filter
   var unique = new Set(plotData.map(x => x["status"]));
@@ -168,13 +142,12 @@ function buildStatusPieChart(country, data) {
     if (Object.values(event)[14] === null) {
                 
       uniqueValuestest["null"] += 1;
-      // console.log("nullllll");
 
     } else {
 
       Object.entries(uniqueValuestest).forEach(([key, value]) => {
 
-        if (Object.values(event)[14] === key) {
+        if (Object.values(event)[17] === key) {
               
           uniqueValuestest[key] += 1;
 
@@ -188,6 +161,12 @@ function buildStatusPieChart(country, data) {
   delete Object.assign(uniqueValuestest, {["Unknown"]: uniqueValuestest[null]})[null];
 
   console.log(uniqueValuestest);
+
+  var married = uniqueValuestest.Married/total * 100;
+
+  var selectMarried= d3.select("#married");
+  selectMarried.text(`${married.toFixed(1)}% of billionaires are married`);
+
 
   var colors = {
     "Married": '#b55c52', 
@@ -227,9 +206,21 @@ function buildStatusPieChart(country, data) {
   var data = [trace1];
 
   var layout = {
-    title: "<b>Marital Status</b>",
-    width: 550,
-    height: 550
+    title: "Status",
+    autosize: false,
+    width: 500,
+    height: 400,
+    margin: {
+      l: 100,
+      r: 0,
+      b: 00,
+      t: -5,
+      pad: 1
+    },
+    legend: {
+      x: 1,
+      y: 0.5
+    }
   };
 
   Plotly.newPlot("status", data, layout);
@@ -240,15 +231,18 @@ function buildStatusPieChart(country, data) {
 function buildPieChart(country, data) {
 
   var plotData = [];
+  var total = 0;
 
   if (country === "All") {
 
     plotData = data;
+    total = Object.keys(data).length;
 
   } else {
 
     // Fitler data for the selected ID
     plotData = data.filter(sample => sample.country == country);
+    total = Object.keys(plotData).length;
 
   }
 
@@ -260,7 +254,7 @@ function buildPieChart(country, data) {
   // Add keys and values from the metadata for selected ID into the Info Box
   plotData.forEach((event) => {
 
-        if (Object.values(event)[12] == "true") {
+        if (Object.values(event)[15] == "true") {
           results.Yes += 1;
         } else {
           results.No += 1;
@@ -268,7 +262,13 @@ function buildPieChart(country, data) {
 
   });
 
-  // console.log(results);
+  var selfMade = results.Yes/total * 100;
+
+  // console.log(selfMade);
+
+  var selectselfMade = d3.select("#self_made_info");
+  selectselfMade.text(`${selfMade.toFixed(1)}% of billionaires are self made`);
+
 
   var colors = {
     "Yes": '#739076',
@@ -300,9 +300,20 @@ function buildPieChart(country, data) {
   var data = [trace1];
 
   var layout = {
-    title: "<b>Self Made</b>",
-    width: 500,
-    height: 500
+    title: "Self Made",
+    width: 400,
+    height: 350,
+    margin: {
+      l: 70,
+      r: 0,
+      b: 0,
+      t: -10,
+      pad: 1
+    },
+    legend: {
+      x: 1,
+      y: 0.5
+    }
   };
 
   Plotly.newPlot("self_made", data, layout);
@@ -338,6 +349,42 @@ function countryChanged(country) {
     // Create Bar Chart for selected ID
     buildBarChart(country, data);
 
+    var number = [];
+    var total = 0;
+
+    if (country === "All") {
+
+      number = Object.keys(data).length;
+  
+      total = data.reduce(function (a, currentValue) {
+        return a + parseFloat(currentValue.networth);
+      }, 0);
+
+    } else {
+  
+      // Fitler data for the selected ID
+      plotData = data.filter(sample => sample.country == country);
+
+      number = Object.keys(plotData).length;
+
+      total = plotData.reduce(function (a, currentValue) {
+        return a + parseFloat(currentValue.networth);
+      }, 0);
+
+    }
+
+    // console.log(number);
+    // console.log(total);
+
+    var selectnumber = d3.select("#number");
+    selectnumber.text(number);
+
+    var selecttotal = d3.select("#total");
+    selecttotal.text(`$b ${total.toFixed(1)}`);
+
+
+
+
   });
 
 };
@@ -368,6 +415,7 @@ d3.json("/test").then(function(data, err) {
   data.forEach(element => {
         names.push(element.name);
   });
+
 
     // // Get available Test Subject IDs
     // var testSubjectIDs = data.names;
@@ -425,7 +473,7 @@ d3.json("/test").then(function(data, err) {
   // Create Bar Chart for selected ID
   buildBarChart(country, data);
 
-  buildScatterPlot(data);
+  // buildScatterPlot(data);
 
 
 });
