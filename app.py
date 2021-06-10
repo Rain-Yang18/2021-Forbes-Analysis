@@ -15,7 +15,7 @@ from sqlalchemy import create_engine, func
 # mongo = PyMongo(app, uri="mongodb://localhost:27017/mars_app")
 # engine_path = (f"postgresql://{username}:{password}@localhost:5432/forbes_db")
 
-engine_path = ("postgresql://ymdgbfuxieokmr:e7dbcaac7c472421c6cbac10c2f4e12d5f482b69e4bfaf194eb460e29f024ec9@ec2-34-193-112-164.compute-1.amazonaws.com:5432/db33qasn137vis")
+engine_path = ("postgresql://hqbkvuzhrlymzx:c08cc2098824445764cd8413ee9d5f79d029847ac2c6cf949ce50d490de2df3d@ec2-3-214-136-47.compute-1.amazonaws.com:5432/d3itds64i4rb7k")
 
 engine = create_engine(engine_path)
 
@@ -37,8 +37,9 @@ forbes = engine.execute('select * from forbes_billionaires').fetchall()
 
 new = []
 for i in forbes:
-    a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":i[6],"residence":i[7],"citizenship":i[8],"status":i[9],"children":i[10],"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14],"combined":i[17]}
+    a = {"id":i[0],"name":i[1],"networth":str(i[2]),"country":i[3],"source":i[4],"rank":i[5],"age":i[6],"residence":i[7],"citizenship":i[8],"status":i[9],"children":i[10],"education":i[11],"self_made":i[12],"degree":i[13],"university":i[14], "longitude":str(i[15]), "latitude":str(i[16]), "groupednetworth":i[17], "fullname":i[18]}
     new.append(a)
+
 
 
 # create an instance of Flask
