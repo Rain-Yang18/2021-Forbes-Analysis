@@ -120,6 +120,12 @@ body {
         border-right-color: rgba(140, 165, 147, 0.9);
         border-top-color: rgba(140, 165, 147, 0.9);}
 
+    .content .row #my_dataviz {
+      margin-left: 250px;
+    }
+
+
+
 
 /* background: #c7493a -webkit-gradient(linear, 100% 0, 0 0, from(#c7493a), color-stop(0.3, #ddca7e), to(#c7493a)); */
 

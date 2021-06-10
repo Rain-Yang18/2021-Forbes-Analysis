@@ -92,109 +92,109 @@ var link = '../static/js/countries.geo.json'
 function chooseColor(country){
   switch(country){
     case "Argentina":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Australia":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Austria":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Brazil":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Canada":
-      return "lightskyblue";
+      return "#6A81A0";
     case "South America":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Chile":
-      return "lightskyblue";
+      return "#6A81A0";
     case "China":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Colombia":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Czechia":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Denmark":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Egypt":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Swaziland":
-      return "lightskyblue";
+      return "#6A81A0";
     case "France":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Germany":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Greece":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Iceland":
-      return "lightskyblue";
+      return "#6A81A0";
     case "India":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Indonesia":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Ireland":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Israel":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Italy":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Japan":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Kazakhstan":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Lebanon":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Malaysia":
-      return "darkgoldenrod";
+      return "#6A81A0";
     case "Mexico":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Morocco":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Netherlands":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Nigeria":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Norway":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Peru":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Philippines":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Poland":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Romania":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Russia":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Singapore":
-      return "lightskyblue";
+      return "#6A81A0";
     case "South Africa":
-      return "lightskyblue";
+      return "#6A81A0";
     case "South Korea":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Spain":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Sweden":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Switzerland":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Taiwan":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Thailand":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Turkey":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Ukraine":
-      return "lightskyblue";
+      return "#6A81A0";
     case "United Arab Emirates":
-      return "lightskyblue";
+      return "#6A81A0";
     case "United Kingdom":
-      return "lightskyblue";
+      return "#6A81A0";
     case "United States of America":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Venezuela":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Vietnam":
-      return "lightskyblue";
+      return "#6A81A0";
     case "Zimbabwe":
-      return "lightskyblue";
+      return "#6A81A0";
     default:
       return "grey";
   }
