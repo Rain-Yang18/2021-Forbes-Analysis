@@ -139,7 +139,7 @@ function buildStatusPieChart(country, data) {
 
   plotData.forEach((event) => {
 
-    if (Object.values(event)[14] === null) {
+    if (Object.values(event)[17] === null) {
                 
       uniqueValuestest["null"] += 1;
 
