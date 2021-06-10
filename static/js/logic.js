@@ -40,6 +40,7 @@ var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}
   id: "mapbox/streets-v11",
   accessToken: API_KEY
 });
+// Darkmap layer
 
 var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -50,10 +51,22 @@ var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{
   accessToken: API_KEY
 });
 
+// Lightmap layer
+var lightmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
+  attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
+  tileSize: 512,
+  maxZoom: 18,
+  zoomOffset: -1,
+  id: "mapbox/light-v10",
+  accessToken: API_KEY
+});
+
 // Create a baseMaps object
 var baseMaps = {
+  "Light Map": lightmap,
   "Street Map": streetmap,
   "Dark Map": darkmap
+
 };
 
 // Create an overlay object
@@ -65,7 +78,7 @@ var overlayMaps = {
 var myMap = L.map("map", {
   center: [7.067383325760818, 7.08252432997061],
   zoom: 2.5,
-  layers: [streetmap, markerClusterLayer]
+  layers: [lightmap, markerClusterLayer]
 });
 
 // Pass our map layers into our layer control
@@ -84,11 +97,11 @@ var link = 'static/countries.geo.json'
 function chooseColor(country){
   switch(country){
     case "Argentina":
-      return "yellow";
+      return "aliceblue";
     case "Australia":
-      return "orange";
+      return "aquamarine";
     case "Austria":
-      return "black";
+      return "darkgrey";
     case "Brazil":
       return "green";
     case "Canada":
@@ -101,8 +114,94 @@ function chooseColor(country){
       return "red";
     case "Colombia":
       return "pink";
+    case "Czechia":
+      return "azure";
+    case "Denmark":
+      return "beige";
+    case "Egypt":
+      return "bisque";
+    case "Swaziland":
+      return "blanchedalmond";
+    case "France":
+      return "blueviolet";
+    case "Germany":
+      return "brown";
+    case "Greece":
+      return "burlywood";
+    case "Iceland":
+      return "cadetblue";
+    case "India":
+      return "chocolate";
+    case "Indonesia":
+      return "coral";
+    case "Ireland":
+      return "chartreuse";
+    case "Israel":
+      return "cornflowerblue";
+    case "Italy":
+      return "cornsilk";
+    case "Japan":
+      return "crimson";
+    case "Kazakhstan":
+      return "darkblue";
+    case "Lebanon":
+      return "darkcyan";
+    case "Malaysia":
+      return "darkgoldenrod";
+    case "Mexico":
+      return "darkgreen";
+    case "Morocco":
+      return "darkkhaki";
+    case "Netherlands":
+      return "darkolivegreen";
+    case "Nigeria":
+      return "darkmagenta";
+    case "Norway":
+      return "darkorange";
+    case "Peru":
+      return "darkorchid";
+    case "Philippines":
+      return "darkred";
+    case "Poland":
+      return "darksalmon";
+    case "Romania":
+      return "darkseagreen";
+    case "Russia":
+      return "darkslateblue";
+    case "Singapore":
+      return "darkturquoise";
+    case "South Africa":
+      return "forestgreen";
+    case "South Korea":
+      return "ghostwhite";
+    case "Spain":
+      return "firebrick";
+    case "Sweden":
+      return "fuchsia";
+    case "Switzerland":
+      return "gold";
+    case "Taiwan":
+      return "goldenrod";
+    case "Thailand":
+      return "greenyellow";
+    case "Turkey":
+      return "indianred";
+    case "Ukraine":
+      return "ivory";
+    case "United Arab Emirates":
+      return "indigo";
+    case "United Kingdom":
+      return "lavender";
+    case "United States of America":
+      return "lightskyblue";
+    case "Venezuela":
+      return "lemonchiffon";
+    case "Vietnam":
+      return "linen";
+    case "Zimbabwe":
+      return "olivedrab";
     default:
-      return "grey";
+      return "black";
   }
 }
 
@@ -128,17 +227,17 @@ d3.json(link).then(function(data) {
         mouseover: function(event) {
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.9
+            fillOpacity: 0.8
           });
         },
         // When the cursor no longer hovers over a map feature - when the mouseout event occurs - the feature's opacity reverts back to 50%
         mouseout: function(event) {
           layer = event.target;
           layer.setStyle({
-            fillOpacity: 0.5
+            fillOpacity: 0.4
           });
         },
-        // When a feature (neighborhood) is clicked, it is enlarged to fit the screen
+        // When a feature (country) is clicked, it is enlarged to fit the screen
         click: function(event) {
           myMap.fitBounds(event.target.getBounds());
         },
