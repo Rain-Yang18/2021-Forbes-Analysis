@@ -7,7 +7,6 @@ import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-from config import (username, password)
 
 # from flask import Flask, jsonify
 
@@ -17,7 +16,7 @@ from config import (username, password)
 
 # engine_path = (f"postgres://ymdgbfuxieokmr:e7dbcaac7c472421c6cbac10c2f4e12d5f482b69e4bfaf194eb460e29f024ec9@ec2-34-193-112-164.compute-1.amazonaws.com:5432/db33qasn137vis")
 
-engine_path = (f"postgres://hqbkvuzhrlymzx:c08cc2098824445764cd8413ee9d5f79d029847ac2c6cf949ce50d490de2df3d@ec2-3-214-136-47.compute-1.amazonaws.com:5432/d3itds64i4rb7k")
+engine_path = ("postgresql://hqbkvuzhrlymzx:c08cc2098824445764cd8413ee9d5f79d029847ac2c6cf949ce50d490de2df3d@ec2-3-214-136-47.compute-1.amazonaws.com:5432/d3itds64i4rb7k")
 
 engine = create_engine(engine_path)
 
