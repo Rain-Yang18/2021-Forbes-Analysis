@@ -1,4 +1,4 @@
-// Wrap every letter in a span
+// Animation of the title 
 var textWrapper = document.querySelector('.ml1 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letters'>$&</span>");
 

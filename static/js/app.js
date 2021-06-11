@@ -19,6 +19,7 @@ function buildInfoBox(id, data) {
 
     demographicInfo.append("p").attr("class", "bold").text(`name:`).append("tspan").attr("class", "normal").text(` ${values[11]}`);
     demographicInfo.append("p").attr("class", "bold").text(`rank:`).append("tspan").attr("class", "normal").text(` ${values[13]}`);
+    demographicInfo.append("p").attr("class", "bold").text(`age:`).append("tspan").attr("class", "normal").text(` ${values[0]}`);
     demographicInfo.append("p").attr("class", "bold").text(`net worth:`).append("tspan").attr("class", "normal").text(` ${values[12]} b$`);
     demographicInfo.append("p").attr("class", "bold").text(`self made:`).append("tspan").attr("class", "normal").text(` ${values[15]}`);
     demographicInfo.append("p").attr("class", "bold").text(`source:`).append("tspan").attr("class", "normal").text(` ${values[16]}`);
@@ -67,8 +68,25 @@ function buildBarChart(country, data) {
 
   }
 
+  // Initialize an empty array to store info for charts
+  var chartData = [];
+
+  // Add samples data to the array  
+  for (var j = 0; j < plotData.length; j++) {
+    chartData.push({
+      name: plotData[j].name,
+      networth: plotData[j].networth,
+      rank: plotData[j].rank
+    });
+  };
+
+  // Sort the array by sample values in descending order
+  var sortedBarChartData= chartData.sort(function compareFunction(a, b) {
+    return a.rank - b.rank;
+  });
+  
   // Slice the first 10 objects for plotting
-  var slicedBarChartData = plotData.slice(0, 10);
+  var slicedBarChartData = sortedBarChartData.slice(0, 10);
 
   // Define trace parameters
   var trace = {
@@ -89,9 +107,9 @@ function buildBarChart(country, data) {
       height: 550,
       margin: {
         l: 50,
-        r: 50,
-        b: 105,
-        t: 10,
+        r: 100,
+        b: 150,
+        t: 0,
         pad: 5
       }
   };
@@ -200,21 +218,22 @@ function buildStatusPieChart(country, data) {
     values: Object.values(uniqueValuestest),
     type: 'pie',
     // marker: {colors:['#a3b7a9', '#b55c52']}
-    marker: {colors:Object.values(currentColors)}
+    marker: {colors:Object.values(currentColors)},
+    domain: {x: [0, 3.2]}
   };
 
   var data = [trace1];
 
   var layout = {
-    title: "Status",
+    // title: "Status",
     autosize: false,
     width: 500,
-    height: 400,
+    height: 350,
     margin: {
-      l: 100,
-      r: 0,
-      b: 00,
-      t: -5,
+      l: 50,
+      r: 50,
+      b: 0,
+      t: 0,
       pad: 1
     },
     legend: {
@@ -294,20 +313,22 @@ function buildPieChart(country, data) {
     labels: Object.keys(results),
     values: Object.values(results),
     type: 'pie',
-    marker: {colors:Object.values(currentColors)}
+    marker: {colors:Object.values(currentColors)},
+    domain: {x: [0, 0.75]}
   };
 
   var data = [trace1];
 
   var layout = {
-    title: "Self Made",
-    width: 400,
+    // title: "Self Made",
+    autosize: false,
+    width: 500,
     height: 350,
     margin: {
-      l: 70,
-      r: 0,
+      l: 50,
+      r: 50,
       b: 0,
-      t: -10,
+      t: 0,
       pad: 1
     },
     legend: {
@@ -352,13 +373,17 @@ function countryChanged(country) {
     var number = [];
     var total = 0;
 
+    var allNumber = Object.keys(data).length;
+
+    var allTotal = data.reduce(function (a, currentValue) {
+      return a + parseFloat(currentValue.networth);
+    }, 0);
+
     if (country === "All") {
 
-      number = Object.keys(data).length;
+      number = allNumber;
   
-      total = data.reduce(function (a, currentValue) {
-        return a + parseFloat(currentValue.networth);
-      }, 0);
+      total = allTotal;
 
     } else {
   
@@ -373,34 +398,18 @@ function countryChanged(country) {
 
     }
 
-    // console.log(number);
-    // console.log(total);
+    var pctTotal = total / allTotal * 100;
+    var pctNumber = number / allNumber * 100;
 
     var selectnumber = d3.select("#number");
-    selectnumber.text(number);
+    selectnumber.html(`${number} &nbsp;&nbsp;  (${pctNumber.toFixed(2)}%)`);
 
     var selecttotal = d3.select("#total");
-    selecttotal.text(`$b ${total.toFixed(1)}`);
-
-
-
+    selecttotal.html(`b$ ${total.toFixed(1)} &nbsp;&nbsp;  (${pctTotal.toFixed(2)}%)`);
 
   });
 
 };
-
-// // Define function which creates Horizontal Bar Chart
-// function test() {
-
-//   d3.json("/test").then(function(data) {
-
-//     var datatest = data;
-
-//     console.log(datatest);
-
-//   });
-
-// };
 
 
 // POPULATE THE PAGE UPON FIRST LOAD //
@@ -416,9 +425,11 @@ d3.json("/test").then(function(data, err) {
         names.push(element.name);
   });
 
-
-    // // Get available Test Subject IDs
-    // var testSubjectIDs = data.names;
+  names.sort(function(a, b){
+    if(a < b) { return -1; }
+    if(a > b) { return 1; }
+    return 0;
+  })
 
   // Get a reference to the select element
   var selectMenu = d3.select("#selDataset");
@@ -430,8 +441,6 @@ d3.json("/test").then(function(data, err) {
     
   // Get ID number of the first record in the dataset
   var id = names[0];
-
-  // console.log(id);
 
   // Create Demographic Info box for the first record in the dataset
   buildInfoBox(id, data);
@@ -454,6 +463,12 @@ d3.json("/test").then(function(data, err) {
   for (var i = 0; i < uniqueCountry.size; i++) {
     uniqueCountryValues.push(setCountryValues.next().value);
   };
+
+  uniqueCountryValues.sort(function(a, b){
+    if(a < b) { return -1; }
+    if(a > b) { return 1; }
+    return 0;
+  })
 
   // console.log(uniqueCountryValues);
 

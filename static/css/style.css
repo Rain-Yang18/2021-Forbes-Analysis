@@ -11,7 +11,7 @@ body {
 }
 
 .d3-tip {
-  z-index: 12;
+  z-index: 2;
 }
 
 .header {
@@ -20,10 +20,10 @@ body {
   width: 100%; 
   z-index: 10;}
 
-  .header .col-md-12 {
+  .header {
     background-color: #111;}
 
-    .header .col-md-12 h1 {
+    .header h1 {
       margin-top: 15px;
       margin-bottom: 15px;
       margin-left: 10px;
@@ -33,7 +33,7 @@ body {
       font-weight: bold;
       letter-spacing: 5px;}
 
-    .header .col-md-12 h4 {
+    .header h4 {
       color: #bdbaad;
       display: inline;
       float: right;
@@ -58,7 +58,7 @@ body {
       width: 250px;
       height: 100%; 
       z-index: 10;
-      background-color: rgba(101, 116, 106, 0.8);
+      background-color: rgba(101, 116, 106);
       color: white;}
 
       .content .row .col-md-2.navigation #selCountry {
@@ -67,6 +67,7 @@ body {
 
     .content .row .col-md-10.dashbard {
       padding-left: 250px;
+      padding-top: 5px;
       width: 100%;
       z-index: 1;}
 
@@ -98,36 +99,38 @@ body {
             margin: 10px 0px 10px 25px;}
 
       .content .row .col-md-10.dashbard .col-md-3.pie {
+        text-align: center;
+        font-size: 16px;
         padding: 5px 0px 0px 0px;
         width: max-content;}
 
-      /* .content .row .col-md-10.dashbard .col-md-7.bar {
-        padding-top: 5px;
-        width: max-content;} */
+      .content .row .col-md-10.dashbard .col-md-7.bar {
+        width: 950px;}
 
-      .content .row .col-md-10.dashbard .col-md-4.infobox .well h5 {
-        color: white;}
+      .content .row .col-md-10.dashbard .col-md-4.infobox {
+        width: 590px;}
 
-      .content .row .col-md-10.dashbard .col-md-4.infobox .well,
-      .content .row .col-md-10.dashbard .col-md-4.infobox .panel-heading {
-        background-color: rgba(140, 165, 147, 0.8);}
+        .content .row .col-md-10.dashbard .col-md-4.infobox .well h5 {
+          color: white;}
 
-      .content .row .col-md-10.dashbard .col-md-4.infobox .well,
-      .content .row .col-md-10.dashbard .col-md-4.infobox .panel.panel-primary,
-      .content .row .col-md-10.dashbard .col-md-4.infobox .panel-heading {
-        border-bottom-color: rgba(140, 165, 147, 0.9);
-        border-left-color: rgba(140, 165, 147, 0.9);
-        border-right-color: rgba(140, 165, 147, 0.9);
-        border-top-color: rgba(140, 165, 147, 0.9);}
+        .content .row .col-md-10.dashbard .col-md-4.infobox .well,
+        .content .row .col-md-10.dashbard .col-md-4.infobox .panel-heading {
+          background-color: rgba(140, 165, 147, 0.8);}
+
+        .content .row .col-md-10.dashbard .col-md-4.infobox .well,
+        .content .row .col-md-10.dashbard .col-md-4.infobox .panel.panel-primary,
+        .content .row .col-md-10.dashbard .col-md-4.infobox .panel-heading {
+          border-bottom-color: rgba(140, 165, 147, 0.9);
+          border-left-color: rgba(140, 165, 147, 0.9);
+          border-right-color: rgba(140, 165, 147, 0.9);
+          border-top-color: rgba(140, 165, 147, 0.9);}
 
     .content .row #my_dataviz {
-      margin-left: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
-
-
-
-/* background: #c7493a -webkit-gradient(linear, 100% 0, 0 0, from(#c7493a), color-stop(0.3, #ddca7e), to(#c7493a)); */
 
 .ml1 {
   font-weight: 900;
@@ -151,3 +154,11 @@ body {
     transform-origin: 0 0;}
   .ml1 .line1 { top: 0; }
   .ml1 .line2 { bottom: 0; }
+
+
+/* media queries - small size */
+@media (max-width: 999px) {
+  .header .col-md-12 h4 {
+    display: none;
+  }}  
+  

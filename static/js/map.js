@@ -1,6 +1,7 @@
 // Create layer group
 var markerClusterLayer = L.layerGroup();
 
+// Retrive data and then:
 d3.json("/test").then(function(response) {
 
   // Create a new marker cluster group
@@ -22,13 +23,12 @@ d3.json("/test").then(function(response) {
 
   }
 
-  // Add our marker cluster layer to the map
+  // Add marker cluster layer to the map
   markerClusterLayer.addLayer(markers);
 });
 
 // Create base layers
 // Streetmap Layer
-
 var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,
@@ -38,6 +38,7 @@ var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}
   accessToken: API_KEY
 });
 
+// Darkmap Layer
 var darkmap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
   tileSize: 512,
@@ -76,7 +77,7 @@ var myMap = L.map("map", {
   layers: [lightmap, markerClusterLayer]
 });
 
-// Pass our map layers into our layer control
+// Pass map layers into layer control
 // Add the layer control to the map
 L.control.layers(baseMaps, overlayMaps, {
   collapsed: false
@@ -85,126 +86,27 @@ L.control.layers(baseMaps, overlayMaps, {
 
 // HIGHLIGHTED COUNTRIES
 
-// geoJSON file
+// Retrive geoJSON file
 var link = '../static/js/countries.geo.json'
 
-// Creating a function that will highlight the colours of the continent for which country it belongs to
+var countries = ["Algeria", "Argentina", "Australia", "Austria", "Belgium", "Brazil", "Canada", "Chile", "China", "Colombia", "Cyprus", "Czech Republic", "Denmark", "Egypt", "Eswatini", "Finland", "France", "Georgia", "Germany", "Greece", "Guernsey", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Israel", "Italy", "Japan", "Kazakhstan", "Lebanon", "Liechtenstein", "Macao", "Malaysia", "Mexico", "Monaco", "Morocco", "Nepal", "Netherlands", "New Zealand", "Nigeria", "Norway", "Oman", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Singapore", "Slovakia", "South Africa", "South Korea", "Spain", "St. Kitts and Nevis", "Sweden", "Switzerland", "Taiwan", "Tanzania", "Thailand", "Turkey", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Venezuela", "Vietnam", "Zimbabwe"]
+
+// Create a function that will highlight the colours of the continent for which country it belongs to
 function chooseColor(country){
-  switch(country){
-    case "Argentina":
-      return "#6A81A0";
-    case "Australia":
-      return "#6A81A0";
-    case "Austria":
-      return "#6A81A0";
-    case "Brazil":
-      return "#6A81A0";
-    case "Canada":
-      return "#6A81A0";
-    case "South America":
-      return "#6A81A0";
-    case "Chile":
-      return "#6A81A0";
-    case "China":
-      return "#6A81A0";
-    case "Colombia":
-      return "#6A81A0";
-    case "Czechia":
-      return "#6A81A0";
-    case "Denmark":
-      return "#6A81A0";
-    case "Egypt":
-      return "#6A81A0";
-    case "Swaziland":
-      return "#6A81A0";
-    case "France":
-      return "#6A81A0";
-    case "Germany":
-      return "#6A81A0";
-    case "Greece":
-      return "#6A81A0";
-    case "Iceland":
-      return "#6A81A0";
-    case "India":
-      return "#6A81A0";
-    case "Indonesia":
-      return "#6A81A0";
-    case "Ireland":
-      return "#6A81A0";
-    case "Israel":
-      return "#6A81A0";
-    case "Italy":
-      return "#6A81A0";
-    case "Japan":
-      return "#6A81A0";
-    case "Kazakhstan":
-      return "#6A81A0";
-    case "Lebanon":
-      return "#6A81A0";
-    case "Malaysia":
-      return "#6A81A0";
-    case "Mexico":
-      return "#6A81A0";
-    case "Morocco":
-      return "#6A81A0";
-    case "Netherlands":
-      return "#6A81A0";
-    case "Nigeria":
-      return "#6A81A0";
-    case "Norway":
-      return "#6A81A0";
-    case "Peru":
-      return "#6A81A0";
-    case "Philippines":
-      return "#6A81A0";
-    case "Poland":
-      return "#6A81A0";
-    case "Romania":
-      return "#6A81A0";
-    case "Russia":
-      return "#6A81A0";
-    case "Singapore":
-      return "#6A81A0";
-    case "South Africa":
-      return "#6A81A0";
-    case "South Korea":
-      return "#6A81A0";
-    case "Spain":
-      return "#6A81A0";
-    case "Sweden":
-      return "#6A81A0";
-    case "Switzerland":
-      return "#6A81A0";
-    case "Taiwan":
-      return "#6A81A0";
-    case "Thailand":
-      return "#6A81A0";
-    case "Turkey":
-      return "#6A81A0";
-    case "Ukraine":
-      return "#6A81A0";
-    case "United Arab Emirates":
-      return "#6A81A0";
-    case "United Kingdom":
-      return "#6A81A0";
-    case "United States of America":
-      return "#6A81A0";
-    case "Venezuela":
-      return "#6A81A0";
-    case "Vietnam":
-      return "#6A81A0";
-    case "Zimbabwe":
-      return "#6A81A0";
-    default:
-      return "grey";
+  if (countries.includes(country)) {
+    return "#6A81A0";
+  } else {
+    return "grey";
   }
 }
 
-// Grabbing our GeoJSON data..
+// Retrive GeoJSON data and then:
 d3.json(link).then(function(data) {
-  // Creating a geoJSON layer with the retrieved data
+
+  // Create a geoJSON layer with the retrieved data
   L.geoJson(data, {
-    // Style each feature (in this case a neighborhood)
+
+    // Style each feature 
     style: function(Feature) {
       return {
         color: "white",
