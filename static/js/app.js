@@ -1,22 +1,22 @@
 // DEFINE FUNCTIONS //
 
-// Define function which populates Demographic Info box
+// Define function which populates billionaire info box
 function buildInfoBox(id, data) {
-    // Select metadata for the selected ID
 
+    // Filter data for the selected billionaire 
     var filteredMetadata = data.filter(sample => sample.name == id);
 
-    // Get a reference to the demographic info element
+    // Get a reference to the info element
     var demographicInfo = d3.select("#sample-metadata");
 
     // Clear content if exists
     demographicInfo.html("");
 
-    console.log(filteredMetadata);
-
+    // Get keys and values from the filtered data
     keys = Object.keys(filteredMetadata[0]);
     values = Object.values(filteredMetadata[0])
 
+    // Populate info box with data
     demographicInfo.append("p").attr("class", "bold").text(`name:`).append("tspan").attr("class", "normal").text(` ${values[11]}`);
     demographicInfo.append("p").attr("class", "bold").text(`rank:`).append("tspan").attr("class", "normal").text(` ${values[13]}`);
     demographicInfo.append("p").attr("class", "bold").text(`age:`).append("tspan").attr("class", "normal").text(` ${values[0]}`);
@@ -28,50 +28,26 @@ function buildInfoBox(id, data) {
     demographicInfo.append("p").attr("class", "bold").text(`education:`).append("tspan").attr("class", "normal").text(` ${values[5]}`);
     demographicInfo.append("p").attr("class", "bold").text(`status:`).append("tspan").attr("class", "normal").text(` ${values[17]}`);
     demographicInfo.append("p").attr("class", "bold").text(`children:`).append("tspan").attr("class", "normal").text(` ${values[1]}`);
-
 };
-
-// 0 "age": 57, 
-// 1 "children": 4, 
-// 2 "citizenship": "United States", 
-// 3 "country": "United States", 
-// 4 "degree": "Bachelor of Arts/Science", 
-// 5 "education": "Bachelor of Arts/Science, Princeton University", 
-// 6 "fullname": "jeff-bezos", 
-// 7 "groupednetworth": "Over $70 b", 
-// 8 "id": 0, 
-// 9 "latitude": "47.6038321", 
-// 10 "longitude": "-122.3300624", 
-// 11 "name": "Jeff Bezos", 
-// 12 "networth": "177.0", 
-// 13 "rank": 1, 
-// 14 "residence": "Seattle, Washington", 
-// 15 "self_made": "true", 
-// 16 "source": "Amazon", 
-// 17 "status": "In Relationship", 
-// 18 "university": " Princeton University"
-
 
 // Define function which creates Horizontal Bar Chart
 function buildBarChart(country, data) {
 
+  // Initialize an empty array for chart data
   var plotData = [];
 
+  // If "All" is selected assign all data to chart data
   if (country === "All") {
-
     plotData = data;
-
   } else {
-
-    // Fitler data for the selected ID
+    // Filter data for the selected country
     plotData = data.filter(sample => sample.country == country);
-
   }
 
-  // Initialize an empty array to store info for charts
+  // Initialize an empty array to store selected info for bar chart
   var chartData = [];
 
-  // Add samples data to the array  
+  // Add selected data to the array  
   for (var j = 0; j < plotData.length; j++) {
     chartData.push({
       name: plotData[j].name,
@@ -80,7 +56,7 @@ function buildBarChart(country, data) {
     });
   };
 
-  // Sort the array by sample values in descending order
+  // Sort the array by rank in ascending order
   var sortedBarChartData= chartData.sort(function compareFunction(a, b) {
     return a.rank - b.rank;
   });
@@ -116,76 +92,65 @@ function buildBarChart(country, data) {
 
   // Render the plot to the div tag with id "bar"
   Plotly.newPlot("bar", plotData, layout);
-
 };
 
-
+// Define function which creates Status Bar Chart
 function buildStatusPieChart(country, data) {
 
+  // Initialize an empty array to store selected info for pie chart
   var plotData = [];
+
+  // Initialize an empty array to store number of married billionaires
   var total = 0;
 
+  // If "All" is selected assign all data to chart data
   if (country === "All") {
-
     plotData = data;
     total = Object.keys(data).length;
-
   } else {
-
-    // Fitler data for the selected ID
+    // Fitler data for the selected country
     plotData = data.filter(sample => sample.country == country);
     total = Object.keys(plotData).length;
-
   }
 
-  // Create set of unique values from dataset for each filter
+  // Create set of unique status values
   var unique = new Set(plotData.map(x => x["status"]));
 
   // Get unique set values
   var setValues= unique.values();
 
   // Create empty object to store unique values
-  var uniqueValuestest = {};
+  var uniqueValues = {};
 
-  // Save each unique value in an array
+  // Save each unique status value as object's key
   for (var i = 0; i < unique.size; i++) {
-      // uniqueValues.push(setValues.next().value);
-      uniqueValuestest[setValues.next().value] = 0;
+      uniqueValues[setValues.next().value] = 0;
   };
 
-  // console.log(uniqueValuestest);
-
+  // Count number of unique status values for selected country
   plotData.forEach((event) => {
-
     if (Object.values(event)[17] === null) {
-                
-      uniqueValuestest["null"] += 1;
-
+      uniqueValues["null"] += 1;
     } else {
-
-      Object.entries(uniqueValuestest).forEach(([key, value]) => {
-
+      Object.entries(uniqueValues).forEach(([key, value]) => {
         if (Object.values(event)[17] === key) {
-              
-          uniqueValuestest[key] += 1;
-
+          uniqueValues[key] += 1;
         };
       }); 
-
     };
-
   }); 
 
-  delete Object.assign(uniqueValuestest, {["Unknown"]: uniqueValuestest[null]})[null];
+  // Rename 'null' key as 'Unknown'
+  delete Object.assign(uniqueValues, {["Unknown"]: uniqueValues[null]})[null];
 
-  console.log(uniqueValuestest);
+  // Calculate number of married billionaires for selected country
+  var married = uniqueValues.Married/total * 100;
 
-  var married = uniqueValuestest.Married/total * 100;
-
+  // Update the text box
   var selectMarried= d3.select("#married");
   selectMarried.text(`${married.toFixed(1)}% of billionaires are married`);
 
-
+  // Create object with pie chart colors
   var colors = {
     "Married": '#b55c52', 
     "Unknown": '#eff0eb',
@@ -198,34 +163,32 @@ function buildStatusPieChart(country, data) {
     "Engaged": '#fc8186'
   };
 
+  // Initialize an empty array to store colors for current country
   var currentColors = {};
 
-  Object.keys(uniqueValuestest).forEach((test) => {
-
+  // Assign colors for current country
+  Object.keys(uniqueValues).forEach((test) => {
     Object.entries(colors).forEach(([key, value]) => {
-
-        if (key === test) {
-          
+        if (key === test) {    
           currentColors[test] = value;
-
         };
-
     });
   });
 
+  // Define trace parameters
   var trace1 = {
-    labels: Object.keys(uniqueValuestest),
-    values: Object.values(uniqueValuestest),
+    labels: Object.keys(uniqueValues),
+    values: Object.values(uniqueValues),
     type: 'pie',
-    // marker: {colors:['#a3b7a9', '#b55c52']}
     marker: {colors:Object.values(currentColors)},
     domain: {x: [0, 3.2]}
   };
 
+  // Assign data for plot
   var data = [trace1];
 
+  // Define layout parameters
   var layout = {
-    // title: "Status",
     autosize: false,
     width: 500,
     height: 350,
@@ -242,73 +205,70 @@ function buildStatusPieChart(country, data) {
     }
   };
 
+  // Render the plot to the div tag with id "status"
   Plotly.newPlot("status", data, layout);
-  
 }; 
 
-
+// Define function which creates Self Made Pie Chart
 function buildPieChart(country, data) {
-
+  
+  // Initialize an empty array to store selected info for pie chart
   var plotData = [];
+
+  // Initialize an empty array to store number of married billionaires
   var total = 0;
 
+  // If "All" is selected assign all data to chart data
   if (country === "All") {
-
     plotData = data;
     total = Object.keys(data).length;
-
   } else {
-
     // Fitler data for the selected ID
     plotData = data.filter(sample => sample.country == country);
     total = Object.keys(plotData).length;
-
   }
 
+  // Create empty object to store self made numbers
   var results = { 
     Yes: 0,
     No: 0
   };
 
-  // Add keys and values from the metadata for selected ID into the Info Box
+  // Count number of unique self made values for selected country
   plotData.forEach((event) => {
-
         if (Object.values(event)[15] == "true") {
           results.Yes += 1;
         } else {
           results.No += 1;
         };
-
   });
 
+  // Calculate number of self made billionaires for selected country
   var selfMade = results.Yes/total * 100;
 
-  // console.log(selfMade);
-
+  // Update the text box
   var selectselfMade = d3.select("#self_made_info");
   selectselfMade.text(`${selfMade.toFixed(1)}% of billionaires are self made`);
 
-
+  // Create object with pie chart colors
   var colors = {
     "Yes": '#739076',
     "No": '#eff0eb'
   };
 
+  // Initialize an empty array to store colors for current country
   var currentColors = {};
 
+  // Assign colors for current country
   Object.keys(results).forEach((test) => {
-
     Object.entries(colors).forEach(([key, value]) => {
-
-        if (key === test) {
-          
+        if (key === test) {        
           currentColors[test] = value;
-
         };
-
     });
   });
 
+  // Define trace parameters
   var trace1 = {
     labels: Object.keys(results),
     values: Object.values(results),
@@ -317,10 +277,11 @@ function buildPieChart(country, data) {
     domain: {x: [0, 0.75]}
   };
 
+  // Assign data for plot
   var data = [trace1];
 
+  // Define layout parameters
   var layout = {
-    // title: "Self Made",
     autosize: false,
     width: 500,
     height: 350,
@@ -337,104 +298,98 @@ function buildPieChart(country, data) {
     }
   };
 
+  // Render the plot to the div tag with id "status"
   Plotly.newPlot("self_made", data, layout);
-
 }; 
 
-
-// Define function which handles Test Subject ID chagnes
+// Define function which handles billionaire chagnes
 function optionChanged(id) {
 
   d3.json("/test").then((data) => {
 
-    // Create Demographic Info box for selected ID
+    // Call function which populates billionaire info box
     buildInfoBox(id, data);
 
   });
 };
 
-
-// Define function which handles Test Subject ID chagnes
+// Define function which handles country chagnes
 function countryChanged(country) {
-
-  console.log(country);
 
   d3.json("/test").then((data) => {
 
-    // Create Bar Chart for selected ID
+    // Create Self Made Pie Chart for selected country
     buildPieChart(country, data);
 
-    // Create Gauge Chart for selected ID
+    // Create Status Pie Chart for selected country
     buildStatusPieChart(country, data);
 
-    // Create Bar Chart for selected ID
+    // Create Bar Chart for selected country
     buildBarChart(country, data);
 
+    // Initialize an empty array to store number of billionaires for selected country
     var number = [];
+
+    // Initialize an empty variable to store sum of net worth for selected country
     var total = 0;
 
+    // Count all billionaires
     var allNumber = Object.keys(data).length;
 
+    // Count sum of total net worth
     var allTotal = data.reduce(function (a, currentValue) {
       return a + parseFloat(currentValue.networth);
     }, 0);
 
     if (country === "All") {
-
       number = allNumber;
-  
       total = allTotal;
-
     } else {
-  
-      // Fitler data for the selected ID
+      // Fitler data for the selected ID and count number of billionaires and sum of net worth
       plotData = data.filter(sample => sample.country == country);
-
       number = Object.keys(plotData).length;
-
       total = plotData.reduce(function (a, currentValue) {
         return a + parseFloat(currentValue.networth);
       }, 0);
-
     }
 
+    // Calculate % of billionaires for selected country
     var pctTotal = total / allTotal * 100;
+    // Calculate % of net worth for selected country
     var pctNumber = number / allNumber * 100;
 
+    // Update the text boxes
     var selectnumber = d3.select("#number");
     selectnumber.html(`${number} &nbsp;&nbsp;  (${pctNumber.toFixed(2)}%)`);
 
     var selecttotal = d3.select("#total");
     selecttotal.html(`b$ ${total.toFixed(1)} &nbsp;&nbsp;  (${pctTotal.toFixed(2)}%)`);
-
   });
-
 };
 
-
 // POPULATE THE PAGE UPON FIRST LOAD //
-
 d3.json("/test").then(function(data, err) {
   if (err) throw err;
-
+  
+  // Initialize an empty array to store billionaires' names
   var names = [];
 
-  // console.log(data);
-
+  // Populate names array
   data.forEach(element => {
         names.push(element.name);
   });
 
+  // Sort names in alphabetical order
   names.sort(function(a, b){
     if(a < b) { return -1; }
     if(a > b) { return 1; }
     return 0;
   })
 
-  // Get a reference to the select element
+  // Get a reference to the billionaires' names select element
   var selectMenu = d3.select("#selDataset");
 
-  // Populate list of the avaialable options for the Test Subject ID numbers
+  // Populate list of the available names
   names.forEach(element => {
       selectMenu.append("option").text(element);
   });     
@@ -442,15 +397,16 @@ d3.json("/test").then(function(data, err) {
   // Get ID number of the first record in the dataset
   var id = names[0];
 
-  // Create Demographic Info box for the first record in the dataset
+  // Create billionaires info box for the first record in the dataset
   buildInfoBox(id, data);
 
-  country = "All";
+  // Set initially selected country to "All"
+  var country = "All";
 
-  // Get a reference to the select element
+  // Get a reference to the select country element
   var selectCountryMenu = d3.select("#selCountry");
 
-  // Create set of unique values from dataset for each filter
+  // Create set of unique country values from dataset
   var uniqueCountry = new Set(data.map(x => x["country"]));
 
   // Get unique set values
@@ -459,22 +415,22 @@ d3.json("/test").then(function(data, err) {
   // Create empty array to store unique values
   var uniqueCountryValues = [];
 
-  // Save each unique value in an array
+  // Save each unique country value in an array
   for (var i = 0; i < uniqueCountry.size; i++) {
     uniqueCountryValues.push(setCountryValues.next().value);
   };
 
+  // Sort countries in alphabetical order
   uniqueCountryValues.sort(function(a, b){
     if(a < b) { return -1; }
     if(a > b) { return 1; }
     return 0;
   })
 
-  // console.log(uniqueCountryValues);
-
+  // Add "All" option to the available countries list
   selectCountryMenu.append("option").text("All");
 
-  // Populate list of the avaialable options for the Test Subject ID numbers
+  // Populate list of the available countries
   uniqueCountryValues.forEach(element => {
     selectCountryMenu.append("option").text(element);
   }); 
@@ -487,8 +443,4 @@ d3.json("/test").then(function(data, err) {
 
   // Create Bar Chart for selected ID
   buildBarChart(country, data);
-
-  // buildScatterPlot(data);
-
-
 });
